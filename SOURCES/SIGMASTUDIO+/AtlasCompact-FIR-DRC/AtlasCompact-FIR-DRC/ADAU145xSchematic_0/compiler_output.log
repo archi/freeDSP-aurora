@@ -1,0 +1,239 @@
+ADAU145X Assembler, Analog Devices Inc.
+Version: 3.4.0,0  (built 06/03/2026)
+
+##### Compile Started: Wednesday, 19 August 2026 00:38:47 #####
+ADAU145X Assembler, Analog Devices Inc.
+Version: 3.4.0,0  (built 06/03/2026)
+
+##### Compile Started: Wednesday, 19 August 2026 00:38:47 #####
+##### Compile succeeded:  0 errors, 0 warnings #####
+
+##### Summary #####
+DM0 RAM used:       02531    (of 20480)
+DM1 RAM used:       02258    (of 20480)
+PM  RAM used(Data): 03848    (of 8192)
+PM  RAM used(Inst): 02464    (of 8192) 1624 instructions (32bit: 784  64bit: 840)
+Total PM used:      06312    (of 8192)
+
+--------------------------------------------------------------------------------------
+STREAM fs=48000               Inst      Inst      DM0     DM1     PM
+Instance                      (cycles)  (size)    
+--------------------------------------------------------------------------------------
+STACK                          -         -        16      0       0       
+FRAMEWORK                     180       183       175     7       0
+SingleSlewExtVol_0            26        45        0       10      0
+SingleVolumeControl_8         25        44        3       8       0
+GenSecondOrder_63             9         17        5       10      0
+GenSecondOrder_64             9         17        5       10      0
+GenSecondOrder_65             9         17        5       10      0
+GenSecondOrder_62             9         17        5       10      0
+GenSecondOrder_60             9         17        5       10      0
+GenSecondOrder_59             9         17        5       10      0
+GenSecondOrder_42             9         17        5       10      0
+GenSecondOrder_43             9         17        5       10      0
+GenSecondOrder_11             9         17        5       10      0
+GenSecondOrder_22             9         17        5       10      0
+GenSecondOrder_6              9         17        5       10      0
+GenSecondOrder_10             9         17        5       10      0
+GenSecondOrder_9              9         17        5       9       0
+GenSecondOrder_0              9         17        5       9       0
+GenSecondOrder_2              9         17        5       9       0
+GenSecondOrder_3              9         17        5       9       0
+GenSecondOrder_8              9         17        5       9       0
+GenSecondOrder_36             9         17        5       9       0
+GenSecondOrder_37             9         17        5       9       0
+GenSecondOrder_38             9         17        5       9       0
+GenSecondOrder_32             9         17        5       9       0
+GenSecondOrder_33             9         17        5       9       0
+GenSecondOrder_34             9         17        5       9       0
+GenSecondOrder_35             9         17        5       9       0
+GenSecondOrder_40             9         17        5       9       0
+GenSecondOrder_41             9         17        5       9       0
+GenSecondOrder_21             9         17        5       9       0
+GenSecondOrder_48             9         17        5       9       0
+GenSecondOrder_50             9         17        5       9       0
+GenSecondOrder_51             9         17        5       9       0
+GenSecondOrder_52             9         17        5       9       0
+GenSecondOrder_58             9         17        5       9       0
+GenSecondOrder_45             9         17        5       9       0
+GenSecondOrder_46             9         17        5       9       0
+GenSecondOrder_47             9         17        5       9       0
+GenSecondOrder_53             9         17        5       9       0
+GenSecondOrder_54             9         17        5       9       0
+GenSecondOrder_55             9         17        5       9       0
+GenSecondOrder_56             9         17        5       9       0
+GenSecondOrder_57             9         17        5       9       0
+GenSecondOrder_61             9         17        5       9       0
+GenSecondOrder_49             9         17        5       9       0
+GenSecondOrder_20             9         17        5       9       0
+GenSecondOrder_1              9         17        5       9       0
+GenSecondOrder_7              9         17        5       6       0
+GenSecondOrder_44             9         17        5       6       0
+GenSecondOrder_19             9         17        5       6       0
+GenSecondOrder_39             9         17        5       6       0
+GenSecondOrder_23             9         16        5       10      0
+GenSecondOrder_18             9         16        5       10      0
+GenSecondOrder_31             9         16        5       10      0
+GenSecondOrder_27             9         16        5       9       0
+GenSecondOrder_15             9         16        5       9       0
+GenSecondOrder_14             9         16        5       9       0
+GenSecondOrder_13             9         16        5       9       0
+GenSecondOrder_12             9         16        5       9       0
+GenSecondOrder_26             9         16        5       9       0
+GenSecondOrder_25             9         16        5       9       0
+GenSecondOrder_30             9         16        5       9       0
+GenSecondOrder_29             9         16        5       9       0
+GenSecondOrder_28             9         16        5       9       0
+GenSecondOrder_17             9         16        5       9       0
+GenSecondOrder_16             9         16        5       9       0
+GenSecondOrder_5              9         16        5       9       0
+GenSecondOrder_4              9         16        5       9       0
+GenSecondOrder_24             9         16        5       9       0
+Input32to39_0                 16        16        0       8       0
+Input16to31_0                 16        16        0       8       0
+Input40to47_0                 16        16        0       8       0
+Input0to15_0                  16        16        0       8       0
+SingleVolumeControl_2         10        14        3       2       0
+SingleVolumeControl_5         8         13        3       1       0
+SingleVolumeControl_7         8         13        3       1       0
+SingleVolumeControl_6         8         13        3       1       0
+SingleVolumeControl_3         8         13        3       1       0
+SingleVolumeControl_4         8         13        3       1       0
+SingleVolumeControl_0         8         13        3       1       0
+Delay_5                       10        13        1       1       481
+Delay_3                       10        13        1       1       481
+Delay_0                       10        13        1       1       481
+Delay_6                       10        13        1       1       481
+Delay_7                       10        13        1       1       481
+Delay_4                       10        13        1       1       481
+SingleVolumeControl_1         8         12        3       1       0
+NxMMixer_2                    7         11        3       1       0
+Delay_1                       10        11        1       1       481
+Delay_2                       10        11        1       1       481
+MonoSwitchNx1_16              7         10        9       1       0
+MonoSwitchNx1_14              7         10        9       1       0
+MonoSwitchNx1_6               7         10        9       1       0
+MonoSwitchNx1_21              7         10        9       1       0
+MonoSwitchNx1_23              7         10        9       1       0
+MonoSwitchNx1_22              7         10        9       1       0
+MonoSwitchNx1_11              7         10        9       1       0
+MonoSwitchNx1_1               7         10        9       1       0
+MonoSwitchNx1_0               7         10        9       1       0
+MonoSwitchNx1_20              7         10        9       1       0
+MonoSwitchNx1_17              7         10        9       1       0
+MonoSwitchNx1_8               7         10        9       1       0
+MonoSwitchNx1_15              7         10        9       1       0
+MonoSwitchNx1_13              7         10        9       1       0
+MonoSwitchNx1_3               7         10        9       1       0
+MonoSwitchNx1_2               7         10        9       1       0
+MonoSwitchNx1_7               7         10        9       1       0
+MonoSwitchNx1_12              7         10        9       1       0
+MonoSwitchNx1_10              7         10        7       1       0
+MonoSwitchNx1_5               7         10        7       1       0
+MonoSwitchNx1_19              7         10        6       1       0
+MonoSwitchNx1_25              7         10        6       1       0
+MonoSwitchNx1_37              7         10        6       0       0
+MonoSwitchNx1_31              7         10        6       0       0
+MonoSwitchNx1_43              7         10        6       0       0
+MixerLinear2x1_2              6         10        2       0       0
+MixerLinear2x1_3              6         10        2       0       0
+MonoSwitchNx1_32              7         9         9       1       0
+MonoSwitchNx1_57              7         9         9       1       0
+MonoSwitchNx1_34              7         9         9       1       0
+MonoSwitchNx1_35              7         9         9       1       0
+MonoSwitchNx1_33              7         9         9       1       0
+MonoSwitchNx1_26              7         9         9       1       0
+MonoSwitchNx1_28              7         9         9       1       0
+MonoSwitchNx1_59              7         9         9       1       0
+MonoSwitchNx1_29              7         9         9       1       0
+MonoSwitchNx1_56              7         9         9       1       0
+MonoSwitchNx1_44              7         9         9       1       0
+MonoSwitchNx1_38              7         9         9       1       0
+MonoSwitchNx1_51              7         9         9       1       0
+MonoSwitchNx1_53              7         9         9       1       0
+MonoSwitchNx1_27              7         9         9       1       0
+MonoSwitchNx1_52              7         9         9       1       0
+MonoSwitchNx1_40              7         9         9       1       0
+MonoSwitchNx1_46              7         9         9       1       0
+MonoSwitchNx1_47              7         9         9       1       0
+MonoSwitchNx1_41              7         9         9       1       0
+MonoSwitchNx1_50              7         9         9       1       0
+MonoSwitchNx1_58              7         9         9       1       0
+MonoSwitchNx1_45              7         9         9       1       0
+MonoSwitchNx1_39              7         9         9       1       0
+MonoSwitchNx1_49              7         9         6       0       0
+MonoSwitchNx1_61              7         9         6       0       0
+MonoSwitchNx1_55              7         9         6       0       0
+NxMMixer_1                    6         9         2       1       0
+NxMMixer_0                    6         9         2       1       0
+MixerLinear2x1_1              6         9         2       0       0
+MonoSwitchNx1_62              5         8         1       1       0
+MixerLinear2x1_0              6         7         2       0       0
+Gain_1                        5         7         1       1       0
+BitShift_0                    4         6         1       1       0
+MonoSwitchNx1_9               5         6         1       1       0
+MonoSwitchNx1_24              5         6         1       1       0
+MonoSwitchNx1_4               5         6         1       1       0
+MonoSwitchNx1_18              5         6         1       1       0
+Gain_0                        5         5         1       1       0
+MonoSwitchNx1_30              5         5         1       1       0
+MonoSwitchNx1_36              5         5         1       1       0
+MonoSwitchNx1_42              5         5         1       1       0
+MonoSwitchNx1_48              5         5         1       1       0
+MonoSwitchNx1_54              5         5         1       1       0
+MonoSwitchNx1_60              5         5         1       1       0
+AuxilaryADCInput_0            4         5         0       1       0
+DownSampler_0                 3         5         0       0       0
+DCInput_0                     2         3         1       1       0
+ASRCInput_0                   3         3         0       2       0
+SPDIFOutput_1                 2         3         0       0       0
+Output_8                      2         3         0       0       0
+Output_10                     2         3         0       0       0
+Output_11                     2         3         0       0       0
+Output_12                     2         3         0       0       0
+Output_13                     2         3         0       0       0
+Output_14                     2         3         0       0       0
+Output_15                     2         3         0       0       0
+SPDIFOutput_0                 2         3         0       0       0
+Output_9                      2         3         0       0       0
+Output_5                      2         2         0       0       0
+Output_4                      2         2         0       0       0
+Output_2                      2         2         0       0       0
+Output_6                      2         2         0       0       0
+Output_1                      2         2         0       0       0
+Output_3                      2         2         0       0       0
+Output_0                      2         2         0       0       0
+Output_7                      2         2         0       0       0
+--------------------------------------------------------------------------------------
+Total                         1559      2344      1026    738     3848
+--------------------------------------------------------------------------------------
+(% Fs=48.0kHz)                26%       29%       6%      4%      47%
+
+
+--------------------------------------------------------------------------------------
+STREAM fs=3000                Inst      Inst      DM0     DM1     PM
+Instance                      (cycles)  (size)    
+--------------------------------------------------------------------------------------
+STACK                          -         -        16      0       0       
+UpSampler_0                   19        37        1       15      0
+FIR_0                         11*       18        1500    1501    0
+FRAMEWORK                     17        11        0       0       0
+(* Variable loop present, actual cycle count may differ.)
+--------------------------------------------------------------------------------------
+Total                         47        66        1517    1516    0
+--------------------------------------------------------------------------------------
+(% Fs=3.0kHz)                 1%        1%        8%      8%      0%
+
+
+======================================================================================
+                                    Total Percentage 
+======================================================================================
+FRAMEWORK                   Inst(%)   Inst(%)    DM0(%)  DM1(%)  PM(%)
+Instance                   (cycles)   (size)  
+======================================================================================
+STREAM fs=48000               26        29        6       4       47
+STREAM fs=3000                1         1         8       8       0
+======================================================================================
+Total %                       27        30        14      12      47
+======================================================================================
+

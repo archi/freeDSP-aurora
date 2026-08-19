@@ -1,0 +1,4 @@
+__pointer_setup__, MP1_DM0, 1940, 16, 16, 1924, 0
+__pointer_setup__, MP1_DM1, 1944, 0, 0, 2268, 0
+__pointer_setup__, MP1_DM1, 1948, 2268, 2268, 1504, 0
+__pointer_setup__, MP2_DM1, 1952, 3772, 3772, 612, 0

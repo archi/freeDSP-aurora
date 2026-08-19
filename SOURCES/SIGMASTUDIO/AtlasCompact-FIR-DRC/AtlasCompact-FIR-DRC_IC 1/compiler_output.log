@@ -1,0 +1,185 @@
+ADAU145X Assembler, Analog Devices Inc.
+Version: 4.7.0,1827  (built 4/5/2022)
+
+##### Compile Started: Wednesday, August 19, 2026 12:44:02 AM #####
+ADAU145X Assembler, Analog Devices Inc.
+Version: 4.7.0,1827  (built 4/5/2022)
+
+##### Compile Started: Wednesday, August 19, 2026 12:44:02 AM #####
+##### Compile succeeded:  0 errors, 0 warnings #####
+
+##### Summary #####
+DM0 RAM used:       04728    (of 20480)
+DM1 RAM used:       04387    (of 20480)
+PM  RAM used(Data): 00000    (of 8192)
+PM  RAM used(Inst): 02519    (of 8192) 1643 instructions (32bit: 767  64bit: 876)
+Total PM used:      02519    (of 8192)
+
+--------------------------------------------------------------------------------------
+STREAM fs=48000               Inst      Inst      DM0     DM1     PM
+Instance                      (cycles)  (size)    
+--------------------------------------------------------------------------------------
+STACK                          -         -        16      0       0       
+FRAMEWORK                     179       182       178     0       0
+Nx1-1_Mux                     56        74        48      2       0
+Nx1-1_ESP32                   56        72        72      8       0
+Nx1-1_Exp                     56        72        72      8       0
+Nx1-1_Analog                  56        72        72      8       0
+Nx1-1_UAC                     56        72        72      8       0
+VolumePot                     26        45        0       10      0
+MasterVolume                  25        44        3       8       0
+Nx1-1_SPDIF                   40        40        8       8       0
+PeqBank1                      28        29        50      45      0
+PeqBank2                      28        28        50      45      0
+PeqBank3                      28        28        50      45      0
+PeqBank4                      28        28        50      45      0
+PeqBank6                      28        28        50      45      0
+PeqBank5                      28        28        50      45      0
+HighShelv1                    9         17        5       10      0
+XOLP5:4                       9         17        5       10      0
+LP6:4                         9         17        5       10      0
+Phase5                        9         17        5       10      0
+Phase3                        9         17        5       10      0
+XOLP1:4                       9         17        5       10      0
+XOLP2:4                       9         17        5       10      0
+Phase1                        9         17        5       10      0
+Phase8                        9         17        5       10      0
+HighShelv2                    9         17        5       10      0
+XOLP4:4                       9         17        5       10      0
+LP6:2                         9         17        5       9       0
+XOLP5:2                       9         17        5       9       0
+XOHP5:2                       9         17        5       9       0
+XOHP4:2                       9         17        5       9       0
+XOLP4:2                       9         17        5       9       0
+HP3:2                         9         17        5       9       0
+XOLP5:3                       9         17        5       9       0
+LP6:3                         9         17        5       9       0
+XOLP4:3                       9         17        5       9       0
+XOHP4:3                       9         17        5       9       0
+XOHP5:3                       9         17        5       9       0
+HP3:3                         9         17        5       9       0
+XOHP5:4                       9         17        5       9       0
+XOLP4:1                       9         17        5       9       0
+XOHP1:4                       9         17        5       9       0
+XOHP2:4                       9         17        5       9       0
+HP3:4                         9         17        5       9       0
+XOHP1:3                       9         17        5       9       0
+Phase4                        9         17        5       9       0
+XOLP2:3                       9         17        5       9       0
+XOHP2:3                       9         17        5       9       0
+XOLP1:3                       9         17        5       9       0
+XOLP2:2                       9         17        5       9       0
+XOLP1:2                       9         17        5       9       0
+XOHP2:2                       9         17        5       9       0
+XOLP2:1                       9         17        5       9       0
+XOLP1:1                       9         17        5       9       0
+XOHP4:4                       9         17        5       9       0
+HP3:1                         9         17        5       9       0
+XOHP1:2                       9         17        5       9       0
+XOHP5:1                       9         17        5       9       0
+LP6:1                         9         17        5       9       0
+HighShelv4                    9         17        5       9       0
+HighShelv3                    9         17        5       9       0
+HighShelv5                    9         17        5       9       0
+Phase2                        9         17        5       9       0
+HighShelv6                    9         17        5       9       0
+Phase7                        9         17        5       9       0
+Phase6                        9         17        5       9       0
+XOHP4:1                       9         17        5       6       0
+XOHP1:1                       9         17        5       6       0
+XOHP2:1                       9         17        5       6       0
+XOLP5:1                       9         17        5       6       0
+Gain3                         10        17        3       2       0
+LowShelv1                     9         16        5       9       0
+LowShelv2                     9         16        5       9       0
+LowShelv3                     9         16        5       9       0
+LowShelv4                     9         16        5       9       0
+LowShelv5                     9         16        5       9       0
+LowShelv6                     9         16        5       9       0
+Input ESP32                   16        16        0       8       0
+Input ADC                     16        16        0       8       0
+Input Expansion               16        16        0       8       0
+Input UAC2                    16        16        0       8       0
+Gain1                         8         13        3       1       0
+Gain6                         8         13        3       1       0
+Gain7                         8         13        3       1       0
+Gain5                         8         13        3       1       0
+Gain8                         8         13        3       1       0
+Gain2                         8         13        3       1       0
+Gain4                         8         13        3       1       0
+Delay5                        8         11        482     1       0
+Delay3                        8         11        482     1       0
+Delay1                        8         11        482     1       0
+Delay8                        8         11        482     1       0
+Mixed Sub Mix                 7         11        3       1       0
+Nx_Out_Left                   7         10        9       1       0
+Nx_Out_Right                  7         10        9       1       0
+Nx_ESP32_Right                7         10        9       1       0
+Nx_Analog_Left                7         10        9       1       0
+Nx_UAC2_Left                  7         10        9       1       0
+Nx_ESP32_Left                 7         10        9       1       0
+Nx_Analog_Right               7         10        9       1       0
+Nx_UAC2_Right                 7         10        9       1       0
+Nx_Exp_Right                  7         10        9       1       0
+Nx_Exp_Left                   7         10        9       1       0
+Nx_Right                      7         10        7       1       0
+Nx_Left                       7         10        7       1       0
+VirtCenter Right              6         10        2       0       0
+Right Sub Mix                 6         10        2       0       0
+Left Sub Mix                  6         10        2       0       0
+VirtCenter Left               6         10        2       0       0
+Right Sub Premix              6         9         2       1       0
+Left Sub Premix               6         9         2       1       0
+Delay2                        7         9         1       482     0
+Delay4                        7         9         1       482     0
+Delay7                        7         9         1       482     0
+Delay6                        7         9         1       482     0
+Sub-6dB                       5         7         1       1       0
+Gain9                         5         7         1       1       0
+Nx_SPDIF_Right                5         6         1       1       0
+Nx_SPDIF_Left                 5         6         1       1       0
+BypassVolPoti                 5         6         1       1       0
+DownSampling1                 3         5         0       0       0
+Shift1                        4         4         1       1       0
+ADC In1                       4         4         0       1       0
+AsrcIn1                       3         3         0       2       0
+Output 3                      2         3         0       0       0
+SpdifOut_Left                 2         3         0       0       0
+Output 8                      2         3         0       0       0
+Output 7                      2         3         0       0       0
+Output 6                      2         3         0       0       0
+Output 5                      2         3         0       0       0
+Output 4                      2         3         0       0       0
+SpdifOut_Right                2         3         0       0       0
+Output 2                      2         3         0       0       0
+Output 1                      2         3         0       0       0
+DC1                           2         2         1       1       0
+Output_UAC5                   2         2         0       0       0
+Output_UAC7                   2         2         0       0       0
+Output_UAC4                   2         2         0       0       0
+Output_UAC3                   2         2         0       0       0
+Output_UAC8                   2         2         0       0       0
+Output_UAC1                   2         2         0       0       0
+Output_UAC6                   2         2         0       0       0
+Output_UAC2                   2         2         0       0       0
+--------------------------------------------------------------------------------------
+Total                         1652      2393      3223    2867    0
+--------------------------------------------------------------------------------------
+(% Fs=48.0kHz)                27%       30%       16%     14%     0%
+
+
+--------------------------------------------------------------------------------------
+STREAM fs=3000                Inst      Inst      DM0     DM1     PM
+Instance                      (cycles)  (size)    
+--------------------------------------------------------------------------------------
+STACK                          -         -        16      0       0       
+UpSampling1                   19        37        1       15      0
+FIR8                          382       18        1500    1501    0
+FRAMEWORK                     17        11        0       0       0
+--------------------------------------------------------------------------------------
+Total                         418       66        1517    1516    0
+--------------------------------------------------------------------------------------
+(% Fs=3.0kHz)                 1%        1%        8%      8%      0%
+
+
+
