@@ -86,6 +86,8 @@ parser.add_argument("plugin", help="Name of plugin")
 parser.add_argument("--gui", help="Path to html gui", type=str)
 parser.add_argument("--version", help="Version of plugin", type=str)
 parser.add_argument("--outputdir", help="Output directory", type=str)
+parser.add_argument("--plus", help="Ingest SigmaStudio+ data", action='store_true')
+parser.add_argument("--verbose", help="Print some debug output", action='store_true')
 
 # Read arguments from the command line
 args = parser.parse_args()
@@ -105,15 +107,46 @@ if args.outputdir:
     outputdir = args.outputdir
 else:
     outputdir = ""
+if args.plus:
+    plus = args.plus
+else:
+    plus = False
+if args.verbose:
+    verbose = args.verbose
+else:
+    verbose = False
+
+if plus:
+    print("Parsing data for SigmaStudio+ (3.4.0)")
+else:
+    print("Parsing data for SigmaStudio Classic (4.7)")
 
 projectname = os.path.splitext(os.path.basename(path_sigmastudioproject))[0]
 projectdir = os.path.dirname(path_sigmastudioproject)
 
+# --- filenames and some paths differ depending on SigmaStudio Edition ---
+# Mind this is not the only switch on 'plus'!
+if plus:
+    scheme_prefix = projectname + "_ADAU145xSchematic_0"
+    xml_prefix = projectname + "_ADAU1452_0"
+
+    txbuffer_file = scheme_prefix + "_TxBuffer.dat"
+    numbytes_file = scheme_prefix + "_NumBytes.dat"
+    netlist_xml_file = xml_prefix + "_NetList.xml"
+    projectxml_file = xml_prefix + ".xml"
+
+else:
+    txbuffer_file = "TxBuffer_IC_1.dat"
+    numbytes_file = "NumBytes_IC_1.dat"
+    netlist_xml_file = projectname + "_NetList.xml"
+    projectxml_file = projectname + ".xml"
+
+
 # --- Read TxBuffer file
-txbuffer_path = os.path.join(projectdir, "TxBuffer_IC_1.dat")
+txbuffer_path = os.path.join(projectdir, txbuffer_file)
 print("Reading " + txbuffer_path)
 if not os.path.exists(txbuffer_path):
-    print("Could not find file TxBuffer_IC_1.dat in project directory")
+    print("Could not find file "+txbuffer_file+" in project directory")
     exit()
 txbuffer = bytearray()
 with open(txbuffer_path) as fp:
@@ -127,10 +160,10 @@ with open(txbuffer_path) as fp:
         line = fp.readline()
 
 # --- Read NumBytes file
-numbytes_path = os.path.join(projectdir, "NumBytes_IC_1.dat")
+numbytes_path = os.path.join(projectdir, numbytes_file)
 print("Reading " + numbytes_path)
 if not os.path.exists(numbytes_path):
-    print("Could not find file NumBytes_IC_1.dat in project directory")
+    print("Could not find file "+numbytes_file+" in project directory")
     exit()
 numbytes = []
 with open(numbytes_path) as fp:
@@ -189,34 +222,63 @@ xolp = []
 fir = []
 
 # --- Reading project xml file
-netlist_xml_path = os.path.join(projectdir, projectname + "_NetList.xml")
+netlist_xml_path = os.path.join(projectdir, netlist_xml_file)
 print("Reading " + netlist_xml_path)
 tree = ET.parse(netlist_xml_path)
 root = tree.getroot()
 
 # --- Count outputs
 noutputs = 0
-for algo in root.findall('IC/Schematic/Algorithm'):
-    cell = algo.get('cell')
-    if cell.startswith("Output "):
-        noutputs = noutputs + 1
+if plus:
+    for algo in root.findall("Core/Schematic/Algorithm"):
+        cell = algo.get("name")
+        if cell.startswith("Output_") and not cell.startswith("Output_UAC"):
+            noutputs = noutputs + 1
+else:
+    for algo in root.findall("IC/Schematic/Algorithm"):
+        cell = algo.get("cell")
+        if cell.startswith("Output "):
+            noutputs = noutputs + 1
+
+if verbose:
+    print("Found " + str(noutputs) + " outputs")
 
 # --- Reading project xml file
 ninputs = 0
-projectxml_path = os.path.join(projectdir, projectname + ".xml")
+projectxml_path = os.path.join(projectdir, projectxml_file)
 print("Reading " + projectxml_path)
 tree = ET.parse(projectxml_path)
 root = tree.getroot()
 
-# --- Count inputs
-for module in root.findall('IC/Module'):
-    cellname = module.find('CellName')
+# --- helper to read an abstract parameter
+def plus_abstract_parameter(module, qname):
+    for aparam in module.findall("AbstractParameter"):
+        name = aparam.find("Name")
+        if name.text == qname:
+            value = aparam.find("Value")
+            return value.text
 
-    if cellname.text.startswith('InputSelect'):
-        strlist = cellname.text.split('_', 2)
-        if len(strlist) > 2:
-            if "Analog" in strlist[2]:
-                ninputs = ninputs + 1
+# --- Count inputs
+if plus:
+    for module in root.findall('Core/Schematic/Module/Algorithm'):
+        cellname = module.find('AlgoName')
+
+        # has a "NumChannels" parameter we can use
+        if cellname.text.startswith('Nx11_Analog'):
+            ninputs = int(plus_abstract_parameter(module, "NumChannels"))
+
+else:
+    for module in root.findall('IC/Module'):
+        cellname = module.find('CellName')
+
+        if cellname.text.startswith('InputSelect'):
+            strlist = cellname.text.split('_', 2)
+            if len(strlist) > 2:
+                if "Analog" in strlist[2]:
+                    ninputs = ninputs + 1
+
+if verbose:
+    print ("Found " + str(ninputs) + " inputs")
 
 inputselect_analog = []
 for ii in range(0, ninputs):
@@ -240,79 +302,109 @@ for ii in range(0, ninputs):
 
 npeqbank = 0
 
-
+# for non-plus:
 def intaddr(node):
     return int(node.find('Address').text)
 
+# for plus:
+def plus_intaddr(module, module_parameter_name):
+    for modparam in module.findall("ModuleParameter"):
+        name = modparam.find("Name")
+        if name.text == module_parameter_name:
+            return intaddr(modparam)
 
-for module in root.findall('IC/Module'):
-    cellname = module.find('CellName')
+if plus:
+    search_path = "Core/Schematic/Module/Algorithm"
+    param_path = "ModuleParameter"
+else:
+    search_path = "IC/Module"
+    param_path = "Algorithm/ModuleParameter"
 
-    if cellname.text.startswith('InputSelect'):
+cnt_isel = 0
+for module in root.findall(search_path):
+    if plus:
+        cellname = module.find('AlgoName')
+    else:
+        cellname = module.find('CellName')
+
+    if cellname.text.startswith('InputSelect') or cellname.text.startswith("Nx11_"):
+        cnt_isel = cnt_isel + 1
+
+        # Plus:     Nx11_Analog, the Channel index X is <AbstractParameter><Name>SelectedVal</name><Value>X</...
+        # Classic:  InputSelect_8.Nx1-1_Analog
         strlist = cellname.text.split('_', 2)
-        if len(strlist) > 2:
-            if "Analog" in strlist[2]:
-                idx = int(strlist[1].split('.', 1)[0])
-                modparam = module.find('Algorithm/ModuleParameter')
-                inputselect_analog[idx - 1][0] = intaddr(modparam)
-            elif "SPDIF" in strlist[2]:
-                idx = int(strlist[1].split('.', 1)[0])
-                modparam = module.find('Algorithm/ModuleParameter')
-                inputselect_spdif[idx - 1][0] = intaddr(modparam)
-            elif "UAC" in strlist[2]:
-                idx = int(strlist[1].split('.', 1)[0])
-                modparam = module.find('Algorithm/ModuleParameter')
-                inputselect_uac2[idx-1][0] = intaddr(modparam)
-            elif "Exp" in strlist[2]:
-                idx = int(strlist[1].split('.', 1)[0])
-                modparam = module.find('Algorithm/ModuleParameter')
-                inputselect_exp[idx-1][0] = intaddr(modparam)
-            elif "Mux" in strlist[2]:
-                idx = int(strlist[1].split('.', 1)[0])
-                modparam = module.find('Algorithm/ModuleParameter')
-                inputselect_port[idx-1][0] = intaddr(modparam)
+
+        if plus and len(strlist) > 1:
+            itype = strlist[1]
+            idx = int(plus_abstract_parameter(module, "SelectedVal"))
+        elif not plus and len(strlist) > 2:
+            itype = strlist[2]
+            idx = int(strlist[1].split('.', 1)[0])
+        else:
+            itype = "UNKNOWN"
+
+        if "Analog" in itype:
+            modparam = module.find(param_path)
+            inputselect_analog[idx - 1][0] = intaddr(modparam)
+        elif "SPDIF" in itype:
+            modparam = module.find(param_path)
+            inputselect_spdif[idx - 1][0] = intaddr(modparam)
+        elif "UAC" in itype:
+            modparam = module.find(param_path)
+            inputselect_uac2[idx-1][0] = intaddr(modparam)
+        elif "Exp" in itype:
+            modparam = module.find(param_path)
+            inputselect_exp[idx-1][0] = intaddr(modparam)
+        elif "Mux" in itype:
+            modparam = module.find(param_path)
+            inputselect_port[idx-1][0] = intaddr(modparam)
+        elif "ESP32" in itype:
+            # do noting with ESP32:
+            True
+        else:
+            print("[WARNING] Can not determine input type for input selector '" + cellname.text + "'!\n")
 
     elif cellname.text.startswith('SpdifOutMux'):
         strlist = cellname.text.split('_')
         if len(strlist) > 2:
             if "Analog" in strlist[1]:
-                modparam = module.find('Algorithm/ModuleParameter')
+                modparam = module.find(param_path)
                 if "Left" in strlist[2]:
                     spdifoutmux_channel[0][0] = intaddr(modparam)
                 elif "Right" in strlist[2]:
                     spdifoutmux_channel[1][0] = intaddr(modparam)
             elif "UAC2" in strlist[1]:
-                modparam = module.find('Algorithm/ModuleParameter')
+                modparam = module.find(param_path)
                 if "Left" in strlist[2]:
                     spdifoutmux_channel[0][1] = intaddr(modparam)
                 elif "Right" in strlist[2]:
                     spdifoutmux_channel[1][1] = intaddr(modparam)
             elif "Exp" in strlist[1]:
-                modparam = module.find('Algorithm/ModuleParameter')
+                modparam = module.find(param_path)
                 if "Left" in strlist[2]:
                     spdifoutmux_channel[0][2] = intaddr(modparam)
                 elif "Right" in strlist[2]:
                     spdifoutmux_channel[1][2] = intaddr(modparam)
             elif "ESP32" in strlist[1]:
-                modparam = module.find('Algorithm/ModuleParameter')
+                modparam = module.find(param_path)
                 if "Left" in strlist[2]:
                     spdifoutmux_channel[0][3] = intaddr(modparam)
                 elif "Right" in strlist[2]:
                     spdifoutmux_channel[1][3] = intaddr(modparam)
             elif "SPDIF" in strlist[1]:
-                modparam = module.find('Algorithm/ModuleParameter')
+                modparam = module.find(param_path)
                 if "Left" in strlist[2]:
                     spdifoutmux_channel[0][4] = intaddr(modparam)
                 elif "Right" in strlist[2]:
                     spdifoutmux_channel[1][4] = intaddr(modparam)
             elif "Out" in strlist[1]:
-                modparam = module.find('Algorithm/ModuleParameter')
+                modparam = module.find(param_path)
                 if "Left" in strlist[2]:
                     spdifoutmux_channel[0][5] = intaddr(modparam)
                 elif "Right" in strlist[2]:
                     spdifoutmux_channel[1][5] = intaddr(modparam)
         else:
-            modparam = module.find('Algorithm/ModuleParameter')
+            modparam = module.find(param_path)
             if "Left" in strlist[1]:
                 spdifoutmux_port[0] = intaddr(modparam)
             elif "Right" in strlist[1]:
@@ -331,7 +423,7 @@ for module in root.findall('IC/Module'):
             hp.append(newHp)
             idx = len(hp) - 1
         hp[idx].name = name
-        for modparam in module.findall('Algorithm/ModuleParameter'):
+        for modparam in module.findall(param_path):
             modname = modparam.find('Name').text
             if "B2" in modname:
                 hp[idx].addr[nn] = intaddr(modparam)
@@ -349,14 +441,14 @@ for module in root.findall('IC/Module'):
             lp.append(newLp)
             idx = len(lp) - 1
         lp[idx].name = name
-        for modparam in module.findall('Algorithm/ModuleParameter'):
+        for modparam in module.findall(param_path):
             modname = modparam.find('Name').text
             if "B2" in modname:
                 lp[idx].addr[nn] = intaddr(modparam)
 
     # --- LowShelv blocks
     elif cellname.text.lower().startswith('plugin.lowshelv'):
-        for modparam in module.findall('Algorithm/ModuleParameter'):
+        for modparam in module.findall(param_path):
             modname = modparam.find('Name').text
             if "B2" in modname:
                 newLShelv = ParamShelv()
@@ -366,7 +458,7 @@ for module in root.findall('IC/Module'):
 
     # --- HighShelv blocks
     elif cellname.text.lower().startswith('plugin.highshelv'):
-        for modparam in module.findall('Algorithm/ModuleParameter'):
+        for modparam in module.findall(param_path):
             modname = modparam.find('Name').text
             if "B2" in modname:
                 newHShelv = ParamShelv()
@@ -379,7 +471,7 @@ for module in root.findall('IC/Module'):
         newPeqBank = ParamPeqBank()
         newPeqBank.name = cellname.text
         idx = 0
-        for modparam in module.findall('Algorithm/ModuleParameter'):
+        for modparam in module.findall(param_path):
             modname = modparam.find('Name').text
             if "B2" in modname:
                 if idx < 10:
@@ -393,7 +485,7 @@ for module in root.findall('IC/Module'):
 
     # --- PEQ blocks
     elif cellname.text.lower().startswith('plugin.peq'):
-        for modparam in module.findall('Algorithm/ModuleParameter'):
+        for modparam in module.findall(param_path):
             modname = modparam.find('Name').text
             if "B2" in modname:
                 newPeq = ParamPeq()
@@ -403,7 +495,7 @@ for module in root.findall('IC/Module'):
 
     # --- Phase blocks
     elif cellname.text.lower().startswith('plugin.phase'):
-        for modparam in module.findall('Algorithm/ModuleParameter'):
+        for modparam in module.findall(param_path):
             modname = modparam.find('Name').text
             if "B2" in modname:
                 newPhase = ParamPhase()
@@ -413,7 +505,7 @@ for module in root.findall('IC/Module'):
 
     # --- Delay blocks
     elif cellname.text.lower().startswith('plugin.delay'):
-        for modparam in module.findall('Algorithm/ModuleParameter'):
+        for modparam in module.findall(param_path):
             modname = modparam.find('Name').text
             if "delay" in modname:
                 newDelay = ParamDelay()
@@ -423,7 +515,7 @@ for module in root.findall('IC/Module'):
 
     # --- Gain blocks
     elif cellname.text.lower().startswith('plugin.gain'):
-        for modparam in module.findall('Algorithm/ModuleParameter'):
+        for modparam in module.findall(param_path):
             modname = modparam.find('Name').text
             if "target" in modname:
                 newGain = ParamGain()
@@ -433,7 +525,7 @@ for module in root.findall('IC/Module'):
 
     # --- FIR blocks
     elif cellname.text.lower().startswith('plugin.fir'):
-        for modparam in module.findall('Algorithm/ModuleParameter'):
+        for modparam in module.findall(param_path):
             modname = modparam.find('Name').text
             if "fircoeff" in modname:
                 newFir = ParamFir()
@@ -462,7 +554,7 @@ for module in root.findall('IC/Module'):
                     xolp.append(newLp)
                     idx = len(xolp) - 1
                 xolp[idx].name = name
-                for modparamlp in modulelp.findall('Algorithm/ModuleParameter'):
+                for modparamlp in modulelp.findall(param_path):
                     modnamelp = modparamlp.find('Name').text
                     if "B2" in modnamelp:
                         xolp[idx].addr[nn] = intaddr(modparamlp)
@@ -478,7 +570,7 @@ for module in root.findall('IC/Module'):
                 xohp.append(newHp)
                 idx = len(xohp) - 1
             xohp[idx].name = name
-            for modparam in module.findall('Algorithm/ModuleParameter'):
+            for modparam in module.findall(param_path):
                 modname = modparam.find('Name').text
                 if "B2" in modname:
                     xohp[idx].addr[nn] = intaddr(modparam)
@@ -491,17 +583,23 @@ for module in root.findall('IC/Module'):
         pass
 
     elif cellname.text.startswith('BypassVolPoti'):
-        modparam = module.find('Algorithm/ModuleParameter')
+        modparam = module.find(param_path)
         vpot = intaddr(modparam)
 
     elif cellname.text.startswith('MasterVolume'):
-        for modparam in module.findall('Algorithm/ModuleParameter'):
-            modname = modparam.find('Name').text
-            if "target" in modname:
-                mastervol = intaddr(modparam)
+        if plus:
+            mastervol = plus_intaddr(module, "Gain")
+        else:
+            for modparam in module.findall(param_path):
+                modname = modparam.find('Name').text
+                if "target" in modname:
+                    mastervol = intaddr(modparam)
 
     elif cellname.text.lower().startswith('plugin.'):
         print("[WARNING] Unkown dsp block in plugin: " + cellname.text)
+
+if verbose:
+    print("Found " + str(cnt_isel) + " input selectors\n");
 
 inputselect_analog_t = GrowingList()
 idx = 0
