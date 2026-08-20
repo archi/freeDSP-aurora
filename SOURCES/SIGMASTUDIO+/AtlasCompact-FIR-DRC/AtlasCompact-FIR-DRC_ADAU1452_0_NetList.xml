@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- * 
+ * This software is distributed in the hope that it will be useful, 
+ * but is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR 
+ * CONDITIONS OF ANY KIND, without even the implied warranty of 
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+ * 
+ * Copyright ©2026 Analog Devices, Inc. All rights reserved.
+ * 
+-->
+<!--NetList XML file-->
+<IC name="ADAU1452_0" partnumber="ADAU1452">
+  <Core name="ADAU145xCore_0">
+    <Schematic name="ADAU145xSchematic_0">
+      <Algorithm name="Safeload" friendlyname="Schematic Params" />
+      <Algorithm name="Nx_Analog_Left" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx_UAC2_Left" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx_ESP32_Left" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx_Exp_Left" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx_SPDIF_Left" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx_Left" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx_UAC2_Right" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx_ESP32_Right" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx_Exp_Right" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx_SPDIF_Right" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx_Right" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx_Analog_Right" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx_Out_Left" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx_Out_Right" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="SpdifOut_Left" friendlyname="SPDIF Output" />
+      <Algorithm name="SpdifOut_Right" friendlyname="SPDIF Output" />
+      <Algorithm name="Nx11_Analog" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_UAC" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_ESP32" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_Exp" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_SPDIF" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_Mux" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_Analog" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_UAC" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_ESP32" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_Exp" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_SPDIF" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_Mux" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_Analog" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_UAC" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_ESP32" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_Exp" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_SPDIF" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_Mux" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_Analog" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_UAC" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_ESP32" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_Exp" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_SPDIF" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_Mux" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_Analog" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_UAC" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_ESP32" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_Exp" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_SPDIF" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_Mux" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_Analog" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_UAC" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_ESP32" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_Exp" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_SPDIF" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_Mux" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_Analog" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_UAC" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_ESP32" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_Exp" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_SPDIF" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_Mux" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_Analog" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_UAC" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_ESP32" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_Exp" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_SPDIF" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="Nx11_Mux" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="XOHP11" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOHP12" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOHP13" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOHP14" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="LowShelv1" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="PeqBank1" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="HighShelv1" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOLP11" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOLP12" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOLP13" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOLP14" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="Phase1" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="Delay1" friendlyname="Delays the Input Signal by the Maximum number of Samples Selected on the Spin TextBox" />
+      <Algorithm name="Gain1" friendlyname="All inputs volumes are governed by one single volume slider. &#xA;Optimum for simultaneous control of various channels within a single DSP" />
+      <Algorithm name="XOHP21" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOHP22" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOHP23" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOHP24" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="LowShelv2" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="PeqBank2" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="HighShelv2" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOLP21" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOLP22" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOLP23" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOLP24" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="Phase2" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="Delay2" friendlyname="Delays the Input Signal by the Maximum number of Samples Selected on the Spin TextBox" />
+      <Algorithm name="Gain2" friendlyname="All inputs volumes are governed by one single volume slider. &#xA;Optimum for simultaneous control of various channels within a single DSP" />
+      <Algorithm name="HP31" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="HP32" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="HP33" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="HP34" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="LowShelv3" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="PeqBank3" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="HighShelv3" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="Phase3" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="Delay3" friendlyname="Delays the Input Signal by the Maximum number of Samples Selected on the Spin TextBox" />
+      <Algorithm name="Gain3" friendlyname="All inputs volumes are governed by one single volume slider. &#xA;Optimum for simultaneous control of various channels within a single DSP" />
+      <Algorithm name="XOHP41" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOHP42" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOHP43" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOHP44" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="LowShelv4" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="PeqBank4" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="HighShelv4" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOLP41" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOLP42" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOLP43" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOLP44" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="Phase4" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="Delay4" friendlyname="Delays the Input Signal by the Maximum number of Samples Selected on the Spin TextBox" />
+      <Algorithm name="Gain4" friendlyname="All inputs volumes are governed by one single volume slider. &#xA;Optimum for simultaneous control of various channels within a single DSP" />
+      <Algorithm name="XOHP51" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOHP52" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOHP53" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOHP54" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="LowShelv5" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="PeqBank5" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="HighShelv5" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOLP51" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOLP52" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="LowShelv6" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="PeqBank6" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="HighShelv6" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="LP61" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="LP62" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOLP53" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="XOLP54" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="Phase5" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="Delay5" friendlyname="Delays the Input Signal by the Maximum number of Samples Selected on the Spin TextBox" />
+      <Algorithm name="Gain5" friendlyname="All inputs volumes are governed by one single volume slider. &#xA;Optimum for simultaneous control of various channels within a single DSP" />
+      <Algorithm name="LP63" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="LP64" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="Phase6" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="Delay6" friendlyname="Delays the Input Signal by the Maximum number of Samples Selected on the Spin TextBox" />
+      <Algorithm name="Gain6" friendlyname="All inputs volumes are governed by one single volume slider. &#xA;Optimum for simultaneous control of various channels within a single DSP" />
+      <Algorithm name="VirtCenter_Right" friendlyname="Mix 'N' Inputs to '1' Output and the number of inputs and outputs are dependent" />
+      <Algorithm name="VirtCenter_Left" friendlyname="Mix 'N' Inputs to '1' Output and the number of inputs and outputs are dependent" />
+      <Algorithm name="Gain9" friendlyname="Multiplies the Input by desired Value" />
+      <Algorithm name="Left_Sub_Premix" friendlyname="Mix 'N' Inputs to 'M' Outputs" />
+      <Algorithm name="Right_Sub_Premix" friendlyname="Mix 'N' Inputs to 'M' Outputs" />
+      <Algorithm name="Phase7" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="Delay7" friendlyname="Delays the Input Signal by the Maximum number of Samples Selected on the Spin TextBox" />
+      <Algorithm name="FIR8" friendlyname="Finite Impulse Response Filter" />
+      <Algorithm name="Phase8" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
+      <Algorithm name="Delay8" friendlyname="Delays the Input Signal by the Maximum number of Samples Selected on the Spin TextBox" />
+      <Algorithm name="Gain8" friendlyname="All inputs volumes are governed by one single volume slider. &#xA;Optimum for simultaneous control of various channels within a single DSP" />
+      <Algorithm name="Right_Sub_Mix" friendlyname="Mix 'N' Inputs to '1' Output and the number of inputs and outputs are dependent" />
+      <Algorithm name="Left_Sub_Mix" friendlyname="Mix 'N' Inputs to '1' Output and the number of inputs and outputs are dependent" />
+      <Algorithm name="Mixed_Sub_Mix" friendlyname="Mix 'N' Inputs to 'M' Outputs" />
+      <Algorithm name="Sub6dB" friendlyname="Multiplies the Input by desired Value" />
+      <Algorithm name="Gain7" friendlyname="All inputs volumes are governed by one single volume slider. &#xA;Optimum for simultaneous control of various channels within a single DSP" />
+      <Algorithm name="DownSampling1" friendlyname="Up and Down Sampling" />
+      <Algorithm name="UpSampling1" friendlyname="Up and Down Sampling" />
+      <Algorithm name="MasterVolume" friendlyname="All inputs volumes are governed by one single volume slider. &#xA;Optimum for simultaneous control of various channels within a single DSP" />
+      <Algorithm name="VolumePot" friendlyname="External Control of the Volume Gain" />
+      <Algorithm name="Shift1" friendlyname="Bit Shift" />
+      <Algorithm name="DC1" friendlyname="Use this control to test a DC voltage input" />
+      <Algorithm name="BypassVolPoti" friendlyname="Allows selecting a single input value and route it into variable number of signal path" />
+      <Algorithm name="ADC_In1" friendlyname="Takes the digital signal from the auxiliary A/D (analog-to-digital converter) and makes it available in the design." />
+      <Algorithm name="Input_ADC" friendlyname="Input SDATA0" />
+      <Algorithm name="Input_ESP32" friendlyname="Input SDATA0" />
+      <Algorithm name="Input_Expansion" friendlyname="Input SDATA0" />
+      <Algorithm name="Input_UAC2" friendlyname="Input SDATA0" />
+      <Algorithm name="AsrcIn1" friendlyname="Input SDATA0" />
+      <Algorithm name="Output_UAC3" friendlyname="Output" />
+      <Algorithm name="Output_UAC5" friendlyname="Output" />
+      <Algorithm name="Output_UAC7" friendlyname="Output" />
+      <Algorithm name="Output_UAC4" friendlyname="Output" />
+      <Algorithm name="Output_UAC8" friendlyname="Output" />
+      <Algorithm name="Output_UAC1" friendlyname="Output" />
+      <Algorithm name="Output_UAC2" friendlyname="Output" />
+      <Algorithm name="Output_UAC6" friendlyname="Output" />
+      <Algorithm name="Output_1" friendlyname="Output">
+        <Link pin="Input" dir="in" link="Link_309" id="Link_309" />
+      </Algorithm>
+      <Algorithm name="Output_2" friendlyname="Output">
+        <Link pin="Input" dir="in" link="Link_349" id="Link_349" />
+      </Algorithm>
+      <Algorithm name="Output_3" friendlyname="Output">
+        <Link pin="Input" dir="in" link="Link_289" id="Link_289" />
+      </Algorithm>
+      <Algorithm name="Output_4" friendlyname="Output">
+        <Link pin="Input" dir="in" link="Link_369" id="Link_369" />
+      </Algorithm>
+      <Algorithm name="Output_5" friendlyname="Output">
+        <Link pin="Input" dir="in" link="Link_229" id="Link_229" />
+      </Algorithm>
+      <Algorithm name="Output_6" friendlyname="Output">
+        <Link pin="Input" dir="in" link="Link_249" id="Link_249" />
+      </Algorithm>
+      <Algorithm name="Output_7" friendlyname="Output">
+        <Link pin="Input" dir="in" link="Link_329" id="Link_329" />
+      </Algorithm>
+      <Algorithm name="Output_8" friendlyname="Output">
+        <Link pin="Input" dir="in" link="Link_193" id="Link_193" />
+      </Algorithm>
+    </Schematic>
+  </Core>
+</IC>

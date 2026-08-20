@@ -1,0 +1,1156 @@
+==== Project Migration ====
+
+Start Time: 08/19/2026 00:10:25
+Source: C:\Users\ich\Documents\freeDSP-aurora\SOURCES\SIGMASTUDIO\AtlasCompact-FIR-DRC\AtlasCompact-FIR-DRC.xml
+
+==== Warnings and Errors ====
+
+Delay_0 : DelaySigma300Alg1 - Max Delay value should be manually assigned
+Delay_1 : DelaySigma300Alg2 - Max Delay value should be manually assigned
+Delay_2 : DelaySigma300Alg3 - Max Delay value should be manually assigned
+Delay_3 : DelaySigma300Alg4 - Max Delay value should be manually assigned
+Delay_4 : DelaySigma300Alg7 - Max Delay value should be manually assigned
+Delay_5 : DelaySigma300Alg8 - Max Delay value should be manually assigned
+NxMMixer_0 : NxNMixS3004p6Alg2 - NxM Mixer Linear modules mapped to NxM Mixer
+NxMMixer_0 : NxNMixS3004p6Alg2 - First column gain values are updated. Other columns gain values should be manually assigned. Missing  control values will be set to default
+NxMMixer_1 : NxNMixS3004p6Alg1 - NxM Mixer Linear modules mapped to NxM Mixer
+NxMMixer_1 : NxNMixS3004p6Alg1 - First column gain values are updated. Other columns gain values should be manually assigned. Missing  control values will be set to default
+Delay_6 : DelaySigma300Alg5 - Max Delay value should be manually assigned
+Delay_7 : DelaySigma300Alg6 - Max Delay value should be manually assigned
+NxMMixer_2 : NxNMixS3004p6Alg3 - NxM Mixer Linear modules mapped to NxM Mixer
+NxMMixer_2 : NxNMixS3004p6Alg3 - First column gain values are updated. Other columns gain values should be manually assigned. Missing  control values will be set to default
+AuxilaryADCInput_0 : RegReadAlg300ADCIn1 - Input selection should be manually assigned
+Output_0 : ICOutADAU145X11 - Output channel should be manually assigned on this module
+Output_1 : ICOutADAU145X13 - Output channel should be manually assigned on this module
+Output_2 : ICOutADAU145X15 - Output channel should be manually assigned on this module
+Output_3 : ICOutADAU145X12 - Output channel should be manually assigned on this module
+Output_4 : ICOutADAU145X16 - Output channel should be manually assigned on this module
+Output_5 : ICOutADAU145X9 - Output channel should be manually assigned on this module
+Output_6 : ICOutADAU145X10 - Output channel should be manually assigned on this module
+Output_7 : ICOutADAU145X14 - Output channel should be manually assigned on this module
+DownSampler_0 : DecimationWOFilterS300Alg1 - Factor should be manually assigned
+Output_8 : ICOutADAU145X1 - Output channel should be manually assigned on this module
+Output_9 : ICOutADAU145X2 - Output channel should be manually assigned on this module
+Output_10 : ICOutADAU145X3 - Output channel should be manually assigned on this module
+Output_11 : ICOutADAU145X4 - Output channel should be manually assigned on this module
+Output_12 : ICOutADAU145X7 - Output channel should be manually assigned on this module
+Output_13 : ICOutADAU145X8 - Output channel should be manually assigned on this module
+Output_14 : ICOutADAU145X5 - Output channel should be manually assigned on this module
+Output_15 : ICOutADAU145X6 - Output channel should be manually assigned on this module
+SPDIFOutput_0 : ICSigma300SpdifOut1 - Output channel should be manually assigned on this module
+SPDIFOutput_1 : ICSigma300SpdifOut2 - Output channel should be manually assigned on this module
+UpSampler_0 : InterpolationWOFilterS300Alg1 - Factor should be manually assigned
+Updating block size and sampling rates for modules
+Block size and sampling rate update completed
+
+==== Detailed Conversion Summary ====
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns50
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_0
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns51
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_1
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns52
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_2
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns53
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_3
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns54
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_4
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns55
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_5
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns56
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_6
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns57
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_7
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns58
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_8
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns59
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_9
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns60
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_10
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns61
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_11
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns62
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_12
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns63
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_13
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns43
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_14
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns44
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_15
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns45
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_16
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns46
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_17
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns47
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_18
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns48
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_19
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns37
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_20
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns38
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_21
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns39
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_22
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns40
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_23
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns41
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_24
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns42
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_25
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns31
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_26
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns32
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_27
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns33
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_28
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns34
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_29
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns35
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_30
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns36
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_31
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns25
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_32
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns26
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_33
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns27
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_34
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns28
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_35
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns29
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_36
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns30
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_37
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns19
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_38
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns20
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_39
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns21
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_40
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns22
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_41
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns23
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_42
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns24
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_43
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns13
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_44
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns14
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_45
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns15
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_46
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns16
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_47
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns17
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_48
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns18
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_49
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns7
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_50
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns8
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_51
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns9
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_52
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns10
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_53
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns11
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_54
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns12
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_55
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns1
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_56
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns2
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_57
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns3
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_58
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns4
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_59
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns5
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_60
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns6
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_61
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg1
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_0
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg2
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_1
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg3
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_2
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg4
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_3
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg5
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_4
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg6
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_5
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg7
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_6
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg8
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_7
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg9
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_8
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg10
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_9
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg11
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_10
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg12
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_11
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Growable Delay
+SigmaStudio Unique Name: DelaySigma300Alg1
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.BasicAlgorithms.Sigma300.Sample.Delay_v1.0.0.0
+SigmaStudio+ Uid: Delay_0
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Gain (HW slew)
+SigmaStudio Unique Name: HWGainADAU145XAlg1
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Gain.Sigma300.Sample.SingleVolumeControl_v1.0.0.0
+SigmaStudio+ Uid: SingleVolumeControl_0
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg13
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_12
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg14
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_13
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg15
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_14
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg16
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_15
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg17
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_16
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg18
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_17
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg19
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_18
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg20
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_19
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg21
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_20
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg22
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_21
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg23
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_22
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg24
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_23
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Growable Delay
+SigmaStudio Unique Name: DelaySigma300Alg2
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.BasicAlgorithms.Sigma300.Sample.Delay_v1.0.0.0
+SigmaStudio+ Uid: Delay_1
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Gain (HW slew)
+SigmaStudio Unique Name: HWGainADAU145XAlg2
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Gain.Sigma300.Sample.SingleVolumeControl_v1.0.0.0
+SigmaStudio+ Uid: SingleVolumeControl_1
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg25
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_24
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg26
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_25
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg27
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_26
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg28
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_27
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg29
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_28
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg30
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_29
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg31
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_30
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg36
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_31
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Growable Delay
+SigmaStudio Unique Name: DelaySigma300Alg3
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.BasicAlgorithms.Sigma300.Sample.Delay_v1.0.0.0
+SigmaStudio+ Uid: Delay_2
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Gain (HW slew)
+SigmaStudio Unique Name: HWGainADAU145XAlg3
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Gain.Sigma300.Sample.SingleVolumeControl_v1.0.0.0
+SigmaStudio+ Uid: SingleVolumeControl_2
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg37
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_32
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg38
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_33
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg39
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_34
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg40
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_35
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg41
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_36
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg42
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_37
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg43
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_38
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg44
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_39
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg45
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_40
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg46
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_41
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg47
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_42
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg48
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_43
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Growable Delay
+SigmaStudio Unique Name: DelaySigma300Alg4
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.BasicAlgorithms.Sigma300.Sample.Delay_v1.0.0.0
+SigmaStudio+ Uid: Delay_3
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Gain (HW slew)
+SigmaStudio Unique Name: HWGainADAU145XAlg4
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Gain.Sigma300.Sample.SingleVolumeControl_v1.0.0.0
+SigmaStudio+ Uid: SingleVolumeControl_3
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg49
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_44
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg50
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_45
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg51
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_46
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg52
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_47
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg53
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_48
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg54
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_49
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg55
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_50
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg56
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_51
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg57
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_52
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg62
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_53
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg63
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_54
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg64
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_55
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg65
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_56
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg66
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_57
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg87
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_58
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg88
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_59
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg89
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_60
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Growable Delay
+SigmaStudio Unique Name: DelaySigma300Alg7
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.BasicAlgorithms.Sigma300.Sample.Delay_v1.0.0.0
+SigmaStudio+ Uid: Delay_4
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Gain (HW slew)
+SigmaStudio Unique Name: HWGainADAU145XAlg7
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Gain.Sigma300.Sample.SingleVolumeControl_v1.0.0.0
+SigmaStudio+ Uid: SingleVolumeControl_4
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg90
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_61
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg91
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_62
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg92
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_63
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Growable Delay
+SigmaStudio Unique Name: DelaySigma300Alg8
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.BasicAlgorithms.Sigma300.Sample.Delay_v1.0.0.0
+SigmaStudio+ Uid: Delay_5
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Gain (HW slew)
+SigmaStudio Unique Name: HWGainADAU145XAlg8
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Gain.Sigma300.Sample.SingleVolumeControl_v1.0.0.0
+SigmaStudio+ Uid: SingleVolumeControl_5
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: 2x1 Mixer (No Slew)
+SigmaStudio Unique Name: Mixer2x1NoSlewS300Alg1
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MixersAndSplitters.Sigma300.Sample.MixerLinear2x1_v1.0.0.0
+SigmaStudio+ Uid: MixerLinear2x1_0
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: 2x1 Mixer (No Slew)
+SigmaStudio Unique Name: Mixer2x1NoSlewS300Alg2
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MixersAndSplitters.Sigma300.Sample.MixerLinear2x1_v1.0.0.0
+SigmaStudio+ Uid: MixerLinear2x1_1
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Gain (no-slew)
+SigmaStudio Unique Name: GainAlgNS145X1
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Gain.Sigma300.Sample.Gain_v1.0.0.0
+SigmaStudio+ Uid: Gain_0
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: NxM Mixer
+SigmaStudio Unique Name: NxNMixS3004p6Alg2
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MixersAndSplitters.Sigma300.Sample.NxMMixer_v1.0.0.0
+SigmaStudio+ Uid: NxMMixer_0
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: NxM Mixer
+SigmaStudio Unique Name: NxNMixS3004p6Alg1
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MixersAndSplitters.Sigma300.Sample.NxMMixer_v1.0.0.0
+SigmaStudio+ Uid: NxMMixer_1
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg58
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_64
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Growable Delay
+SigmaStudio Unique Name: DelaySigma300Alg5
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.BasicAlgorithms.Sigma300.Sample.Delay_v1.0.0.0
+SigmaStudio+ Uid: Delay_6
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: FIR
+SigmaStudio Unique Name: FIRSigma300Alg1
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.FIR_v1.0.0.0
+SigmaStudio+ Uid: FIR_0
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Multi-Channel - Double Precision
+SigmaStudio Unique Name: General2ndOrderDPSigma300Alg59
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Filters.Sigma300.Sample.GenSecondOrder_v1.0.0.0
+SigmaStudio+ Uid: GenSecondOrder_65
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Growable Delay
+SigmaStudio Unique Name: DelaySigma300Alg6
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.BasicAlgorithms.Sigma300.Sample.Delay_v1.0.0.0
+SigmaStudio+ Uid: Delay_7
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Gain (HW slew)
+SigmaStudio Unique Name: HWGainADAU145XAlg5
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Gain.Sigma300.Sample.SingleVolumeControl_v1.0.0.0
+SigmaStudio+ Uid: SingleVolumeControl_6
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: 2x1 Mixer (No Slew)
+SigmaStudio Unique Name: Mixer2x1NoSlewS300Alg4
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MixersAndSplitters.Sigma300.Sample.MixerLinear2x1_v1.0.0.0
+SigmaStudio+ Uid: MixerLinear2x1_2
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: 2x1 Mixer (No Slew)
+SigmaStudio Unique Name: Mixer2x1NoSlewS300Alg5
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MixersAndSplitters.Sigma300.Sample.MixerLinear2x1_v1.0.0.0
+SigmaStudio+ Uid: MixerLinear2x1_3
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: NxM Mixer
+SigmaStudio Unique Name: NxNMixS3004p6Alg3
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MixersAndSplitters.Sigma300.Sample.NxMMixer_v1.0.0.0
+SigmaStudio+ Uid: NxMMixer_2
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Gain (no-slew)
+SigmaStudio Unique Name: GainAlgNS145X2
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Gain.Sigma300.Sample.Gain_v1.0.0.0
+SigmaStudio+ Uid: Gain_1
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Gain (HW slew)
+SigmaStudio Unique Name: HWGainADAU145XAlg6
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Gain.Sigma300.Sample.SingleVolumeControl_v1.0.0.0
+SigmaStudio+ Uid: SingleVolumeControl_7
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Gain (HW slew)
+SigmaStudio Unique Name: HWGainADAU145XAlg9
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Gain.Sigma300.Sample.SingleVolumeControl_v1.0.0.0
+SigmaStudio+ Uid: SingleVolumeControl_8
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Gain (HW slew)
+SigmaStudio Unique Name: ExternalGainAlgSlew145X1
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Gain.Sigma300.Sample.SingleSlewExtVol_v1.0.0.0
+SigmaStudio+ Uid: SingleSlewExtVol_0
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: BitShift
+SigmaStudio Unique Name: BitShiftADAU145XAlg1
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.ArithmeticAndLogic.Sigma300.Sample.BitShift_v1.0.0.0
+SigmaStudio+ Uid: BitShift_0
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: DC-Input
+SigmaStudio Unique Name: DCInpAlg145X1
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Sources.Sigma300.Sample.DCInput_v1.0.0.0
+SigmaStudio+ Uid: DCInput_0
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Mono
+SigmaStudio Unique Name: monomuxSigma300ns49
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.MuxesAndDemuxes.Sigma300.Sample.MonoSwitchNx1_v1.0.0.0
+SigmaStudio+ Uid: MonoSwitchNx1_62
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Auxiliary ADC Input
+SigmaStudio Unique Name: RegReadAlg300ADCIn1
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Sigma300.AuxilaryADCInput_v1.0.0.0
+SigmaStudio+ Uid: AuxilaryADCInput_0
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: ADAU145x Inputs 0-15
+SigmaStudio Unique Name: ICInputADAU145X1
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.IO.Sigma300.Sample.Input0to15_v1.0.0.0
+SigmaStudio+ Uid: Input0to15_0
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: ADAU145x Inputs 32-39
+SigmaStudio Unique Name: ICInput3ADAU145X1
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.IO.Sigma300.Sample.Input32to39_v1.0.0.0
+SigmaStudio+ Uid: Input32to39_0
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: ADAU145x Inputs 40-47
+SigmaStudio Unique Name: ICInput4ADAU145X1
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.IO.Sigma300.Sample.Input40to47_v1.0.0.0
+SigmaStudio+ Uid: Input40to47_0
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: ADAU145x Inputs 16-31
+SigmaStudio Unique Name: ICInput2ADAU145X1
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.IO.Sigma300.Sample.Input16to31_v1.0.0.0
+SigmaStudio+ Uid: Input16to31_0
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: From ASRC
+SigmaStudio Unique Name: AsrcInSigma300Alg1
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.IO.Sigma300.Sample.ASRCInput_v1.0.0.0
+SigmaStudio+ Uid: ASRCInput_0
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Output
+SigmaStudio Unique Name: ICOutADAU145X11
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Sigma300.Output_v1.0.0.0
+SigmaStudio+ Uid: Output_0
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Output
+SigmaStudio Unique Name: ICOutADAU145X13
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Sigma300.Output_v1.0.0.0
+SigmaStudio+ Uid: Output_1
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Output
+SigmaStudio Unique Name: ICOutADAU145X15
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Sigma300.Output_v1.0.0.0
+SigmaStudio+ Uid: Output_2
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Output
+SigmaStudio Unique Name: ICOutADAU145X12
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Sigma300.Output_v1.0.0.0
+SigmaStudio+ Uid: Output_3
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Output
+SigmaStudio Unique Name: ICOutADAU145X16
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Sigma300.Output_v1.0.0.0
+SigmaStudio+ Uid: Output_4
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Output
+SigmaStudio Unique Name: ICOutADAU145X9
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Sigma300.Output_v1.0.0.0
+SigmaStudio+ Uid: Output_5
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Output
+SigmaStudio Unique Name: ICOutADAU145X10
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Sigma300.Output_v1.0.0.0
+SigmaStudio+ Uid: Output_6
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Output
+SigmaStudio Unique Name: ICOutADAU145X14
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Sigma300.Output_v1.0.0.0
+SigmaStudio+ Uid: Output_7
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: DownSampling
+SigmaStudio Unique Name: DecimationWOFilterS300Alg1
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.AdvancedDSP.Sigma300.Sample.DownSampler_v1.0.0.0
+SigmaStudio+ Uid: DownSampler_0
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Output
+SigmaStudio Unique Name: ICOutADAU145X1
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Sigma300.Output_v1.0.0.0
+SigmaStudio+ Uid: Output_8
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Output
+SigmaStudio Unique Name: ICOutADAU145X2
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Sigma300.Output_v1.0.0.0
+SigmaStudio+ Uid: Output_9
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Output
+SigmaStudio Unique Name: ICOutADAU145X3
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Sigma300.Output_v1.0.0.0
+SigmaStudio+ Uid: Output_10
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Output
+SigmaStudio Unique Name: ICOutADAU145X4
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Sigma300.Output_v1.0.0.0
+SigmaStudio+ Uid: Output_11
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Output
+SigmaStudio Unique Name: ICOutADAU145X7
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Sigma300.Output_v1.0.0.0
+SigmaStudio+ Uid: Output_12
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Output
+SigmaStudio Unique Name: ICOutADAU145X8
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Sigma300.Output_v1.0.0.0
+SigmaStudio+ Uid: Output_13
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Output
+SigmaStudio Unique Name: ICOutADAU145X5
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Sigma300.Output_v1.0.0.0
+SigmaStudio+ Uid: Output_14
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: Output
+SigmaStudio Unique Name: ICOutADAU145X6
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Sigma300.Output_v1.0.0.0
+SigmaStudio+ Uid: Output_15
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: SPDIF output
+SigmaStudio Unique Name: ICSigma300SpdifOut1
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Sigma300.SPDIFOutput_v1.0.0.0
+SigmaStudio+ Uid: SPDIFOutput_0
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: SPDIF output
+SigmaStudio Unique Name: ICSigma300SpdifOut2
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.Sigma300.SPDIFOutput_v1.0.0.0
+SigmaStudio+ Uid: SPDIFOutput_1
+Interface Type: IAlgorithm
+
+SigmaStudio Friendly Name: UpSampling
+SigmaStudio Unique Name: InterpolationWOFilterS300Alg1
+SigmaStudio+ Plugin: AnalogDevices.Plugins.Algorithms.AdvancedDSP.Sigma300.Sample.UpSampler_v1.0.0.0
+SigmaStudio+ Uid: UpSampler_0
+Interface Type: IAlgorithm
