@@ -82,7 +82,6 @@
       <Algorithm name="XOHP13" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="XOHP14" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="LowShelv1" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
-      <Algorithm name="PeqBank1" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="HighShelv1" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="XOLP11" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="XOLP12" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
@@ -96,7 +95,6 @@
       <Algorithm name="XOHP23" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="XOHP24" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="LowShelv2" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
-      <Algorithm name="PeqBank2" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="HighShelv2" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="XOLP21" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="XOLP22" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
@@ -110,7 +108,6 @@
       <Algorithm name="HP33" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="HP34" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="LowShelv3" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
-      <Algorithm name="PeqBank3" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="HighShelv3" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="Phase3" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="Delay3" friendlyname="Delays the Input Signal by the Maximum number of Samples Selected on the Spin TextBox" />
@@ -120,7 +117,6 @@
       <Algorithm name="XOHP43" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="XOHP44" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="LowShelv4" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
-      <Algorithm name="PeqBank4" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="HighShelv4" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="XOLP41" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="XOLP42" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
@@ -134,12 +130,10 @@
       <Algorithm name="XOHP53" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="XOHP54" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="LowShelv5" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
-      <Algorithm name="PeqBank5" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="HighShelv5" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="XOLP51" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="XOLP52" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="LowShelv6" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
-      <Algorithm name="PeqBank6" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="HighShelv6" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="LP61" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
       <Algorithm name="LP62" friendlyname="Gives access to a variety of Second Order IIR filter algorithms.&#xA; Parametric, Shelving, General LP/HP/BP/BS, Tone Control etc." />
@@ -171,6 +165,12 @@
       <Algorithm name="Gain7" friendlyname="All inputs volumes are governed by one single volume slider. &#xA;Optimum for simultaneous control of various channels within a single DSP" />
       <Algorithm name="DownSampling1" friendlyname="Up and Down Sampling" />
       <Algorithm name="UpSampling1" friendlyname="Up and Down Sampling" />
+      <Algorithm name="PeqBank1" friendlyname="Allows to control EQ parameters in a graphical way." />
+      <Algorithm name="PeqBank2" friendlyname="Allows to control EQ parameters in a graphical way." />
+      <Algorithm name="PeqBank3" friendlyname="Allows to control EQ parameters in a graphical way." />
+      <Algorithm name="PeqBank4" friendlyname="Allows to control EQ parameters in a graphical way." />
+      <Algorithm name="PeqBank5" friendlyname="Allows to control EQ parameters in a graphical way." />
+      <Algorithm name="PeqBank6" friendlyname="Allows to control EQ parameters in a graphical way." />
       <Algorithm name="MasterVolume" friendlyname="All inputs volumes are governed by one single volume slider. &#xA;Optimum for simultaneous control of various channels within a single DSP" />
       <Algorithm name="VolumePot" friendlyname="External Control of the Volume Gain" />
       <Algorithm name="Shift1" friendlyname="Bit Shift" />

@@ -1,6 +1,6 @@
 /* 
  * File:	C:\Users\ich\Documents\freeDSP-aurora\SOURCES\SIGMASTUDIO+\AtlasCompact-FIR-DRC\AtlasCompact-FIR-DRC_ADAU145xSchematic_0_Defines.h
- * Created:	Wednesday, 19 August 2026 0:46 AM
+ * Created:	Friday, 21 August 2026 0:41 AM
  * Description:	Schematic default download data definitions.
  * 
  * This software is distributed in the hope that it will be useful, 
@@ -18,7 +18,7 @@
 #ifndef __ATLASCOMPACT-FIR-DRC_ADAU145XSCHEMATIC_0_DEFINES_H__
 #define __ATLASCOMPACT-FIR-DRC_ADAU145XSCHEMATIC_0_DEFINES_H__
 
-#define BufferSize_ADAU145XSCHEMATIC_0			29170
+#define BufferSize_ADAU145XSCHEMATIC_0			31402
 #define NumTransactions_ADAU145XSCHEMATIC_0		70
 
 #endif
