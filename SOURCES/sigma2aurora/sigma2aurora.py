@@ -223,7 +223,7 @@ fir = []
 
 # --- Reading project xml file
 netlist_xml_path = os.path.join(projectdir, netlist_xml_file)
-print("Reading " + netlist_xml_path)
+print("Reading netlist XML " + netlist_xml_path)
 tree = ET.parse(netlist_xml_path)
 root = tree.getroot()
 
@@ -246,7 +246,7 @@ if verbose:
 # --- Reading project xml file
 ninputs = 0
 projectxml_path = os.path.join(projectdir, projectxml_file)
-print("Reading " + projectxml_path)
+print("Reading project XML: " + projectxml_path)
 tree = ET.parse(projectxml_path)
 root = tree.getroot()
 
@@ -313,22 +313,37 @@ def plus_intaddr(module, module_parameter_name):
         if name.text == module_parameter_name:
             return intaddr(modparam)
 
+# In SS+ names are not prefixed with "Plugin.", but in classic they are (since that's the name of the schematic)
+# I am not 100% sure it's the best way to just ignore schematics, but for now let's do that.
+# The "Plugin." is later stripped (or rather ignored), but I don't want to change that during the first stage.
+# Instead, I just add the "Plugin." prefix to SS+ names.
+# This can later be swapped and to allow simplification of the later processing code :)
+def normalize_name(name):
+    if (plus):
+        return "Plugin." + name
+    return name
+
 if plus:
     search_path = "Core/Schematic/Module/Algorithm"
     param_path = "ModuleParameter"
+    cellname_block = "AlgoName"
 else:
     search_path = "IC/Module"
     param_path = "Algorithm/ModuleParameter"
+    cellname_block = "CellName"
 
-cnt_isel = 0
-for module in root.findall(search_path):
-    if plus:
-        cellname = module.find('AlgoName')
+counted_things = {}
+def count(thing):
+    if thing in counted_things.keys():
+        counted_things[thing] += 1
     else:
-        cellname = module.find('CellName')
+        counted_things[thing] = 1
 
-    if cellname.text.startswith('InputSelect') or cellname.text.startswith("Nx11_"):
-        cnt_isel = cnt_isel + 1
+for module in root.findall(search_path):
+    cellname = module.find(cellname_block)
+
+    if cellname.text.startswith('InputSelect') or (plus and cellname.text.startswith("Nx11_")):
+        count("InputSelect")
 
         # Plus:     Nx11_Analog, the Channel index X is <AbstractParameter><Name>SelectedVal</name><Value>X</...
         # Classic:  InputSelect_8.Nx1-1_Analog
@@ -364,7 +379,9 @@ for module in root.findall(search_path):
         else:
             print("[WARNING] Can not determine input type for input selector '" + cellname.text + "'!\n")
 
-    elif cellname.text.startswith('SpdifOutMux'):
+    elif cellname.text.startswith('SpdifOutMux') or (plus and cellname.text.startswith("Nx_")):
+        # For SS+ and classic SS this works the same, just a different cellname
+        count("SpdifOutMux")
         strlist = cellname.text.split('_')
         if len(strlist) > 2:
             if "Analog" in strlist[1]:
@@ -411,10 +428,17 @@ for module in root.findall(search_path):
                 spdifoutmux_port[1] = intaddr(modparam)
 
     # --- HP blocks
-    elif cellname.text.lower().startswith('plugin.hp'):
-        name = cellname.text.split(':', 1)[0]
+    elif cellname.text.lower().startswith('plugin.hp') or (plus and cellname.text.lower().startswith('hp')):
+        count("HP")
+        if plus:
+            name = cellname.text[:2]
+            nn = int(cellname.text[3])-1
+        else:
+            name = cellname.text.split(':', 1)[0]
+            nn = int(cellname.text.split(':', 1)[1]) - 1
+        name = normalize_name(name)
+
         idx = -1
-        nn = int(cellname.text.split(':', 1)[1]) - 1
         for m in range(0, len(hp)):
             if hp[m].name == name:
                 idx = m
@@ -427,12 +451,20 @@ for module in root.findall(search_path):
             modname = modparam.find('Name').text
             if "B2" in modname:
                 hp[idx].addr[nn] = intaddr(modparam)
+                count("HP::B2")
 
     # --- LP blocks
-    elif cellname.text.lower().startswith('plugin.lp'):
-        name = cellname.text.split(':', 1)[0]
+    elif cellname.text.lower().startswith('plugin.lp') or (plus and cellname.text.lower().startswith('lp')):
+        count("LP")
+        if plus:
+            name = cellname.text[:2]
+            nn = int(cellname.text[3])-1
+        else:
+            name = cellname.text.split(':', 1)[0]
+            nn = int(cellname.text.split(':', 1)[1]) - 1
+        name = normalize_name(name)
+
         idx = -1
-        nn = int(cellname.text.split(':', 1)[1]) - 1
         for m in range(0, len(lp)):
             if lp[m].name == name:
                 idx = m
@@ -445,31 +477,37 @@ for module in root.findall(search_path):
             modname = modparam.find('Name').text
             if "B2" in modname:
                 lp[idx].addr[nn] = intaddr(modparam)
+                count("LP::B2")
 
     # --- LowShelv blocks
-    elif cellname.text.lower().startswith('plugin.lowshelv'):
+    elif cellname.text.lower().startswith('plugin.lowshelv') or (plus and cellname.text.lower().startswith('lowshelv')):
+        count("LowShelv")
         for modparam in module.findall(param_path):
             modname = modparam.find('Name').text
             if "B2" in modname:
                 newLShelv = ParamShelv()
                 newLShelv.addr = intaddr(modparam)
-                newLShelv.name = cellname.text
+                newLShelv.name = name = normalize_name(cellname.text)
                 lshelv.append(newLShelv)
+                count("LowShelv::B2")
 
     # --- HighShelv blocks
-    elif cellname.text.lower().startswith('plugin.highshelv'):
+    elif cellname.text.lower().startswith('plugin.highshelv') or (plus and cellname.text.lower().startswith('highshelv')):
+        count("HighShelv")
         for modparam in module.findall(param_path):
             modname = modparam.find('Name').text
             if "B2" in modname:
                 newHShelv = ParamShelv()
                 newHShelv.addr = intaddr(modparam)
-                newHShelv.name = cellname.text
+                newHShelv.name = name = normalize_name(cellname.text)
                 hshelv.append(newHShelv)
+                count("HighShelv::B2")
 
     # --- PEQ banks
-    elif cellname.text.lower().startswith('plugin.peqbank'):
+    elif cellname.text.lower().startswith('plugin.peqbank') or (plus and cellname.text.lower().startswith('peqbank')):
+        count("PeqBank")
         newPeqBank = ParamPeqBank()
-        newPeqBank.name = cellname.text
+        newPeqBank.name = normalize_name(cellname.text)
         idx = 0
         for modparam in module.findall(param_path):
             modname = modparam.find('Name').text
@@ -477,75 +515,117 @@ for module in root.findall(search_path):
                 if idx < 10:
                     newPeqBank.addr[idx] = intaddr(modparam)
                 else:
+                    # at least SS+ can do more, not sure why we're limiting here?
                     print("[ERROR] Not more then 10 PEQs per bank allowed.")
                 idx = idx + 1
+                count("PeqBank::B2")
         peqbank.append(newPeqBank)
         peqband.append(len(newPeqBank.addr))
         npeqbank = npeqbank + 1
 
     # --- PEQ blocks
-    elif cellname.text.lower().startswith('plugin.peq'):
+    elif cellname.text.lower().startswith('plugin.peq') or (plus and cellname.text.lower().startswith('peq')):
+        # TODO SS+: My project doesn't have plain PEQs, so I'm just vibing this here
+        count("PEQ")
         for modparam in module.findall(param_path):
             modname = modparam.find('Name').text
             if "B2" in modname:
                 newPeq = ParamPeq()
                 newPeq.addr = intaddr(modparam)
-                newPeq.name = cellname.text
+                newPeq.name = normalize_name(cellname.text)
                 peq.append(newPeq)
+                count("PEQ::B2")
 
     # --- Phase blocks
-    elif cellname.text.lower().startswith('plugin.phase'):
+    elif cellname.text.lower().startswith('plugin.phase') or (plus and cellname.text.lower().startswith('phase')):
+        count("Phase")
         for modparam in module.findall(param_path):
             modname = modparam.find('Name').text
             if "B2" in modname:
                 newPhase = ParamPhase()
                 newPhase.addr = intaddr(modparam)
-                newPhase.name = cellname.text
+                newPhase.name = normalize_name(cellname.text)
                 phase.append(newPhase)
+                count("Phase::B2")
 
     # --- Delay blocks
-    elif cellname.text.lower().startswith('plugin.delay'):
-        for modparam in module.findall(param_path):
-            modname = modparam.find('Name').text
-            if "delay" in modname:
-                newDelay = ParamDelay()
-                newDelay.addr = intaddr(modparam)
-                newDelay.name = cellname.text
-                dly.append(newDelay)
+    elif cellname.text.lower().startswith('plugin.delay') or (plus and cellname.text.lower().startswith('delay')):
+        count("Delay")
+        if plus:
+            addr = plus_intaddr(module, "Delay")
+        else:
+            addr = False
+            for modparam in module.findall(param_path):
+                modname = modparam.find('Name').text
+                if "delay" in modname:
+                    addr = intaddr(modparam)
+        if addr:
+            newDelay = ParamDelay()
+            newDelay.addr = addr
+            newDelay.name = normalize_name(cellname.text)
+            dly.append(newDelay)
+            count("Delay::Delay")
 
     # --- Gain blocks
-    elif cellname.text.lower().startswith('plugin.gain'):
-        for modparam in module.findall(param_path):
-            modname = modparam.find('Name').text
-            if "target" in modname:
-                newGain = ParamGain()
-                newGain.addr = intaddr(modparam)
-                newGain.name = cellname.text
-                gain.append(newGain)
+    elif cellname.text.lower().startswith('plugin.gain') or (plus and cellname.text.lower().startswith('gain')):
+        count("Gain")
+        if plus:
+            addr = plus_intaddr(module, "Gain")
+        else:
+            addr = False
+            for modparam in module.findall(param_path):
+                modname = modparam.find('Name').text
+                if "target" in modname:
+                    addr = intaddr(modparam)
+
+        if addr:
+            newGain = ParamGain()
+            newGain.addr = addr
+            newGain.name = normalize_name(cellname.text)
+            gain.append(newGain)
+            count("Gain::Gain")
 
     # --- FIR blocks
-    elif cellname.text.lower().startswith('plugin.fir'):
-        for modparam in module.findall(param_path):
-            modname = modparam.find('Name').text
-            if "fircoeff" in modname:
-                newFir = ParamFir()
-                newFir.addr = intaddr(modparam)
-                newFir.len = int(modparam.find('Size').text) / 4
-                newFir.name = cellname.text
-                fir.append(newFir)
+    elif cellname.text.lower().startswith('plugin.fir') or (plus and cellname.text.lower().startswith('fir')):
+        count("Fir")
+        if plus:
+            addr = plus_intaddr(module, "TableValues")
+        else:
+            addr = False
+            for modparam in module.findall(param_path):
+                modname = modparam.find('Name').text
+                if "fircoeff" in modname:
+                    addr = intaddr(modparam)
+
+        if addr:
+            newFir = ParamFir()
+            newFir.addr = addr
+            newFir.len = int(modparam.find('Size').text) / 4
+            newFir.name = normalize_name(cellname.text)
+            fir.append(newFir)
+            count("Fir::Fir")
 
     # --- XO-HP blocks
-    elif cellname.text.lower().startswith('plugin.xohp'):
-        searchlpname = cellname.text.lower().replace('plugin.xohp', 'plugin.xolp')
+    elif cellname.text.lower().startswith('plugin.xohp') or (plus and cellname.text.lower().startswith('xohp')):
+        count("XO")
+        if plus:
+            searchlpname = cellname.text.lower().replace('xohp', 'xolp')
+        else:
+            searchlpname = cellname.text.lower().replace('plugin.xohp', 'plugin.xolp')
         # Search the corresponding LP block
         foundlp = False
-        for modulelp in root.findall('IC/Module'):
-            cellnamelp = modulelp.find('CellName')
+        for modulelp in root.findall(search_path):
+            cellnamelp = modulelp.find(cellname_block)
             if cellnamelp.text.lower().startswith(searchlpname):
                 foundlp = True
-                name = cellnamelp.text.split(':', 1)[0]
+                if plus:
+                    name = cellname.text[:4]
+                    nn = int(cellname.text[5])-1
+                else:
+                    name = cellname.text.split(':', 1)[0]
+                    nn = int(cellname.text.split(':', 1)[1]) - 1
+                name = normalize_name(name)
                 idx = -1
-                nn = int(cellnamelp.text.split(':', 1)[1]) - 1
                 for m in range(0, len(xolp)):
                     if xolp[m].name == name:
                         idx = m
@@ -558,10 +638,16 @@ for module in root.findall(search_path):
                     modnamelp = modparamlp.find('Name').text
                     if "B2" in modnamelp:
                         xolp[idx].addr[nn] = intaddr(modparamlp)
+                        count("XOLP::B2")
         if foundlp:
-            name = cellname.text.split(':', 1)[0]
+            if plus:
+                name = cellname.text[:4]
+                nn = int(cellname.text[5])-1
+            else:
+                name = cellname.text.split(':', 1)[0]
+                nn = int(cellname.text.split(':', 1)[1]) - 1
+            name = normalize_name(name)
             idx = -1
-            nn = int(cellname.text.split(':', 1)[1]) - 1
             for m in range(0, len(xohp)):
                 if xohp[m].name == name:
                     idx = m
@@ -574,6 +660,7 @@ for module in root.findall(search_path):
                 modname = modparam.find('Name').text
                 if "B2" in modname:
                     xohp[idx].addr[nn] = intaddr(modparam)
+                    count("XOHP::B2")
         else:
             print("[ERROR] Could not find matching lp block for " + cellname.text)
 
@@ -582,11 +669,13 @@ for module in root.findall(search_path):
         # Do nothing, handled by plugin.xohp
         pass
 
-    elif cellname.text.startswith('BypassVolPoti'):
+    elif cellname.text.startswith('BypassVolPoti') or (plus and cellname.text.startswith('BypassVolPoti')):
+        count("BypassVolPoti")
         modparam = module.find(param_path)
         vpot = intaddr(modparam)
 
     elif cellname.text.startswith('MasterVolume'):
+        count("MasterVolume")
         if plus:
             mastervol = plus_intaddr(module, "Gain")
         else:
@@ -599,7 +688,12 @@ for module in root.findall(search_path):
         print("[WARNING] Unkown dsp block in plugin: " + cellname.text)
 
 if verbose:
-    print("Found " + str(cnt_isel) + " input selectors\n");
+    print("Parsing the project XML the following things have been accounted for:")
+    total = 0
+    for thing in counted_things.keys():
+        print("    * " + str(counted_things[thing]) + " " + thing)
+        total += counted_things[thing]
+    print("    + Total: " + str(total))
 
 inputselect_analog_t = GrowingList()
 idx = 0
