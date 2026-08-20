@@ -1,3 +1,69 @@
+# FORK WARNING
+
+**Careful: This branch/fork does experiment with adding SigmaStudio+ support to `sigma2aurora.py`. IT IS NOT TESTED!!**
+
+My initial impression was that SS+ would be more efficient, but any space saving came from it converting PEQs with 10 banks to singular/single-banked PEQs. D'oh!
+
+Though it has it advantages:
+
+1. Put delays into unused `PM` (Program Memory) to free up precious `DM` (Data Memory) for FIR filters
+2. More fluent UI
+3. Dark Mode for those late-night DSP-coding sessions
+
+Importing seems straight-forward, but after importing via *Action* -> *Import SigmaStudio Projects* SS+ tells you what you need to check.
+Takes this seriously to not mess things up!
+
+What *I* had to do (your progam might vary):
+
+1. Replace your PEQ banks (which are now singular PEQs) with graphical PEQs (which are actual PEQ banks)
+2. Fix the output channels assignments:
+  * `Output_1` takes `Ch0`, `Output_2` takes `Ch1` and so on
+  * `Output_UAC1` takes `Ch8`, `Output_UAC2` takes `Ch9` and so on
+3. Re-arrange my layouts because some of them became even more messed up
+4. During my first import, it turned half a dozen 1 channel 1500 tap FIR Filters with a into 1500 channel 1 tap FIR Filters
+  * Not a huge issue in itself, but the rendering became excrudingly slow on my fast machine.
+  * For my next import, I reduced the filters to 10 taps in classic SigmaStudio, but the error didn't show up again
+  
+Export works similar to before. To get the correct file names, just select your `.ssprj`-file. Don't worry, it will not be overwritten ;-)
+
+**Now to address the elephant in the room:** Yes, you can convert your export the usual way, just add the `--plus` flag.
+However:
+
+1. Use the new `--verbose` flag to check the numbers it reports; also compare them to your old, classic SigmaStudio export (still supported by `sigma2aurora.py`)
+2. The output addresses for a few controls are vastly smaller than the addresses in the old export. This might be just a different memory layout with the new SS+ compiler, but it might also be a indicator that something is off.
+
+I will eventually test this with a scope or trash speakers, but for now I have other priorities.
+
+# HEED THE ABOVE WARNING
+
+seriously, if you don't understand even half of what I wrote above: That's okay, but please don't kill your valuable speakers or brick a rare Aurora DSP board - stick to the original firmware instead.
+
+# I DID NEITHER VERIFY NOR TEST THE RESULTS, yet
+
+I will, but sadly there are now new Auroras, so this is quite niche and I'm mostly doing it for myself I guess.
+
+Maybe I get around to test it September even August, but maybe it will be August 2030 ;-)
+
+Feel free to open an issue if you find this useful or want to know the status. I'm more than happy to talk to fellow Aurora users :-)
+
+# Some neat additions, maybe?
+
+I also commited my DSP program with some slightly modifed JS inside the `dsp.html` to add altering the volume via the scroll wheel.
+You can steal that to use with your `dsp.html`; it doesn't depend on any changes made in my fork.
+
+I'm not 100% happy yet, but as a proof of concept it's imho pretty nice and I'm happy for pull-requests making this better.
+
+# Shoutout to Auverdion!
+
+Thanks again for the nice DSP. I hope you're doing well! :)
+
+I think you were just ahead of the curve there.
+
+# Original README:
+
+Now to something... not so different:
+
+
 ![FreeDSP logo](https://github.com/freeDSP/WIKI-AND-GENERAL-TOPICS/raw/master/LOGOs/freeDSP/freeDSP%20LOGO/freeDSP_LOGO.png)
 
 # freeDSP aurora
