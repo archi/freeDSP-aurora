@@ -70,7 +70,7 @@ Parameter Data :
 
 Module Name			= Nx_Analog_Left
 Parameter Name		= Index
-Parameter Address	= 2394
+Parameter Address	= 2664
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -80,7 +80,7 @@ Parameter Data :
 
 Module Name			= Nx_UAC2_Left
 Parameter Name		= Index
-Parameter Address	= 2388
+Parameter Address	= 2658
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -90,7 +90,7 @@ Parameter Data :
 
 Module Name			= Nx_ESP32_Left
 Parameter Name		= Index
-Parameter Address	= 2391
+Parameter Address	= 2661
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -100,7 +100,7 @@ Parameter Data :
 
 Module Name			= Nx_Exp_Left
 Parameter Name		= Index
-Parameter Address	= 2390
+Parameter Address	= 2660
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -110,7 +110,7 @@ Parameter Data :
 
 Module Name			= Nx_SPDIF_Left
 Parameter Name		= Index
-Parameter Address	= 2386
+Parameter Address	= 2656
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -120,7 +120,7 @@ Parameter Data :
 
 Module Name			= Nx_Left
 Parameter Name		= Index
-Parameter Address	= 2398
+Parameter Address	= 2668
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -130,7 +130,7 @@ Parameter Data :
 
 Module Name			= Nx_UAC2_Right
 Parameter Name		= Index
-Parameter Address	= 2387
+Parameter Address	= 2657
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -140,7 +140,7 @@ Parameter Data :
 
 Module Name			= Nx_ESP32_Right
 Parameter Name		= Index
-Parameter Address	= 2392
+Parameter Address	= 2662
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -150,7 +150,7 @@ Parameter Data :
 
 Module Name			= Nx_Exp_Right
 Parameter Name		= Index
-Parameter Address	= 2389
+Parameter Address	= 2659
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -160,7 +160,7 @@ Parameter Data :
 
 Module Name			= Nx_SPDIF_Right
 Parameter Name		= Index
-Parameter Address	= 2385
+Parameter Address	= 2655
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -170,7 +170,7 @@ Parameter Data :
 
 Module Name			= Nx_Right
 Parameter Name		= Index
-Parameter Address	= 2396
+Parameter Address	= 2666
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -180,7 +180,7 @@ Parameter Data :
 
 Module Name			= Nx_Analog_Right
 Parameter Name		= Index
-Parameter Address	= 2393
+Parameter Address	= 2663
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -190,7 +190,7 @@ Parameter Data :
 
 Module Name			= Nx_Out_Left
 Parameter Name		= Index
-Parameter Address	= 2397
+Parameter Address	= 2667
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -200,7 +200,7 @@ Parameter Data :
 
 Module Name			= Nx_Out_Right
 Parameter Name		= Index
-Parameter Address	= 2395
+Parameter Address	= 2665
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -210,7 +210,7 @@ Parameter Data :
 
 Module Name			= Nx11_Analog
 Parameter Name		= Index
-Parameter Address	= 2382
+Parameter Address	= 2652
 Parameter Value		= 7
 Data Memory			= DM0
 Parameter Data :
@@ -220,7 +220,7 @@ Parameter Data :
 
 Module Name			= Nx11_UAC
 Parameter Name		= Index
-Parameter Address	= 2379
+Parameter Address	= 2649
 Parameter Value		= 7
 Data Memory			= DM0
 Parameter Data :
@@ -230,7 +230,7 @@ Parameter Data :
 
 Module Name			= Nx11_ESP32
 Parameter Name		= Index
-Parameter Address	= 2381
+Parameter Address	= 2651
 Parameter Value		= 7
 Data Memory			= DM0
 Parameter Data :
@@ -240,7 +240,7 @@ Parameter Data :
 
 Module Name			= Nx11_Exp
 Parameter Name		= Index
-Parameter Address	= 2380
+Parameter Address	= 2650
 Parameter Value		= 7
 Data Memory			= DM0
 Parameter Data :
@@ -250,7 +250,7 @@ Parameter Data :
 
 Module Name			= Nx11_SPDIF
 Parameter Name		= Index
-Parameter Address	= 2378
+Parameter Address	= 2648
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -260,7 +260,7 @@ Parameter Data :
 
 Module Name			= Nx11_Mux
 Parameter Name		= Index
-Parameter Address	= 2383
+Parameter Address	= 2653
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -270,7 +270,7 @@ Parameter Data :
 
 Module Name			= Nx11_Analog
 Parameter Name		= Index
-Parameter Address	= 2376
+Parameter Address	= 2646
 Parameter Value		= 6
 Data Memory			= DM0
 Parameter Data :
@@ -280,7 +280,7 @@ Parameter Data :
 
 Module Name			= Nx11_UAC
 Parameter Name		= Index
-Parameter Address	= 2373
+Parameter Address	= 2643
 Parameter Value		= 6
 Data Memory			= DM0
 Parameter Data :
@@ -290,7 +290,7 @@ Parameter Data :
 
 Module Name			= Nx11_ESP32
 Parameter Name		= Index
-Parameter Address	= 2375
+Parameter Address	= 2645
 Parameter Value		= 6
 Data Memory			= DM0
 Parameter Data :
@@ -300,7 +300,7 @@ Parameter Data :
 
 Module Name			= Nx11_Exp
 Parameter Name		= Index
-Parameter Address	= 2374
+Parameter Address	= 2644
 Parameter Value		= 6
 Data Memory			= DM0
 Parameter Data :
@@ -310,7 +310,7 @@ Parameter Data :
 
 Module Name			= Nx11_SPDIF
 Parameter Name		= Index
-Parameter Address	= 2372
+Parameter Address	= 2642
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -320,7 +320,7 @@ Parameter Data :
 
 Module Name			= Nx11_Mux
 Parameter Name		= Index
-Parameter Address	= 2377
+Parameter Address	= 2647
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -330,7 +330,7 @@ Parameter Data :
 
 Module Name			= Nx11_Analog
 Parameter Name		= Index
-Parameter Address	= 2368
+Parameter Address	= 2638
 Parameter Value		= 5
 Data Memory			= DM0
 Parameter Data :
@@ -340,7 +340,7 @@ Parameter Data :
 
 Module Name			= Nx11_UAC
 Parameter Name		= Index
-Parameter Address	= 2365
+Parameter Address	= 2635
 Parameter Value		= 5
 Data Memory			= DM0
 Parameter Data :
@@ -350,7 +350,7 @@ Parameter Data :
 
 Module Name			= Nx11_ESP32
 Parameter Name		= Index
-Parameter Address	= 2367
+Parameter Address	= 2637
 Parameter Value		= 5
 Data Memory			= DM0
 Parameter Data :
@@ -360,7 +360,7 @@ Parameter Data :
 
 Module Name			= Nx11_Exp
 Parameter Name		= Index
-Parameter Address	= 2366
+Parameter Address	= 2636
 Parameter Value		= 5
 Data Memory			= DM0
 Parameter Data :
@@ -370,7 +370,7 @@ Parameter Data :
 
 Module Name			= Nx11_SPDIF
 Parameter Name		= Index
-Parameter Address	= 2364
+Parameter Address	= 2634
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -380,7 +380,7 @@ Parameter Data :
 
 Module Name			= Nx11_Mux
 Parameter Name		= Index
-Parameter Address	= 2369
+Parameter Address	= 2639
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -390,7 +390,7 @@ Parameter Data :
 
 Module Name			= Nx11_Analog
 Parameter Name		= Index
-Parameter Address	= 2362
+Parameter Address	= 2632
 Parameter Value		= 4
 Data Memory			= DM0
 Parameter Data :
@@ -400,7 +400,7 @@ Parameter Data :
 
 Module Name			= Nx11_UAC
 Parameter Name		= Index
-Parameter Address	= 2359
+Parameter Address	= 2629
 Parameter Value		= 4
 Data Memory			= DM0
 Parameter Data :
@@ -410,7 +410,7 @@ Parameter Data :
 
 Module Name			= Nx11_ESP32
 Parameter Name		= Index
-Parameter Address	= 2361
+Parameter Address	= 2631
 Parameter Value		= 4
 Data Memory			= DM0
 Parameter Data :
@@ -420,7 +420,7 @@ Parameter Data :
 
 Module Name			= Nx11_Exp
 Parameter Name		= Index
-Parameter Address	= 2360
+Parameter Address	= 2630
 Parameter Value		= 4
 Data Memory			= DM0
 Parameter Data :
@@ -430,7 +430,7 @@ Parameter Data :
 
 Module Name			= Nx11_SPDIF
 Parameter Name		= Index
-Parameter Address	= 2358
+Parameter Address	= 2628
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -440,7 +440,7 @@ Parameter Data :
 
 Module Name			= Nx11_Mux
 Parameter Name		= Index
-Parameter Address	= 2363
+Parameter Address	= 2633
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -450,7 +450,7 @@ Parameter Data :
 
 Module Name			= Nx11_Analog
 Parameter Name		= Index
-Parameter Address	= 2356
+Parameter Address	= 2626
 Parameter Value		= 3
 Data Memory			= DM0
 Parameter Data :
@@ -460,7 +460,7 @@ Parameter Data :
 
 Module Name			= Nx11_UAC
 Parameter Name		= Index
-Parameter Address	= 2353
+Parameter Address	= 2623
 Parameter Value		= 3
 Data Memory			= DM0
 Parameter Data :
@@ -470,7 +470,7 @@ Parameter Data :
 
 Module Name			= Nx11_ESP32
 Parameter Name		= Index
-Parameter Address	= 2355
+Parameter Address	= 2625
 Parameter Value		= 3
 Data Memory			= DM0
 Parameter Data :
@@ -480,7 +480,7 @@ Parameter Data :
 
 Module Name			= Nx11_Exp
 Parameter Name		= Index
-Parameter Address	= 2354
+Parameter Address	= 2624
 Parameter Value		= 3
 Data Memory			= DM0
 Parameter Data :
@@ -490,7 +490,7 @@ Parameter Data :
 
 Module Name			= Nx11_SPDIF
 Parameter Name		= Index
-Parameter Address	= 2352
+Parameter Address	= 2622
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -500,7 +500,7 @@ Parameter Data :
 
 Module Name			= Nx11_Mux
 Parameter Name		= Index
-Parameter Address	= 2357
+Parameter Address	= 2627
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -510,7 +510,7 @@ Parameter Data :
 
 Module Name			= Nx11_Analog
 Parameter Name		= Index
-Parameter Address	= 2350
+Parameter Address	= 2620
 Parameter Value		= 2
 Data Memory			= DM0
 Parameter Data :
@@ -520,7 +520,7 @@ Parameter Data :
 
 Module Name			= Nx11_UAC
 Parameter Name		= Index
-Parameter Address	= 2347
+Parameter Address	= 2617
 Parameter Value		= 2
 Data Memory			= DM0
 Parameter Data :
@@ -530,7 +530,7 @@ Parameter Data :
 
 Module Name			= Nx11_ESP32
 Parameter Name		= Index
-Parameter Address	= 2349
+Parameter Address	= 2619
 Parameter Value		= 2
 Data Memory			= DM0
 Parameter Data :
@@ -540,7 +540,7 @@ Parameter Data :
 
 Module Name			= Nx11_Exp
 Parameter Name		= Index
-Parameter Address	= 2348
+Parameter Address	= 2618
 Parameter Value		= 2
 Data Memory			= DM0
 Parameter Data :
@@ -550,7 +550,7 @@ Parameter Data :
 
 Module Name			= Nx11_SPDIF
 Parameter Name		= Index
-Parameter Address	= 2346
+Parameter Address	= 2616
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -560,7 +560,7 @@ Parameter Data :
 
 Module Name			= Nx11_Mux
 Parameter Name		= Index
-Parameter Address	= 2351
+Parameter Address	= 2621
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -570,17 +570,17 @@ Parameter Data :
 
 Module Name			= Nx11_Analog
 Parameter Name		= Index
-Parameter Address	= 2344
-Parameter Value		= 1
+Parameter Address	= 2614
+Parameter Value		= 3
 Data Memory			= DM0
 Parameter Data :
-0x00, 0x00, 0x00, 0x01, 
+0x00, 0x00, 0x00, 0x03, 
 
 
 
 Module Name			= Nx11_UAC
 Parameter Name		= Index
-Parameter Address	= 2341
+Parameter Address	= 2611
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -590,7 +590,7 @@ Parameter Data :
 
 Module Name			= Nx11_ESP32
 Parameter Name		= Index
-Parameter Address	= 2343
+Parameter Address	= 2613
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -600,7 +600,7 @@ Parameter Data :
 
 Module Name			= Nx11_Exp
 Parameter Name		= Index
-Parameter Address	= 2342
+Parameter Address	= 2612
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -610,7 +610,7 @@ Parameter Data :
 
 Module Name			= Nx11_SPDIF
 Parameter Name		= Index
-Parameter Address	= 2340
+Parameter Address	= 2610
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -620,7 +620,7 @@ Parameter Data :
 
 Module Name			= Nx11_Mux
 Parameter Name		= Index
-Parameter Address	= 2345
+Parameter Address	= 2615
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -630,7 +630,7 @@ Parameter Data :
 
 Module Name			= Nx11_Analog
 Parameter Name		= Index
-Parameter Address	= 2338
+Parameter Address	= 2608
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -640,7 +640,7 @@ Parameter Data :
 
 Module Name			= Nx11_UAC
 Parameter Name		= Index
-Parameter Address	= 2335
+Parameter Address	= 1079
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -650,7 +650,7 @@ Parameter Data :
 
 Module Name			= Nx11_ESP32
 Parameter Name		= Index
-Parameter Address	= 2337
+Parameter Address	= 2607
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -660,7 +660,7 @@ Parameter Data :
 
 Module Name			= Nx11_Exp
 Parameter Name		= Index
-Parameter Address	= 2336
+Parameter Address	= 2606
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -670,7 +670,7 @@ Parameter Data :
 
 Module Name			= Nx11_SPDIF
 Parameter Name		= Index
-Parameter Address	= 2334
+Parameter Address	= 1078
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -680,7 +680,7 @@ Parameter Data :
 
 Module Name			= Nx11_Mux
 Parameter Name		= Index
-Parameter Address	= 2339
+Parameter Address	= 2609
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -690,7 +690,7 @@ Parameter Data :
 
 Module Name			= XOHP11
 Parameter Name		= Stage0_B0
-Parameter Address	= 387
+Parameter Address	= 522
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -700,7 +700,7 @@ Parameter Data :
 
 Module Name			= XOHP11
 Parameter Name		= Stage0_B1
-Parameter Address	= 386
+Parameter Address	= 521
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -710,7 +710,7 @@ Parameter Data :
 
 Module Name			= XOHP11
 Parameter Name		= Stage0_B2
-Parameter Address	= 385
+Parameter Address	= 520
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -720,7 +720,7 @@ Parameter Data :
 
 Module Name			= XOHP11
 Parameter Name		= Stage0_A1
-Parameter Address	= 389
+Parameter Address	= 524
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -730,7 +730,7 @@ Parameter Data :
 
 Module Name			= XOHP11
 Parameter Name		= Stage0_A2
-Parameter Address	= 388
+Parameter Address	= 523
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -740,7 +740,7 @@ Parameter Data :
 
 Module Name			= XOHP12
 Parameter Name		= Stage0_B0
-Parameter Address	= 392
+Parameter Address	= 527
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -750,7 +750,7 @@ Parameter Data :
 
 Module Name			= XOHP12
 Parameter Name		= Stage0_B1
-Parameter Address	= 391
+Parameter Address	= 526
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -760,7 +760,7 @@ Parameter Data :
 
 Module Name			= XOHP12
 Parameter Name		= Stage0_B2
-Parameter Address	= 390
+Parameter Address	= 525
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -770,7 +770,7 @@ Parameter Data :
 
 Module Name			= XOHP12
 Parameter Name		= Stage0_A1
-Parameter Address	= 394
+Parameter Address	= 529
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -780,7 +780,7 @@ Parameter Data :
 
 Module Name			= XOHP12
 Parameter Name		= Stage0_A2
-Parameter Address	= 393
+Parameter Address	= 528
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -790,7 +790,7 @@ Parameter Data :
 
 Module Name			= XOHP13
 Parameter Name		= Stage0_B0
-Parameter Address	= 397
+Parameter Address	= 532
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -800,7 +800,7 @@ Parameter Data :
 
 Module Name			= XOHP13
 Parameter Name		= Stage0_B1
-Parameter Address	= 396
+Parameter Address	= 531
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -810,7 +810,7 @@ Parameter Data :
 
 Module Name			= XOHP13
 Parameter Name		= Stage0_B2
-Parameter Address	= 395
+Parameter Address	= 530
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -820,7 +820,7 @@ Parameter Data :
 
 Module Name			= XOHP13
 Parameter Name		= Stage0_A1
-Parameter Address	= 399
+Parameter Address	= 534
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -830,7 +830,7 @@ Parameter Data :
 
 Module Name			= XOHP13
 Parameter Name		= Stage0_A2
-Parameter Address	= 398
+Parameter Address	= 533
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -840,7 +840,7 @@ Parameter Data :
 
 Module Name			= XOHP14
 Parameter Name		= Stage0_B0
-Parameter Address	= 402
+Parameter Address	= 537
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -850,7 +850,7 @@ Parameter Data :
 
 Module Name			= XOHP14
 Parameter Name		= Stage0_B1
-Parameter Address	= 401
+Parameter Address	= 536
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -860,7 +860,7 @@ Parameter Data :
 
 Module Name			= XOHP14
 Parameter Name		= Stage0_B2
-Parameter Address	= 400
+Parameter Address	= 535
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -870,7 +870,7 @@ Parameter Data :
 
 Module Name			= XOHP14
 Parameter Name		= Stage0_A1
-Parameter Address	= 404
+Parameter Address	= 539
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -880,7 +880,7 @@ Parameter Data :
 
 Module Name			= XOHP14
 Parameter Name		= Stage0_A2
-Parameter Address	= 403
+Parameter Address	= 538
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -938,1117 +938,7 @@ Parameter Data :
 
 
 
-Module Name			= PeqBank1
-Parameter Name		= Stage0_B0
-Parameter Address	= 265
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank1
-Parameter Name		= Stage0_B1
-Parameter Address	= 264
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank1
-Parameter Name		= Stage0_B2
-Parameter Address	= 263
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank1
-Parameter Name		= Stage0_A1
-Parameter Address	= 267
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank1
-Parameter Name		= Stage0_A2
-Parameter Address	= 266
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
 Module Name			= HighShelv1
-Parameter Name		= Stage0_B0
-Parameter Address	= 270
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HighShelv1
-Parameter Name		= Stage0_B1
-Parameter Address	= 269
-Parameter Value		= -0.30756635979221
-Data Memory			= DM0
-Parameter Data :
-0xFF, 0xB1, 0x43, 0x55, 
-
-
-
-Module Name			= HighShelv1
-Parameter Name		= Stage0_B2
-Parameter Address	= 268
-Parameter Value		= 0.188345160884045
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x30, 0x37, 0x63, 
-
-
-
-Module Name			= HighShelv1
-Parameter Name		= Stage0_A1
-Parameter Address	= 272
-Parameter Value		= 0.30756635979221
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x4E, 0xBC, 0xAB, 
-
-
-
-Module Name			= HighShelv1
-Parameter Name		= Stage0_A2
-Parameter Address	= 271
-Parameter Value		= -0.188345160884045
-Data Memory			= DM0
-Parameter Data :
-0xFF, 0xCF, 0xC8, 0x9D, 
-
-
-
-Module Name			= XOLP11
-Parameter Name		= Stage0_B0
-Parameter Address	= 416
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP11
-Parameter Name		= Stage0_B1
-Parameter Address	= 415
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP11
-Parameter Name		= Stage0_B2
-Parameter Address	= 414
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP11
-Parameter Name		= Stage0_A1
-Parameter Address	= 418
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP11
-Parameter Name		= Stage0_A2
-Parameter Address	= 417
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP12
-Parameter Name		= Stage0_B0
-Parameter Address	= 421
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP12
-Parameter Name		= Stage0_B1
-Parameter Address	= 420
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP12
-Parameter Name		= Stage0_B2
-Parameter Address	= 419
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP12
-Parameter Name		= Stage0_A1
-Parameter Address	= 423
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP12
-Parameter Name		= Stage0_A2
-Parameter Address	= 422
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP13
-Parameter Name		= Stage0_B0
-Parameter Address	= 426
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP13
-Parameter Name		= Stage0_B1
-Parameter Address	= 425
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP13
-Parameter Name		= Stage0_B2
-Parameter Address	= 424
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP13
-Parameter Name		= Stage0_A1
-Parameter Address	= 428
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP13
-Parameter Name		= Stage0_A2
-Parameter Address	= 427
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP14
-Parameter Name		= Stage0_B0
-Parameter Address	= 431
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP14
-Parameter Name		= Stage0_B1
-Parameter Address	= 430
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP14
-Parameter Name		= Stage0_B2
-Parameter Address	= 429
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP14
-Parameter Name		= Stage0_A1
-Parameter Address	= 433
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP14
-Parameter Name		= Stage0_A2
-Parameter Address	= 432
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= Phase1
-Parameter Name		= Stage0_B0
-Parameter Address	= 407
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= Phase1
-Parameter Name		= Stage0_B1
-Parameter Address	= 406
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= Phase1
-Parameter Name		= Stage0_B2
-Parameter Address	= 405
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= Phase1
-Parameter Name		= Stage0_A1
-Parameter Address	= 409
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= Phase1
-Parameter Name		= Stage0_A2
-Parameter Address	= 408
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= Delay1
-Parameter Name		= Delay
-Parameter Address	= 410
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= Gain1
-Parameter Name		= Gain
-Parameter Address	= 412
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= Gain1
-Parameter Name		= slew_mode
-Parameter Address	= 413
-Parameter Value		= 8330
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x20, 0x8A, 
-
-
-
-Module Name			= XOHP21
-Parameter Name		= Stage0_B0
-Parameter Address	= 336
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP21
-Parameter Name		= Stage0_B1
-Parameter Address	= 335
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP21
-Parameter Name		= Stage0_B2
-Parameter Address	= 334
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP21
-Parameter Name		= Stage0_A1
-Parameter Address	= 338
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP21
-Parameter Name		= Stage0_A2
-Parameter Address	= 337
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP22
-Parameter Name		= Stage0_B0
-Parameter Address	= 341
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP22
-Parameter Name		= Stage0_B1
-Parameter Address	= 340
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP22
-Parameter Name		= Stage0_B2
-Parameter Address	= 339
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP22
-Parameter Name		= Stage0_A1
-Parameter Address	= 343
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP22
-Parameter Name		= Stage0_A2
-Parameter Address	= 342
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP23
-Parameter Name		= Stage0_B0
-Parameter Address	= 346
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP23
-Parameter Name		= Stage0_B1
-Parameter Address	= 345
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP23
-Parameter Name		= Stage0_B2
-Parameter Address	= 344
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP23
-Parameter Name		= Stage0_A1
-Parameter Address	= 348
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP23
-Parameter Name		= Stage0_A2
-Parameter Address	= 347
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP24
-Parameter Name		= Stage0_B0
-Parameter Address	= 351
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP24
-Parameter Name		= Stage0_B1
-Parameter Address	= 350
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP24
-Parameter Name		= Stage0_B2
-Parameter Address	= 349
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP24
-Parameter Name		= Stage0_A1
-Parameter Address	= 353
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP24
-Parameter Name		= Stage0_A2
-Parameter Address	= 352
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= LowShelv2
-Parameter Name		= Stage0_B0
-Parameter Address	= 275
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= LowShelv2
-Parameter Name		= Stage0_B1
-Parameter Address	= 274
-Parameter Value		= -1.98148850914457
-Data Memory			= DM0
-Parameter Data :
-0xFE, 0x04, 0xBD, 0x2B, 
-
-
-
-Module Name			= LowShelv2
-Parameter Name		= Stage0_B2
-Parameter Address	= 273
-Parameter Value		= 0.981658282617134
-Data Memory			= DM0
-Parameter Data :
-0x00, 0xFB, 0x4D, 0xF5, 
-
-
-
-Module Name			= LowShelv2
-Parameter Name		= Stage0_A1
-Parameter Address	= 277
-Parameter Value		= 1.98148850914457
-Data Memory			= DM0
-Parameter Data :
-0x01, 0xFB, 0x42, 0xD5, 
-
-
-
-Module Name			= LowShelv2
-Parameter Name		= Stage0_A2
-Parameter Address	= 276
-Parameter Value		= -0.981658282617134
-Data Memory			= DM0
-Parameter Data :
-0xFF, 0x04, 0xB2, 0x0B, 
-
-
-
-Module Name			= PeqBank2
-Parameter Name		= Stage0_B0
-Parameter Address	= 280
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank2
-Parameter Name		= Stage0_B1
-Parameter Address	= 279
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank2
-Parameter Name		= Stage0_B2
-Parameter Address	= 278
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank2
-Parameter Name		= Stage0_A1
-Parameter Address	= 282
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank2
-Parameter Name		= Stage0_A2
-Parameter Address	= 281
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HighShelv2
-Parameter Name		= Stage0_B0
-Parameter Address	= 285
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HighShelv2
-Parameter Name		= Stage0_B1
-Parameter Address	= 284
-Parameter Value		= -0.30756635979221
-Data Memory			= DM0
-Parameter Data :
-0xFF, 0xB1, 0x43, 0x55, 
-
-
-
-Module Name			= HighShelv2
-Parameter Name		= Stage0_B2
-Parameter Address	= 283
-Parameter Value		= 0.188345160884045
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x30, 0x37, 0x63, 
-
-
-
-Module Name			= HighShelv2
-Parameter Name		= Stage0_A1
-Parameter Address	= 287
-Parameter Value		= 0.30756635979221
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x4E, 0xBC, 0xAB, 
-
-
-
-Module Name			= HighShelv2
-Parameter Name		= Stage0_A2
-Parameter Address	= 286
-Parameter Value		= -0.188345160884045
-Data Memory			= DM0
-Parameter Data :
-0xFF, 0xCF, 0xC8, 0x9D, 
-
-
-
-Module Name			= XOLP21
-Parameter Name		= Stage0_B0
-Parameter Address	= 365
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP21
-Parameter Name		= Stage0_B1
-Parameter Address	= 364
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP21
-Parameter Name		= Stage0_B2
-Parameter Address	= 363
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP21
-Parameter Name		= Stage0_A1
-Parameter Address	= 367
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP21
-Parameter Name		= Stage0_A2
-Parameter Address	= 366
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP22
-Parameter Name		= Stage0_B0
-Parameter Address	= 370
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP22
-Parameter Name		= Stage0_B1
-Parameter Address	= 369
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP22
-Parameter Name		= Stage0_B2
-Parameter Address	= 368
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP22
-Parameter Name		= Stage0_A1
-Parameter Address	= 372
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP22
-Parameter Name		= Stage0_A2
-Parameter Address	= 371
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP23
-Parameter Name		= Stage0_B0
-Parameter Address	= 375
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP23
-Parameter Name		= Stage0_B1
-Parameter Address	= 374
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP23
-Parameter Name		= Stage0_B2
-Parameter Address	= 373
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP23
-Parameter Name		= Stage0_A1
-Parameter Address	= 377
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP23
-Parameter Name		= Stage0_A2
-Parameter Address	= 376
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP24
-Parameter Name		= Stage0_B0
-Parameter Address	= 380
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP24
-Parameter Name		= Stage0_B1
-Parameter Address	= 379
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP24
-Parameter Name		= Stage0_B2
-Parameter Address	= 378
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP24
-Parameter Name		= Stage0_A1
-Parameter Address	= 382
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP24
-Parameter Name		= Stage0_A2
-Parameter Address	= 381
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= Phase2
-Parameter Name		= Stage0_B0
-Parameter Address	= 356
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= Phase2
-Parameter Name		= Stage0_B1
-Parameter Address	= 355
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= Phase2
-Parameter Name		= Stage0_B2
-Parameter Address	= 354
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= Phase2
-Parameter Name		= Stage0_A1
-Parameter Address	= 358
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= Phase2
-Parameter Name		= Stage0_A2
-Parameter Address	= 357
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= Delay2
-Parameter Name		= Delay
-Parameter Address	= 359
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= Gain2
-Parameter Name		= Gain
-Parameter Address	= 361
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= Gain2
-Parameter Name		= slew_mode
-Parameter Address	= 362
-Parameter Value		= 8330
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x20, 0x8A, 
-
-
-
-Module Name			= HP31
-Parameter Name		= Stage0_B0
-Parameter Address	= 305
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HP31
-Parameter Name		= Stage0_B1
-Parameter Address	= 304
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HP31
-Parameter Name		= Stage0_B2
-Parameter Address	= 303
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HP31
-Parameter Name		= Stage0_A1
-Parameter Address	= 307
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HP31
-Parameter Name		= Stage0_A2
-Parameter Address	= 306
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HP32
-Parameter Name		= Stage0_B0
-Parameter Address	= 310
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HP32
-Parameter Name		= Stage0_B1
-Parameter Address	= 309
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HP32
-Parameter Name		= Stage0_B2
-Parameter Address	= 308
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HP32
-Parameter Name		= Stage0_A1
-Parameter Address	= 312
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HP32
-Parameter Name		= Stage0_A2
-Parameter Address	= 311
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HP33
 Parameter Name		= Stage0_B0
 Parameter Address	= 315
 Parameter Value		= 1
@@ -2058,209 +948,9 @@ Parameter Data :
 
 
 
-Module Name			= HP33
+Module Name			= HighShelv1
 Parameter Name		= Stage0_B1
 Parameter Address	= 314
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HP33
-Parameter Name		= Stage0_B2
-Parameter Address	= 313
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HP33
-Parameter Name		= Stage0_A1
-Parameter Address	= 317
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HP33
-Parameter Name		= Stage0_A2
-Parameter Address	= 316
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HP34
-Parameter Name		= Stage0_B0
-Parameter Address	= 320
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HP34
-Parameter Name		= Stage0_B1
-Parameter Address	= 319
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HP34
-Parameter Name		= Stage0_B2
-Parameter Address	= 318
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HP34
-Parameter Name		= Stage0_A1
-Parameter Address	= 322
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HP34
-Parameter Name		= Stage0_A2
-Parameter Address	= 321
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= LowShelv3
-Parameter Name		= Stage0_B0
-Parameter Address	= 290
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= LowShelv3
-Parameter Name		= Stage0_B1
-Parameter Address	= 289
-Parameter Value		= -1.98148850914457
-Data Memory			= DM0
-Parameter Data :
-0xFE, 0x04, 0xBD, 0x2B, 
-
-
-
-Module Name			= LowShelv3
-Parameter Name		= Stage0_B2
-Parameter Address	= 288
-Parameter Value		= 0.981658282617134
-Data Memory			= DM0
-Parameter Data :
-0x00, 0xFB, 0x4D, 0xF5, 
-
-
-
-Module Name			= LowShelv3
-Parameter Name		= Stage0_A1
-Parameter Address	= 292
-Parameter Value		= 1.98148850914457
-Data Memory			= DM0
-Parameter Data :
-0x01, 0xFB, 0x42, 0xD5, 
-
-
-
-Module Name			= LowShelv3
-Parameter Name		= Stage0_A2
-Parameter Address	= 291
-Parameter Value		= -0.981658282617134
-Data Memory			= DM0
-Parameter Data :
-0xFF, 0x04, 0xB2, 0x0B, 
-
-
-
-Module Name			= PeqBank3
-Parameter Name		= Stage0_B0
-Parameter Address	= 295
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank3
-Parameter Name		= Stage0_B1
-Parameter Address	= 294
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank3
-Parameter Name		= Stage0_B2
-Parameter Address	= 293
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank3
-Parameter Name		= Stage0_A1
-Parameter Address	= 297
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank3
-Parameter Name		= Stage0_A2
-Parameter Address	= 296
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HighShelv3
-Parameter Name		= Stage0_B0
-Parameter Address	= 300
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HighShelv3
-Parameter Name		= Stage0_B1
-Parameter Address	= 299
 Parameter Value		= -0.30756635979221
 Data Memory			= DM0
 Parameter Data :
@@ -2268,9 +958,9 @@ Parameter Data :
 
 
 
-Module Name			= HighShelv3
+Module Name			= HighShelv1
 Parameter Name		= Stage0_B2
-Parameter Address	= 298
+Parameter Address	= 313
 Parameter Value		= 0.188345160884045
 Data Memory			= DM0
 Parameter Data :
@@ -2278,9 +968,9 @@ Parameter Data :
 
 
 
-Module Name			= HighShelv3
+Module Name			= HighShelv1
 Parameter Name		= Stage0_A1
-Parameter Address	= 302
+Parameter Address	= 317
 Parameter Value		= 0.30756635979221
 Data Memory			= DM0
 Parameter Data :
@@ -2288,9 +978,9 @@ Parameter Data :
 
 
 
-Module Name			= HighShelv3
+Module Name			= HighShelv1
 Parameter Name		= Stage0_A2
-Parameter Address	= 301
+Parameter Address	= 316
 Parameter Value		= -0.188345160884045
 Data Memory			= DM0
 Parameter Data :
@@ -2298,9 +988,9 @@ Parameter Data :
 
 
 
-Module Name			= Phase3
+Module Name			= XOLP11
 Parameter Name		= Stage0_B0
-Parameter Address	= 325
+Parameter Address	= 551
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -2308,9 +998,9 @@ Parameter Data :
 
 
 
-Module Name			= Phase3
+Module Name			= XOLP11
 Parameter Name		= Stage0_B1
-Parameter Address	= 324
+Parameter Address	= 550
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -2318,9 +1008,9 @@ Parameter Data :
 
 
 
-Module Name			= Phase3
+Module Name			= XOLP11
 Parameter Name		= Stage0_B2
-Parameter Address	= 323
+Parameter Address	= 549
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -2328,9 +1018,9 @@ Parameter Data :
 
 
 
-Module Name			= Phase3
+Module Name			= XOLP11
 Parameter Name		= Stage0_A1
-Parameter Address	= 327
+Parameter Address	= 553
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -2338,9 +1028,9 @@ Parameter Data :
 
 
 
-Module Name			= Phase3
+Module Name			= XOLP11
 Parameter Name		= Stage0_A2
-Parameter Address	= 326
+Parameter Address	= 552
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -2348,19 +1038,9 @@ Parameter Data :
 
 
 
-Module Name			= Delay3
-Parameter Name		= Delay
-Parameter Address	= 328
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= Gain3
-Parameter Name		= Gain
-Parameter Address	= 330
+Module Name			= XOLP12
+Parameter Name		= Stage0_B0
+Parameter Address	= 556
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -2368,9 +1048,219 @@ Parameter Data :
 
 
 
-Module Name			= Gain3
+Module Name			= XOLP12
+Parameter Name		= Stage0_B1
+Parameter Address	= 555
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP12
+Parameter Name		= Stage0_B2
+Parameter Address	= 554
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP12
+Parameter Name		= Stage0_A1
+Parameter Address	= 558
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP12
+Parameter Name		= Stage0_A2
+Parameter Address	= 557
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP13
+Parameter Name		= Stage0_B0
+Parameter Address	= 561
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP13
+Parameter Name		= Stage0_B1
+Parameter Address	= 560
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP13
+Parameter Name		= Stage0_B2
+Parameter Address	= 559
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP13
+Parameter Name		= Stage0_A1
+Parameter Address	= 563
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP13
+Parameter Name		= Stage0_A2
+Parameter Address	= 562
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP14
+Parameter Name		= Stage0_B0
+Parameter Address	= 566
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP14
+Parameter Name		= Stage0_B1
+Parameter Address	= 565
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP14
+Parameter Name		= Stage0_B2
+Parameter Address	= 564
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP14
+Parameter Name		= Stage0_A1
+Parameter Address	= 568
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP14
+Parameter Name		= Stage0_A2
+Parameter Address	= 567
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Phase1
+Parameter Name		= Stage0_B0
+Parameter Address	= 542
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Phase1
+Parameter Name		= Stage0_B1
+Parameter Address	= 541
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Phase1
+Parameter Name		= Stage0_B2
+Parameter Address	= 540
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Phase1
+Parameter Name		= Stage0_A1
+Parameter Address	= 544
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Phase1
+Parameter Name		= Stage0_A2
+Parameter Address	= 543
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Delay1
+Parameter Name		= Delay
+Parameter Address	= 545
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Gain1
+Parameter Name		= Gain
+Parameter Address	= 547
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Gain1
 Parameter Name		= slew_mode
-Parameter Address	= 331
+Parameter Address	= 548
 Parameter Value		= 8330
 Data Memory			= DM0
 Parameter Data :
@@ -2378,557 +1268,7 @@ Parameter Data :
 
 
 
-Module Name			= XOHP41
-Parameter Name		= Stage0_B0
-Parameter Address	= 451
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP41
-Parameter Name		= Stage0_B1
-Parameter Address	= 450
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP41
-Parameter Name		= Stage0_B2
-Parameter Address	= 449
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP41
-Parameter Name		= Stage0_A1
-Parameter Address	= 453
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP41
-Parameter Name		= Stage0_A2
-Parameter Address	= 452
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP42
-Parameter Name		= Stage0_B0
-Parameter Address	= 456
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP42
-Parameter Name		= Stage0_B1
-Parameter Address	= 455
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP42
-Parameter Name		= Stage0_B2
-Parameter Address	= 454
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP42
-Parameter Name		= Stage0_A1
-Parameter Address	= 458
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP42
-Parameter Name		= Stage0_A2
-Parameter Address	= 457
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP43
-Parameter Name		= Stage0_B0
-Parameter Address	= 461
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP43
-Parameter Name		= Stage0_B1
-Parameter Address	= 460
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP43
-Parameter Name		= Stage0_B2
-Parameter Address	= 459
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP43
-Parameter Name		= Stage0_A1
-Parameter Address	= 463
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP43
-Parameter Name		= Stage0_A2
-Parameter Address	= 462
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP44
-Parameter Name		= Stage0_B0
-Parameter Address	= 466
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP44
-Parameter Name		= Stage0_B1
-Parameter Address	= 465
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP44
-Parameter Name		= Stage0_B2
-Parameter Address	= 464
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP44
-Parameter Name		= Stage0_A1
-Parameter Address	= 468
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOHP44
-Parameter Name		= Stage0_A2
-Parameter Address	= 467
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= LowShelv4
-Parameter Name		= Stage0_B0
-Parameter Address	= 436
-Parameter Value		= 1.0025735168234
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0xA8, 0xA8, 
-
-
-
-Module Name			= LowShelv4
-Parameter Name		= Stage0_B1
-Parameter Address	= 435
-Parameter Value		= -1.98750099843301
-Data Memory			= DM0
-Parameter Data :
-0xFE, 0x03, 0x33, 0x22, 
-
-
-
-Module Name			= LowShelv4
-Parameter Name		= Stage0_B2
-Parameter Address	= 434
-Parameter Value		= 0.985081424399287
-Data Memory			= DM0
-Parameter Data :
-0x00, 0xFC, 0x2E, 0x4C, 
-
-
-
-Module Name			= LowShelv4
-Parameter Name		= Stage0_A1
-Parameter Address	= 438
-Parameter Value		= 1.9875393927474
-Data Memory			= DM0
-Parameter Data :
-0x01, 0xFC, 0xCF, 0x62, 
-
-
-
-Module Name			= LowShelv4
-Parameter Name		= Stage0_A2
-Parameter Address	= 437
-Parameter Value		= -0.987616546908293
-Data Memory			= DM0
-Parameter Data :
-0xFF, 0x03, 0x2B, 0x90, 
-
-
-
-Module Name			= PeqBank4
-Parameter Name		= Stage0_B0
-Parameter Address	= 441
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank4
-Parameter Name		= Stage0_B1
-Parameter Address	= 440
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank4
-Parameter Name		= Stage0_B2
-Parameter Address	= 439
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank4
-Parameter Name		= Stage0_A1
-Parameter Address	= 443
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank4
-Parameter Name		= Stage0_A2
-Parameter Address	= 442
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HighShelv4
-Parameter Name		= Stage0_B0
-Parameter Address	= 446
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HighShelv4
-Parameter Name		= Stage0_B1
-Parameter Address	= 445
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HighShelv4
-Parameter Name		= Stage0_B2
-Parameter Address	= 444
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HighShelv4
-Parameter Name		= Stage0_A1
-Parameter Address	= 448
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= HighShelv4
-Parameter Name		= Stage0_A2
-Parameter Address	= 447
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP41
-Parameter Name		= Stage0_B0
-Parameter Address	= 480
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP41
-Parameter Name		= Stage0_B1
-Parameter Address	= 479
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP41
-Parameter Name		= Stage0_B2
-Parameter Address	= 478
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP41
-Parameter Name		= Stage0_A1
-Parameter Address	= 482
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP41
-Parameter Name		= Stage0_A2
-Parameter Address	= 481
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP42
-Parameter Name		= Stage0_B0
-Parameter Address	= 485
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP42
-Parameter Name		= Stage0_B1
-Parameter Address	= 484
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP42
-Parameter Name		= Stage0_B2
-Parameter Address	= 483
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP42
-Parameter Name		= Stage0_A1
-Parameter Address	= 487
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP42
-Parameter Name		= Stage0_A2
-Parameter Address	= 486
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP43
-Parameter Name		= Stage0_B0
-Parameter Address	= 490
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP43
-Parameter Name		= Stage0_B1
-Parameter Address	= 489
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP43
-Parameter Name		= Stage0_B2
-Parameter Address	= 488
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP43
-Parameter Name		= Stage0_A1
-Parameter Address	= 492
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP43
-Parameter Name		= Stage0_A2
-Parameter Address	= 491
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP44
-Parameter Name		= Stage0_B0
-Parameter Address	= 495
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP44
-Parameter Name		= Stage0_B1
-Parameter Address	= 494
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP44
-Parameter Name		= Stage0_B2
-Parameter Address	= 493
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP44
-Parameter Name		= Stage0_A1
-Parameter Address	= 497
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= XOLP44
-Parameter Name		= Stage0_A2
-Parameter Address	= 496
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= Phase4
+Module Name			= XOHP21
 Parameter Name		= Stage0_B0
 Parameter Address	= 471
 Parameter Value		= 1
@@ -2938,7 +1278,7 @@ Parameter Data :
 
 
 
-Module Name			= Phase4
+Module Name			= XOHP21
 Parameter Name		= Stage0_B1
 Parameter Address	= 470
 Parameter Value		= 0
@@ -2948,7 +1288,7 @@ Parameter Data :
 
 
 
-Module Name			= Phase4
+Module Name			= XOHP21
 Parameter Name		= Stage0_B2
 Parameter Address	= 469
 Parameter Value		= 0
@@ -2958,7 +1298,7 @@ Parameter Data :
 
 
 
-Module Name			= Phase4
+Module Name			= XOHP21
 Parameter Name		= Stage0_A1
 Parameter Address	= 473
 Parameter Value		= 0
@@ -2968,7 +1308,7 @@ Parameter Data :
 
 
 
-Module Name			= Phase4
+Module Name			= XOHP21
 Parameter Name		= Stage0_A2
 Parameter Address	= 472
 Parameter Value		= 0
@@ -2978,9 +1318,1469 @@ Parameter Data :
 
 
 
+Module Name			= XOHP22
+Parameter Name		= Stage0_B0
+Parameter Address	= 476
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP22
+Parameter Name		= Stage0_B1
+Parameter Address	= 475
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP22
+Parameter Name		= Stage0_B2
+Parameter Address	= 474
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP22
+Parameter Name		= Stage0_A1
+Parameter Address	= 478
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP22
+Parameter Name		= Stage0_A2
+Parameter Address	= 477
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP23
+Parameter Name		= Stage0_B0
+Parameter Address	= 481
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP23
+Parameter Name		= Stage0_B1
+Parameter Address	= 480
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP23
+Parameter Name		= Stage0_B2
+Parameter Address	= 479
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP23
+Parameter Name		= Stage0_A1
+Parameter Address	= 483
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP23
+Parameter Name		= Stage0_A2
+Parameter Address	= 482
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP24
+Parameter Name		= Stage0_B0
+Parameter Address	= 486
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP24
+Parameter Name		= Stage0_B1
+Parameter Address	= 485
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP24
+Parameter Name		= Stage0_B2
+Parameter Address	= 484
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP24
+Parameter Name		= Stage0_A1
+Parameter Address	= 488
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP24
+Parameter Name		= Stage0_A2
+Parameter Address	= 487
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= LowShelv2
+Parameter Name		= Stage0_B0
+Parameter Address	= 320
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= LowShelv2
+Parameter Name		= Stage0_B1
+Parameter Address	= 319
+Parameter Value		= -1.98148850914457
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x04, 0xBD, 0x2B, 
+
+
+
+Module Name			= LowShelv2
+Parameter Name		= Stage0_B2
+Parameter Address	= 318
+Parameter Value		= 0.981658282617134
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xFB, 0x4D, 0xF5, 
+
+
+
+Module Name			= LowShelv2
+Parameter Name		= Stage0_A1
+Parameter Address	= 322
+Parameter Value		= 1.98148850914457
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xFB, 0x42, 0xD5, 
+
+
+
+Module Name			= LowShelv2
+Parameter Name		= Stage0_A2
+Parameter Address	= 321
+Parameter Value		= -0.981658282617134
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x04, 0xB2, 0x0B, 
+
+
+
+Module Name			= HighShelv2
+Parameter Name		= Stage0_B0
+Parameter Address	= 375
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HighShelv2
+Parameter Name		= Stage0_B1
+Parameter Address	= 374
+Parameter Value		= -0.30756635979221
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0xB1, 0x43, 0x55, 
+
+
+
+Module Name			= HighShelv2
+Parameter Name		= Stage0_B2
+Parameter Address	= 373
+Parameter Value		= 0.188345160884045
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x30, 0x37, 0x63, 
+
+
+
+Module Name			= HighShelv2
+Parameter Name		= Stage0_A1
+Parameter Address	= 377
+Parameter Value		= 0.30756635979221
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x4E, 0xBC, 0xAB, 
+
+
+
+Module Name			= HighShelv2
+Parameter Name		= Stage0_A2
+Parameter Address	= 376
+Parameter Value		= -0.188345160884045
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0xCF, 0xC8, 0x9D, 
+
+
+
+Module Name			= XOLP21
+Parameter Name		= Stage0_B0
+Parameter Address	= 500
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP21
+Parameter Name		= Stage0_B1
+Parameter Address	= 499
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP21
+Parameter Name		= Stage0_B2
+Parameter Address	= 498
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP21
+Parameter Name		= Stage0_A1
+Parameter Address	= 502
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP21
+Parameter Name		= Stage0_A2
+Parameter Address	= 501
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP22
+Parameter Name		= Stage0_B0
+Parameter Address	= 505
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP22
+Parameter Name		= Stage0_B1
+Parameter Address	= 504
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP22
+Parameter Name		= Stage0_B2
+Parameter Address	= 503
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP22
+Parameter Name		= Stage0_A1
+Parameter Address	= 507
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP22
+Parameter Name		= Stage0_A2
+Parameter Address	= 506
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP23
+Parameter Name		= Stage0_B0
+Parameter Address	= 510
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP23
+Parameter Name		= Stage0_B1
+Parameter Address	= 509
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP23
+Parameter Name		= Stage0_B2
+Parameter Address	= 508
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP23
+Parameter Name		= Stage0_A1
+Parameter Address	= 512
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP23
+Parameter Name		= Stage0_A2
+Parameter Address	= 511
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP24
+Parameter Name		= Stage0_B0
+Parameter Address	= 515
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP24
+Parameter Name		= Stage0_B1
+Parameter Address	= 514
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP24
+Parameter Name		= Stage0_B2
+Parameter Address	= 513
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP24
+Parameter Name		= Stage0_A1
+Parameter Address	= 517
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP24
+Parameter Name		= Stage0_A2
+Parameter Address	= 516
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Phase2
+Parameter Name		= Stage0_B0
+Parameter Address	= 491
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Phase2
+Parameter Name		= Stage0_B1
+Parameter Address	= 490
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Phase2
+Parameter Name		= Stage0_B2
+Parameter Address	= 489
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Phase2
+Parameter Name		= Stage0_A1
+Parameter Address	= 493
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Phase2
+Parameter Name		= Stage0_A2
+Parameter Address	= 492
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Delay2
+Parameter Name		= Delay
+Parameter Address	= 494
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Gain2
+Parameter Name		= Gain
+Parameter Address	= 496
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Gain2
+Parameter Name		= slew_mode
+Parameter Address	= 497
+Parameter Value		= 8330
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Module Name			= HP31
+Parameter Name		= Stage0_B0
+Parameter Address	= 440
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HP31
+Parameter Name		= Stage0_B1
+Parameter Address	= 439
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HP31
+Parameter Name		= Stage0_B2
+Parameter Address	= 438
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HP31
+Parameter Name		= Stage0_A1
+Parameter Address	= 442
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HP31
+Parameter Name		= Stage0_A2
+Parameter Address	= 441
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HP32
+Parameter Name		= Stage0_B0
+Parameter Address	= 445
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HP32
+Parameter Name		= Stage0_B1
+Parameter Address	= 444
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HP32
+Parameter Name		= Stage0_B2
+Parameter Address	= 443
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HP32
+Parameter Name		= Stage0_A1
+Parameter Address	= 447
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HP32
+Parameter Name		= Stage0_A2
+Parameter Address	= 446
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HP33
+Parameter Name		= Stage0_B0
+Parameter Address	= 450
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HP33
+Parameter Name		= Stage0_B1
+Parameter Address	= 449
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HP33
+Parameter Name		= Stage0_B2
+Parameter Address	= 448
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HP33
+Parameter Name		= Stage0_A1
+Parameter Address	= 452
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HP33
+Parameter Name		= Stage0_A2
+Parameter Address	= 451
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HP34
+Parameter Name		= Stage0_B0
+Parameter Address	= 455
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HP34
+Parameter Name		= Stage0_B1
+Parameter Address	= 454
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HP34
+Parameter Name		= Stage0_B2
+Parameter Address	= 453
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HP34
+Parameter Name		= Stage0_A1
+Parameter Address	= 457
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HP34
+Parameter Name		= Stage0_A2
+Parameter Address	= 456
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= LowShelv3
+Parameter Name		= Stage0_B0
+Parameter Address	= 380
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= LowShelv3
+Parameter Name		= Stage0_B1
+Parameter Address	= 379
+Parameter Value		= -1.98148850914457
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x04, 0xBD, 0x2B, 
+
+
+
+Module Name			= LowShelv3
+Parameter Name		= Stage0_B2
+Parameter Address	= 378
+Parameter Value		= 0.981658282617134
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xFB, 0x4D, 0xF5, 
+
+
+
+Module Name			= LowShelv3
+Parameter Name		= Stage0_A1
+Parameter Address	= 382
+Parameter Value		= 1.98148850914457
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xFB, 0x42, 0xD5, 
+
+
+
+Module Name			= LowShelv3
+Parameter Name		= Stage0_A2
+Parameter Address	= 381
+Parameter Value		= -0.981658282617134
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x04, 0xB2, 0x0B, 
+
+
+
+Module Name			= HighShelv3
+Parameter Name		= Stage0_B0
+Parameter Address	= 435
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HighShelv3
+Parameter Name		= Stage0_B1
+Parameter Address	= 434
+Parameter Value		= -0.30756635979221
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0xB1, 0x43, 0x55, 
+
+
+
+Module Name			= HighShelv3
+Parameter Name		= Stage0_B2
+Parameter Address	= 433
+Parameter Value		= 0.188345160884045
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x30, 0x37, 0x63, 
+
+
+
+Module Name			= HighShelv3
+Parameter Name		= Stage0_A1
+Parameter Address	= 437
+Parameter Value		= 0.30756635979221
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x4E, 0xBC, 0xAB, 
+
+
+
+Module Name			= HighShelv3
+Parameter Name		= Stage0_A2
+Parameter Address	= 436
+Parameter Value		= -0.188345160884045
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0xCF, 0xC8, 0x9D, 
+
+
+
+Module Name			= Phase3
+Parameter Name		= Stage0_B0
+Parameter Address	= 460
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Phase3
+Parameter Name		= Stage0_B1
+Parameter Address	= 459
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Phase3
+Parameter Name		= Stage0_B2
+Parameter Address	= 458
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Phase3
+Parameter Name		= Stage0_A1
+Parameter Address	= 462
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Phase3
+Parameter Name		= Stage0_A2
+Parameter Address	= 461
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Delay3
+Parameter Name		= Delay
+Parameter Address	= 463
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Gain3
+Parameter Name		= Gain
+Parameter Address	= 465
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Gain3
+Parameter Name		= slew_mode
+Parameter Address	= 466
+Parameter Value		= 8330
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x20, 0x8A, 
+
+
+
+Module Name			= XOHP41
+Parameter Name		= Stage0_B0
+Parameter Address	= 631
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP41
+Parameter Name		= Stage0_B1
+Parameter Address	= 630
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP41
+Parameter Name		= Stage0_B2
+Parameter Address	= 629
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP41
+Parameter Name		= Stage0_A1
+Parameter Address	= 633
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP41
+Parameter Name		= Stage0_A2
+Parameter Address	= 632
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP42
+Parameter Name		= Stage0_B0
+Parameter Address	= 636
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP42
+Parameter Name		= Stage0_B1
+Parameter Address	= 635
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP42
+Parameter Name		= Stage0_B2
+Parameter Address	= 634
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP42
+Parameter Name		= Stage0_A1
+Parameter Address	= 638
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP42
+Parameter Name		= Stage0_A2
+Parameter Address	= 637
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP43
+Parameter Name		= Stage0_B0
+Parameter Address	= 641
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP43
+Parameter Name		= Stage0_B1
+Parameter Address	= 640
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP43
+Parameter Name		= Stage0_B2
+Parameter Address	= 639
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP43
+Parameter Name		= Stage0_A1
+Parameter Address	= 643
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP43
+Parameter Name		= Stage0_A2
+Parameter Address	= 642
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP44
+Parameter Name		= Stage0_B0
+Parameter Address	= 646
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP44
+Parameter Name		= Stage0_B1
+Parameter Address	= 645
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP44
+Parameter Name		= Stage0_B2
+Parameter Address	= 644
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP44
+Parameter Name		= Stage0_A1
+Parameter Address	= 648
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOHP44
+Parameter Name		= Stage0_A2
+Parameter Address	= 647
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= LowShelv4
+Parameter Name		= Stage0_B0
+Parameter Address	= 571
+Parameter Value		= 1.0025735168234
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0xA8, 0xA8, 
+
+
+
+Module Name			= LowShelv4
+Parameter Name		= Stage0_B1
+Parameter Address	= 570
+Parameter Value		= -1.98750099843301
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x03, 0x33, 0x22, 
+
+
+
+Module Name			= LowShelv4
+Parameter Name		= Stage0_B2
+Parameter Address	= 569
+Parameter Value		= 0.985081424399287
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xFC, 0x2E, 0x4C, 
+
+
+
+Module Name			= LowShelv4
+Parameter Name		= Stage0_A1
+Parameter Address	= 573
+Parameter Value		= 1.9875393927474
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xFC, 0xCF, 0x62, 
+
+
+
+Module Name			= LowShelv4
+Parameter Name		= Stage0_A2
+Parameter Address	= 572
+Parameter Value		= -0.987616546908293
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x03, 0x2B, 0x90, 
+
+
+
+Module Name			= HighShelv4
+Parameter Name		= Stage0_B0
+Parameter Address	= 626
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HighShelv4
+Parameter Name		= Stage0_B1
+Parameter Address	= 625
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HighShelv4
+Parameter Name		= Stage0_B2
+Parameter Address	= 624
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HighShelv4
+Parameter Name		= Stage0_A1
+Parameter Address	= 628
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= HighShelv4
+Parameter Name		= Stage0_A2
+Parameter Address	= 627
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP41
+Parameter Name		= Stage0_B0
+Parameter Address	= 660
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP41
+Parameter Name		= Stage0_B1
+Parameter Address	= 659
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP41
+Parameter Name		= Stage0_B2
+Parameter Address	= 658
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP41
+Parameter Name		= Stage0_A1
+Parameter Address	= 662
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP41
+Parameter Name		= Stage0_A2
+Parameter Address	= 661
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP42
+Parameter Name		= Stage0_B0
+Parameter Address	= 665
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP42
+Parameter Name		= Stage0_B1
+Parameter Address	= 664
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP42
+Parameter Name		= Stage0_B2
+Parameter Address	= 663
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP42
+Parameter Name		= Stage0_A1
+Parameter Address	= 667
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP42
+Parameter Name		= Stage0_A2
+Parameter Address	= 666
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP43
+Parameter Name		= Stage0_B0
+Parameter Address	= 670
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP43
+Parameter Name		= Stage0_B1
+Parameter Address	= 669
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP43
+Parameter Name		= Stage0_B2
+Parameter Address	= 668
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP43
+Parameter Name		= Stage0_A1
+Parameter Address	= 672
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP43
+Parameter Name		= Stage0_A2
+Parameter Address	= 671
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP44
+Parameter Name		= Stage0_B0
+Parameter Address	= 675
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP44
+Parameter Name		= Stage0_B1
+Parameter Address	= 674
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP44
+Parameter Name		= Stage0_B2
+Parameter Address	= 673
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP44
+Parameter Name		= Stage0_A1
+Parameter Address	= 677
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= XOLP44
+Parameter Name		= Stage0_A2
+Parameter Address	= 676
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Phase4
+Parameter Name		= Stage0_B0
+Parameter Address	= 651
+Parameter Value		= 1
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Phase4
+Parameter Name		= Stage0_B1
+Parameter Address	= 650
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Phase4
+Parameter Name		= Stage0_B2
+Parameter Address	= 649
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Phase4
+Parameter Name		= Stage0_A1
+Parameter Address	= 653
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
+Module Name			= Phase4
+Parameter Name		= Stage0_A2
+Parameter Address	= 652
+Parameter Value		= 0
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x00, 0x00, 0x00, 
+
+
+
 Module Name			= Delay4
 Parameter Name		= Delay
-Parameter Address	= 474
+Parameter Address	= 654
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -2990,7 +2790,7 @@ Parameter Data :
 
 Module Name			= Gain4
 Parameter Name		= Gain
-Parameter Address	= 476
+Parameter Address	= 656
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -3000,7 +2800,7 @@ Parameter Data :
 
 Module Name			= Gain4
 Parameter Name		= slew_mode
-Parameter Address	= 477
+Parameter Address	= 657
 Parameter Value		= 8330
 Data Memory			= DM0
 Parameter Data :
@@ -3010,7 +2810,7 @@ Parameter Data :
 
 Module Name			= XOHP51
 Parameter Name		= Stage0_B0
-Parameter Address	= 539
+Parameter Address	= 764
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -3020,7 +2820,7 @@ Parameter Data :
 
 Module Name			= XOHP51
 Parameter Name		= Stage0_B1
-Parameter Address	= 538
+Parameter Address	= 763
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3030,7 +2830,7 @@ Parameter Data :
 
 Module Name			= XOHP51
 Parameter Name		= Stage0_B2
-Parameter Address	= 537
+Parameter Address	= 762
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3040,7 +2840,7 @@ Parameter Data :
 
 Module Name			= XOHP51
 Parameter Name		= Stage0_A1
-Parameter Address	= 541
+Parameter Address	= 766
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3050,7 +2850,7 @@ Parameter Data :
 
 Module Name			= XOHP51
 Parameter Name		= Stage0_A2
-Parameter Address	= 540
+Parameter Address	= 765
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3060,7 +2860,7 @@ Parameter Data :
 
 Module Name			= XOHP52
 Parameter Name		= Stage0_B0
-Parameter Address	= 544
+Parameter Address	= 769
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -3070,7 +2870,7 @@ Parameter Data :
 
 Module Name			= XOHP52
 Parameter Name		= Stage0_B1
-Parameter Address	= 543
+Parameter Address	= 768
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3080,7 +2880,7 @@ Parameter Data :
 
 Module Name			= XOHP52
 Parameter Name		= Stage0_B2
-Parameter Address	= 542
+Parameter Address	= 767
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3090,7 +2890,7 @@ Parameter Data :
 
 Module Name			= XOHP52
 Parameter Name		= Stage0_A1
-Parameter Address	= 546
+Parameter Address	= 771
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3100,7 +2900,7 @@ Parameter Data :
 
 Module Name			= XOHP52
 Parameter Name		= Stage0_A2
-Parameter Address	= 545
+Parameter Address	= 770
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3110,7 +2910,7 @@ Parameter Data :
 
 Module Name			= XOHP53
 Parameter Name		= Stage0_B0
-Parameter Address	= 549
+Parameter Address	= 774
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -3120,7 +2920,7 @@ Parameter Data :
 
 Module Name			= XOHP53
 Parameter Name		= Stage0_B1
-Parameter Address	= 548
+Parameter Address	= 773
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3130,7 +2930,7 @@ Parameter Data :
 
 Module Name			= XOHP53
 Parameter Name		= Stage0_B2
-Parameter Address	= 547
+Parameter Address	= 772
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3140,7 +2940,7 @@ Parameter Data :
 
 Module Name			= XOHP53
 Parameter Name		= Stage0_A1
-Parameter Address	= 551
+Parameter Address	= 776
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3150,7 +2950,7 @@ Parameter Data :
 
 Module Name			= XOHP53
 Parameter Name		= Stage0_A2
-Parameter Address	= 550
+Parameter Address	= 775
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3160,7 +2960,7 @@ Parameter Data :
 
 Module Name			= XOHP54
 Parameter Name		= Stage0_B0
-Parameter Address	= 554
+Parameter Address	= 779
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -3170,7 +2970,7 @@ Parameter Data :
 
 Module Name			= XOHP54
 Parameter Name		= Stage0_B1
-Parameter Address	= 553
+Parameter Address	= 778
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3180,7 +2980,7 @@ Parameter Data :
 
 Module Name			= XOHP54
 Parameter Name		= Stage0_B2
-Parameter Address	= 552
+Parameter Address	= 777
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3190,7 +2990,7 @@ Parameter Data :
 
 Module Name			= XOHP54
 Parameter Name		= Stage0_A1
-Parameter Address	= 556
+Parameter Address	= 781
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3200,7 +3000,7 @@ Parameter Data :
 
 Module Name			= XOHP54
 Parameter Name		= Stage0_A2
-Parameter Address	= 555
+Parameter Address	= 780
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3210,7 +3010,7 @@ Parameter Data :
 
 Module Name			= LowShelv5
 Parameter Name		= Stage0_B0
-Parameter Address	= 502
+Parameter Address	= 682
 Parameter Value		= 1.0025735168234
 Data Memory			= DM0
 Parameter Data :
@@ -3220,7 +3020,7 @@ Parameter Data :
 
 Module Name			= LowShelv5
 Parameter Name		= Stage0_B1
-Parameter Address	= 501
+Parameter Address	= 681
 Parameter Value		= -1.98750099843301
 Data Memory			= DM0
 Parameter Data :
@@ -3230,7 +3030,7 @@ Parameter Data :
 
 Module Name			= LowShelv5
 Parameter Name		= Stage0_B2
-Parameter Address	= 500
+Parameter Address	= 680
 Parameter Value		= 0.985081424399287
 Data Memory			= DM0
 Parameter Data :
@@ -3240,7 +3040,7 @@ Parameter Data :
 
 Module Name			= LowShelv5
 Parameter Name		= Stage0_A1
-Parameter Address	= 504
+Parameter Address	= 684
 Parameter Value		= 1.9875393927474
 Data Memory			= DM0
 Parameter Data :
@@ -3250,7 +3050,7 @@ Parameter Data :
 
 Module Name			= LowShelv5
 Parameter Name		= Stage0_A2
-Parameter Address	= 503
+Parameter Address	= 683
 Parameter Value		= -0.987616546908293
 Data Memory			= DM0
 Parameter Data :
@@ -3258,59 +3058,9 @@ Parameter Data :
 
 
 
-Module Name			= PeqBank5
-Parameter Name		= Stage0_B0
-Parameter Address	= 507
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank5
-Parameter Name		= Stage0_B1
-Parameter Address	= 506
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank5
-Parameter Name		= Stage0_B2
-Parameter Address	= 505
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank5
-Parameter Name		= Stage0_A1
-Parameter Address	= 509
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank5
-Parameter Name		= Stage0_A2
-Parameter Address	= 508
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
 Module Name			= HighShelv5
 Parameter Name		= Stage0_B0
-Parameter Address	= 512
+Parameter Address	= 737
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -3320,7 +3070,7 @@ Parameter Data :
 
 Module Name			= HighShelv5
 Parameter Name		= Stage0_B1
-Parameter Address	= 511
+Parameter Address	= 736
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3330,7 +3080,7 @@ Parameter Data :
 
 Module Name			= HighShelv5
 Parameter Name		= Stage0_B2
-Parameter Address	= 510
+Parameter Address	= 735
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3340,7 +3090,7 @@ Parameter Data :
 
 Module Name			= HighShelv5
 Parameter Name		= Stage0_A1
-Parameter Address	= 514
+Parameter Address	= 739
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3350,7 +3100,7 @@ Parameter Data :
 
 Module Name			= HighShelv5
 Parameter Name		= Stage0_A2
-Parameter Address	= 513
+Parameter Address	= 738
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3360,7 +3110,7 @@ Parameter Data :
 
 Module Name			= XOLP51
 Parameter Name		= Stage0_B0
-Parameter Address	= 517
+Parameter Address	= 742
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -3370,7 +3120,7 @@ Parameter Data :
 
 Module Name			= XOLP51
 Parameter Name		= Stage0_B1
-Parameter Address	= 516
+Parameter Address	= 741
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3380,7 +3130,7 @@ Parameter Data :
 
 Module Name			= XOLP51
 Parameter Name		= Stage0_B2
-Parameter Address	= 515
+Parameter Address	= 740
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3390,7 +3140,7 @@ Parameter Data :
 
 Module Name			= XOLP51
 Parameter Name		= Stage0_A1
-Parameter Address	= 519
+Parameter Address	= 744
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3400,7 +3150,7 @@ Parameter Data :
 
 Module Name			= XOLP51
 Parameter Name		= Stage0_A2
-Parameter Address	= 518
+Parameter Address	= 743
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3410,7 +3160,7 @@ Parameter Data :
 
 Module Name			= XOLP52
 Parameter Name		= Stage0_B0
-Parameter Address	= 522
+Parameter Address	= 747
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -3420,7 +3170,7 @@ Parameter Data :
 
 Module Name			= XOLP52
 Parameter Name		= Stage0_B1
-Parameter Address	= 521
+Parameter Address	= 746
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3430,7 +3180,7 @@ Parameter Data :
 
 Module Name			= XOLP52
 Parameter Name		= Stage0_B2
-Parameter Address	= 520
+Parameter Address	= 745
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3440,7 +3190,7 @@ Parameter Data :
 
 Module Name			= XOLP52
 Parameter Name		= Stage0_A1
-Parameter Address	= 524
+Parameter Address	= 749
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3450,7 +3200,7 @@ Parameter Data :
 
 Module Name			= XOLP52
 Parameter Name		= Stage0_A2
-Parameter Address	= 523
+Parameter Address	= 748
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3460,7 +3210,7 @@ Parameter Data :
 
 Module Name			= LowShelv6
 Parameter Name		= Stage0_B0
-Parameter Address	= 568
+Parameter Address	= 793
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -3470,7 +3220,7 @@ Parameter Data :
 
 Module Name			= LowShelv6
 Parameter Name		= Stage0_B1
-Parameter Address	= 567
+Parameter Address	= 792
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3480,7 +3230,7 @@ Parameter Data :
 
 Module Name			= LowShelv6
 Parameter Name		= Stage0_B2
-Parameter Address	= 566
+Parameter Address	= 791
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3490,7 +3240,7 @@ Parameter Data :
 
 Module Name			= LowShelv6
 Parameter Name		= Stage0_A1
-Parameter Address	= 570
+Parameter Address	= 795
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3500,57 +3250,7 @@ Parameter Data :
 
 Module Name			= LowShelv6
 Parameter Name		= Stage0_A2
-Parameter Address	= 569
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank6
-Parameter Name		= Stage0_B0
-Parameter Address	= 573
-Parameter Value		= 1
-Data Memory			= DM0
-Parameter Data :
-0x01, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank6
-Parameter Name		= Stage0_B1
-Parameter Address	= 572
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank6
-Parameter Name		= Stage0_B2
-Parameter Address	= 571
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank6
-Parameter Name		= Stage0_A1
-Parameter Address	= 575
-Parameter Value		= 0
-Data Memory			= DM0
-Parameter Data :
-0x00, 0x00, 0x00, 0x00, 
-
-
-
-Module Name			= PeqBank6
-Parameter Name		= Stage0_A2
-Parameter Address	= 574
+Parameter Address	= 794
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3560,7 +3260,7 @@ Parameter Data :
 
 Module Name			= HighShelv6
 Parameter Name		= Stage0_B0
-Parameter Address	= 578
+Parameter Address	= 848
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -3570,7 +3270,7 @@ Parameter Data :
 
 Module Name			= HighShelv6
 Parameter Name		= Stage0_B1
-Parameter Address	= 577
+Parameter Address	= 847
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3580,7 +3280,7 @@ Parameter Data :
 
 Module Name			= HighShelv6
 Parameter Name		= Stage0_B2
-Parameter Address	= 576
+Parameter Address	= 846
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3590,7 +3290,7 @@ Parameter Data :
 
 Module Name			= HighShelv6
 Parameter Name		= Stage0_A1
-Parameter Address	= 580
+Parameter Address	= 850
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3600,7 +3300,7 @@ Parameter Data :
 
 Module Name			= HighShelv6
 Parameter Name		= Stage0_A2
-Parameter Address	= 579
+Parameter Address	= 849
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3610,7 +3310,7 @@ Parameter Data :
 
 Module Name			= LP61
 Parameter Name		= Stage0_B0
-Parameter Address	= 583
+Parameter Address	= 853
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -3620,7 +3320,7 @@ Parameter Data :
 
 Module Name			= LP61
 Parameter Name		= Stage0_B1
-Parameter Address	= 582
+Parameter Address	= 852
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3630,7 +3330,7 @@ Parameter Data :
 
 Module Name			= LP61
 Parameter Name		= Stage0_B2
-Parameter Address	= 581
+Parameter Address	= 851
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3640,7 +3340,7 @@ Parameter Data :
 
 Module Name			= LP61
 Parameter Name		= Stage0_A1
-Parameter Address	= 585
+Parameter Address	= 855
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3650,7 +3350,7 @@ Parameter Data :
 
 Module Name			= LP61
 Parameter Name		= Stage0_A2
-Parameter Address	= 584
+Parameter Address	= 854
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3660,7 +3360,7 @@ Parameter Data :
 
 Module Name			= LP62
 Parameter Name		= Stage0_B0
-Parameter Address	= 588
+Parameter Address	= 858
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -3670,7 +3370,7 @@ Parameter Data :
 
 Module Name			= LP62
 Parameter Name		= Stage0_B1
-Parameter Address	= 587
+Parameter Address	= 857
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3680,7 +3380,7 @@ Parameter Data :
 
 Module Name			= LP62
 Parameter Name		= Stage0_B2
-Parameter Address	= 586
+Parameter Address	= 856
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3690,7 +3390,7 @@ Parameter Data :
 
 Module Name			= LP62
 Parameter Name		= Stage0_A1
-Parameter Address	= 590
+Parameter Address	= 860
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3700,7 +3400,7 @@ Parameter Data :
 
 Module Name			= LP62
 Parameter Name		= Stage0_A2
-Parameter Address	= 589
+Parameter Address	= 859
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3710,7 +3410,7 @@ Parameter Data :
 
 Module Name			= XOLP53
 Parameter Name		= Stage0_B0
-Parameter Address	= 527
+Parameter Address	= 752
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -3720,7 +3420,7 @@ Parameter Data :
 
 Module Name			= XOLP53
 Parameter Name		= Stage0_B1
-Parameter Address	= 526
+Parameter Address	= 751
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3730,7 +3430,7 @@ Parameter Data :
 
 Module Name			= XOLP53
 Parameter Name		= Stage0_B2
-Parameter Address	= 525
+Parameter Address	= 750
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3740,7 +3440,7 @@ Parameter Data :
 
 Module Name			= XOLP53
 Parameter Name		= Stage0_A1
-Parameter Address	= 529
+Parameter Address	= 754
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3750,7 +3450,7 @@ Parameter Data :
 
 Module Name			= XOLP53
 Parameter Name		= Stage0_A2
-Parameter Address	= 528
+Parameter Address	= 753
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3760,7 +3460,7 @@ Parameter Data :
 
 Module Name			= XOLP54
 Parameter Name		= Stage0_B0
-Parameter Address	= 532
+Parameter Address	= 757
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -3770,7 +3470,7 @@ Parameter Data :
 
 Module Name			= XOLP54
 Parameter Name		= Stage0_B1
-Parameter Address	= 531
+Parameter Address	= 756
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3780,7 +3480,7 @@ Parameter Data :
 
 Module Name			= XOLP54
 Parameter Name		= Stage0_B2
-Parameter Address	= 530
+Parameter Address	= 755
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3790,7 +3490,7 @@ Parameter Data :
 
 Module Name			= XOLP54
 Parameter Name		= Stage0_A1
-Parameter Address	= 534
+Parameter Address	= 759
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3800,7 +3500,7 @@ Parameter Data :
 
 Module Name			= XOLP54
 Parameter Name		= Stage0_A2
-Parameter Address	= 533
+Parameter Address	= 758
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3810,7 +3510,7 @@ Parameter Data :
 
 Module Name			= Phase5
 Parameter Name		= Stage0_B0
-Parameter Address	= 559
+Parameter Address	= 784
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -3820,7 +3520,7 @@ Parameter Data :
 
 Module Name			= Phase5
 Parameter Name		= Stage0_B1
-Parameter Address	= 558
+Parameter Address	= 783
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3830,7 +3530,7 @@ Parameter Data :
 
 Module Name			= Phase5
 Parameter Name		= Stage0_B2
-Parameter Address	= 557
+Parameter Address	= 782
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3840,7 +3540,7 @@ Parameter Data :
 
 Module Name			= Phase5
 Parameter Name		= Stage0_A1
-Parameter Address	= 561
+Parameter Address	= 786
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3850,7 +3550,7 @@ Parameter Data :
 
 Module Name			= Phase5
 Parameter Name		= Stage0_A2
-Parameter Address	= 560
+Parameter Address	= 785
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3860,7 +3560,7 @@ Parameter Data :
 
 Module Name			= Delay5
 Parameter Name		= Delay
-Parameter Address	= 562
+Parameter Address	= 787
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3870,7 +3570,7 @@ Parameter Data :
 
 Module Name			= Gain5
 Parameter Name		= Gain
-Parameter Address	= 564
+Parameter Address	= 789
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -3880,7 +3580,7 @@ Parameter Data :
 
 Module Name			= Gain5
 Parameter Name		= slew_mode
-Parameter Address	= 565
+Parameter Address	= 790
 Parameter Value		= 8330
 Data Memory			= DM0
 Parameter Data :
@@ -3890,7 +3590,7 @@ Parameter Data :
 
 Module Name			= LP63
 Parameter Name		= Stage0_B0
-Parameter Address	= 593
+Parameter Address	= 863
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -3900,7 +3600,7 @@ Parameter Data :
 
 Module Name			= LP63
 Parameter Name		= Stage0_B1
-Parameter Address	= 592
+Parameter Address	= 862
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3910,7 +3610,7 @@ Parameter Data :
 
 Module Name			= LP63
 Parameter Name		= Stage0_B2
-Parameter Address	= 591
+Parameter Address	= 861
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3920,7 +3620,7 @@ Parameter Data :
 
 Module Name			= LP63
 Parameter Name		= Stage0_A1
-Parameter Address	= 595
+Parameter Address	= 865
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3930,7 +3630,7 @@ Parameter Data :
 
 Module Name			= LP63
 Parameter Name		= Stage0_A2
-Parameter Address	= 594
+Parameter Address	= 864
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3940,7 +3640,7 @@ Parameter Data :
 
 Module Name			= LP64
 Parameter Name		= Stage0_B0
-Parameter Address	= 598
+Parameter Address	= 868
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -3950,7 +3650,7 @@ Parameter Data :
 
 Module Name			= LP64
 Parameter Name		= Stage0_B1
-Parameter Address	= 597
+Parameter Address	= 867
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3960,7 +3660,7 @@ Parameter Data :
 
 Module Name			= LP64
 Parameter Name		= Stage0_B2
-Parameter Address	= 596
+Parameter Address	= 866
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3970,7 +3670,7 @@ Parameter Data :
 
 Module Name			= LP64
 Parameter Name		= Stage0_A1
-Parameter Address	= 600
+Parameter Address	= 870
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3980,7 +3680,7 @@ Parameter Data :
 
 Module Name			= LP64
 Parameter Name		= Stage0_A2
-Parameter Address	= 599
+Parameter Address	= 869
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -3990,7 +3690,7 @@ Parameter Data :
 
 Module Name			= Phase6
 Parameter Name		= Stage0_B0
-Parameter Address	= 628
+Parameter Address	= 898
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -4000,7 +3700,7 @@ Parameter Data :
 
 Module Name			= Phase6
 Parameter Name		= Stage0_B1
-Parameter Address	= 627
+Parameter Address	= 897
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -4010,7 +3710,7 @@ Parameter Data :
 
 Module Name			= Phase6
 Parameter Name		= Stage0_B2
-Parameter Address	= 626
+Parameter Address	= 896
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -4020,7 +3720,7 @@ Parameter Data :
 
 Module Name			= Phase6
 Parameter Name		= Stage0_A1
-Parameter Address	= 630
+Parameter Address	= 900
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -4030,7 +3730,7 @@ Parameter Data :
 
 Module Name			= Phase6
 Parameter Name		= Stage0_A2
-Parameter Address	= 629
+Parameter Address	= 899
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -4040,7 +3740,7 @@ Parameter Data :
 
 Module Name			= Delay6
 Parameter Name		= Delay
-Parameter Address	= 631
+Parameter Address	= 901
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -4050,7 +3750,7 @@ Parameter Data :
 
 Module Name			= Gain6
 Parameter Name		= Gain
-Parameter Address	= 633
+Parameter Address	= 903
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -4060,7 +3760,7 @@ Parameter Data :
 
 Module Name			= Gain6
 Parameter Name		= slew_mode
-Parameter Address	= 634
+Parameter Address	= 904
 Parameter Value		= 8330
 Data Memory			= DM0
 Parameter Data :
@@ -4070,7 +3770,7 @@ Parameter Data :
 
 Module Name			= VirtCenter_Right
 Parameter Name		= vol_00_00
-Parameter Address	= 332
+Parameter Address	= 467
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -4080,7 +3780,7 @@ Parameter Data :
 
 Module Name			= VirtCenter_Right
 Parameter Name		= vol_00_01
-Parameter Address	= 333
+Parameter Address	= 468
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -4090,7 +3790,7 @@ Parameter Data :
 
 Module Name			= VirtCenter_Left
 Parameter Name		= vol_00_00
-Parameter Address	= 383
+Parameter Address	= 518
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -4100,7 +3800,7 @@ Parameter Data :
 
 Module Name			= VirtCenter_Left
 Parameter Name		= vol_00_01
-Parameter Address	= 384
+Parameter Address	= 519
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -4110,7 +3810,7 @@ Parameter Data :
 
 Module Name			= Gain9
 Parameter Name		= Gain
-Parameter Address	= 2370
+Parameter Address	= 2640
 Parameter Value		= 0.501187233627272
 Data Memory			= DM0
 Parameter Data :
@@ -4120,7 +3820,7 @@ Parameter Data :
 
 Module Name			= Left_Sub_Premix
 Parameter Name		= target_00_00
-Parameter Address	= 498
+Parameter Address	= 678
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -4130,7 +3830,7 @@ Parameter Data :
 
 Module Name			= Left_Sub_Premix
 Parameter Name		= target_00_01
-Parameter Address	= 499
+Parameter Address	= 679
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -4140,7 +3840,7 @@ Parameter Data :
 
 Module Name			= Right_Sub_Premix
 Parameter Name		= target_00_00
-Parameter Address	= 535
+Parameter Address	= 760
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -4150,7 +3850,7 @@ Parameter Data :
 
 Module Name			= Right_Sub_Premix
 Parameter Name		= target_00_01
-Parameter Address	= 536
+Parameter Address	= 761
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -4160,7 +3860,7 @@ Parameter Data :
 
 Module Name			= Phase7
 Parameter Name		= Stage0_B0
-Parameter Address	= 617
+Parameter Address	= 887
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -4170,7 +3870,7 @@ Parameter Data :
 
 Module Name			= Phase7
 Parameter Name		= Stage0_B1
-Parameter Address	= 616
+Parameter Address	= 886
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -4180,7 +3880,7 @@ Parameter Data :
 
 Module Name			= Phase7
 Parameter Name		= Stage0_B2
-Parameter Address	= 615
+Parameter Address	= 885
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -4190,7 +3890,7 @@ Parameter Data :
 
 Module Name			= Phase7
 Parameter Name		= Stage0_A1
-Parameter Address	= 619
+Parameter Address	= 889
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -4200,7 +3900,7 @@ Parameter Data :
 
 Module Name			= Phase7
 Parameter Name		= Stage0_A2
-Parameter Address	= 618
+Parameter Address	= 888
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -4210,7 +3910,7 @@ Parameter Data :
 
 Module Name			= Delay7
 Parameter Name		= Delay
-Parameter Address	= 620
+Parameter Address	= 890
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -4220,7 +3920,7 @@ Parameter Data :
 
 Module Name			= FIR8
 Parameter Name		= TableValues
-Parameter Address	= 808
+Parameter Address	= 1080
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -5729,7 +5429,7 @@ Parameter Data :
 
 Module Name			= Phase8
 Parameter Name		= Stage0_B0
-Parameter Address	= 606
+Parameter Address	= 876
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -5739,7 +5439,7 @@ Parameter Data :
 
 Module Name			= Phase8
 Parameter Name		= Stage0_B1
-Parameter Address	= 605
+Parameter Address	= 875
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -5749,7 +5449,7 @@ Parameter Data :
 
 Module Name			= Phase8
 Parameter Name		= Stage0_B2
-Parameter Address	= 604
+Parameter Address	= 874
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -5759,7 +5459,7 @@ Parameter Data :
 
 Module Name			= Phase8
 Parameter Name		= Stage0_A1
-Parameter Address	= 608
+Parameter Address	= 878
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -5769,7 +5469,7 @@ Parameter Data :
 
 Module Name			= Phase8
 Parameter Name		= Stage0_A2
-Parameter Address	= 607
+Parameter Address	= 877
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -5779,7 +5479,7 @@ Parameter Data :
 
 Module Name			= Delay8
 Parameter Name		= Delay
-Parameter Address	= 609
+Parameter Address	= 879
 Parameter Value		= 0
 Data Memory			= DM0
 Parameter Data :
@@ -5789,7 +5489,7 @@ Parameter Data :
 
 Module Name			= Gain8
 Parameter Name		= Gain
-Parameter Address	= 611
+Parameter Address	= 881
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -5799,7 +5499,7 @@ Parameter Data :
 
 Module Name			= Gain8
 Parameter Name		= slew_mode
-Parameter Address	= 612
+Parameter Address	= 882
 Parameter Value		= 8330
 Data Memory			= DM0
 Parameter Data :
@@ -5809,7 +5509,7 @@ Parameter Data :
 
 Module Name			= Right_Sub_Mix
 Parameter Name		= vol_00_00
-Parameter Address	= 613
+Parameter Address	= 883
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -5819,7 +5519,7 @@ Parameter Data :
 
 Module Name			= Right_Sub_Mix
 Parameter Name		= vol_00_01
-Parameter Address	= 614
+Parameter Address	= 884
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -5829,7 +5529,7 @@ Parameter Data :
 
 Module Name			= Left_Sub_Mix
 Parameter Name		= vol_00_00
-Parameter Address	= 624
+Parameter Address	= 894
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -5839,7 +5539,7 @@ Parameter Data :
 
 Module Name			= Left_Sub_Mix
 Parameter Name		= vol_00_01
-Parameter Address	= 625
+Parameter Address	= 895
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -5849,7 +5549,7 @@ Parameter Data :
 
 Module Name			= Mixed_Sub_Mix
 Parameter Name		= target_00_00
-Parameter Address	= 601
+Parameter Address	= 871
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -5859,7 +5559,7 @@ Parameter Data :
 
 Module Name			= Mixed_Sub_Mix
 Parameter Name		= target_00_01
-Parameter Address	= 602
+Parameter Address	= 872
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -5869,7 +5569,7 @@ Parameter Data :
 
 Module Name			= Mixed_Sub_Mix
 Parameter Name		= target_00_02
-Parameter Address	= 603
+Parameter Address	= 873
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -5879,7 +5579,7 @@ Parameter Data :
 
 Module Name			= Sub6dB
 Parameter Name		= Gain
-Parameter Address	= 2371
+Parameter Address	= 2641
 Parameter Value		= 0.501187233627272
 Data Memory			= DM0
 Parameter Data :
@@ -5889,7 +5589,7 @@ Parameter Data :
 
 Module Name			= Gain7
 Parameter Name		= Gain
-Parameter Address	= 622
+Parameter Address	= 892
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -5899,7 +5599,7 @@ Parameter Data :
 
 Module Name			= Gain7
 Parameter Name		= slew_mode
-Parameter Address	= 623
+Parameter Address	= 893
 Parameter Value		= 8330
 Data Memory			= DM0
 Parameter Data :
@@ -5907,9 +5607,3009 @@ Parameter Data :
 
 
 
+Module Name			= PeqBank1
+Parameter Name		= Stage0_B2
+Parameter Address	= 263
+Parameter Value		= 0.993968895936977
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xFE, 0x74, 0xBF, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage0_B1
+Parameter Address	= 264
+Parameter Value		= -1.99559160224728
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x01, 0x20, 0xE9, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage0_B0
+Parameter Address	= 265
+Parameter Value		= 1.0016894931788
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x6E, 0xB9, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage0_A2
+Parameter Address	= 266
+Parameter Value		= -0.995658389115774
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x01, 0x1C, 0x88, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage0_A1
+Parameter Address	= 267
+Parameter Value		= 1.99559160224728
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xFE, 0xDF, 0x17, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage1_B2
+Parameter Address	= 268
+Parameter Value		= 0.987964320917715
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xFC, 0xEB, 0x3B, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage1_B1
+Parameter Address	= 269
+Parameter Value		= -1.99106931131121
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x02, 0x49, 0x48, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage1_B0
+Parameter Address	= 270
+Parameter Value		= 1.00337155477658
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0xDC, 0xF5, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage1_A2
+Parameter Address	= 271
+Parameter Value		= -0.991335875694291
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x02, 0x37, 0xD0, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage1_A1
+Parameter Address	= 272
+Parameter Value		= 1.99106931131121
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xFD, 0xB6, 0xB8, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage2_B2
+Parameter Address	= 273
+Parameter Value		= 0.976035651331839
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xF9, 0xDD, 0x79, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage2_B1
+Parameter Address	= 274
+Parameter Value		= -1.98168719578446
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x04, 0xB0, 0x26, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage2_B0
+Parameter Address	= 275
+Parameter Value		= 1.00671313298296
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x01, 0xB7, 0xF4, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage2_A2
+Parameter Address	= 276
+Parameter Value		= -0.982748784314803
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x04, 0x6A, 0x93, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage2_A1
+Parameter Address	= 277
+Parameter Value		= 1.98168719578446
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xFB, 0x4F, 0xDA, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage3_B2
+Parameter Address	= 278
+Parameter Value		= 0.952506188603139
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xF3, 0xD7, 0x72, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage3_B1
+Parameter Address	= 279
+Parameter Value		= -1.96160167851388
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x09, 0xD4, 0x79, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage3_B0
+Parameter Address	= 280
+Parameter Value		= 1.01330444136788
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x03, 0x67, 0xEB, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage3_A2
+Parameter Address	= 281
+Parameter Value		= -0.965810629971018
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x08, 0xC0, 0xA2, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage3_A1
+Parameter Address	= 282
+Parameter Value		= 1.96160167851388
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xF6, 0x2B, 0x87, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage4_B2
+Parameter Address	= 283
+Parameter Value		= 0.906802119138022
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xE8, 0x24, 0x2F, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage4_B1
+Parameter Address	= 284
+Parameter Value		= -1.9163733315325
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x15, 0x68, 0x8F, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage4_B0
+Parameter Address	= 285
+Parameter Value		= 1.02610752232912
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x06, 0xAE, 0xFC, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage4_A2
+Parameter Address	= 286
+Parameter Value		= -0.932909641467146
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x11, 0x2C, 0xD5, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage4_A1
+Parameter Address	= 287
+Parameter Value		= 1.9163733315325
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xEA, 0x97, 0x71, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage5_B2
+Parameter Address	= 288
+Parameter Value		= 0.821097511716278
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD2, 0x33, 0x72, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage5_B1
+Parameter Address	= 289
+Parameter Value		= -1.80745341300856
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x31, 0x4A, 0xBC, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage5_B0
+Parameter Address	= 290
+Parameter Value		= 1.05011595397239
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x0C, 0xD4, 0x66, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage5_A2
+Parameter Address	= 291
+Parameter Value		= -0.871213465688668
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x20, 0xF8, 0x28, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage5_A1
+Parameter Address	= 292
+Parameter Value		= 1.80745341300856
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xCE, 0xB5, 0x44, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage6_B2
+Parameter Address	= 293
+Parameter Value		= 0.673951465666999
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xAC, 0x88, 0x15, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage6_B1
+Parameter Address	= 294
+Parameter Value		= -1.528783769287
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x78, 0xA1, 0xA0, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage6_B0
+Parameter Address	= 295
+Parameter Value		= 1.09133597579417
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x17, 0x61, 0xCB, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage6_A2
+Parameter Address	= 296
+Parameter Value		= -0.765287441461164
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x3C, 0x16, 0x1F, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage6_A1
+Parameter Address	= 297
+Parameter Value		= 1.528783769287
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x87, 0x5E, 0x60, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage7_B2
+Parameter Address	= 298
+Parameter Value		= 0.479945637787307
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x7A, 0xDD, 0xB8, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage7_B1
+Parameter Address	= 299
+Parameter Value		= -0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x2F, 0xEB, 0x68, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage7_B0
+Parameter Address	= 300
+Parameter Value		= 1.14568282828162
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x25, 0x4B, 0x78, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage7_A2
+Parameter Address	= 301
+Parameter Value		= -0.625628466068928
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x5F, 0xD6, 0xD0, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage7_A1
+Parameter Address	= 302
+Parameter Value		= 0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD0, 0x14, 0x98, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage8_B2
+Parameter Address	= 303
+Parameter Value		= 0.479945637787307
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x7A, 0xDD, 0xB8, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage8_B1
+Parameter Address	= 304
+Parameter Value		= 0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD0, 0x14, 0x98, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage8_B0
+Parameter Address	= 305
+Parameter Value		= 1.14568282828162
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x25, 0x4B, 0x78, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage8_A2
+Parameter Address	= 306
+Parameter Value		= -0.625628466068928
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x5F, 0xD6, 0xD0, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage8_A1
+Parameter Address	= 307
+Parameter Value		= -0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x2F, 0xEB, 0x68, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage9_B2
+Parameter Address	= 308
+Parameter Value		= 0.479945637787307
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x7A, 0xDD, 0xB8, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage9_B1
+Parameter Address	= 309
+Parameter Value		= -0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x2F, 0xEB, 0x68, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage9_B0
+Parameter Address	= 310
+Parameter Value		= 1.14568282828162
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x25, 0x4B, 0x78, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage9_A2
+Parameter Address	= 311
+Parameter Value		= -0.625628466068928
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x5F, 0xD6, 0xD0, 
+
+
+
+Module Name			= PeqBank1
+Parameter Name		= Stage9_A1
+Parameter Address	= 312
+Parameter Value		= 0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD0, 0x14, 0x98, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage0_B2
+Parameter Address	= 323
+Parameter Value		= 0.993968895936977
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xFE, 0x74, 0xBF, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage0_B1
+Parameter Address	= 324
+Parameter Value		= -1.99559160224728
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x01, 0x20, 0xE9, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage0_B0
+Parameter Address	= 325
+Parameter Value		= 1.0016894931788
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x6E, 0xB9, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage0_A2
+Parameter Address	= 326
+Parameter Value		= -0.995658389115774
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x01, 0x1C, 0x88, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage0_A1
+Parameter Address	= 327
+Parameter Value		= 1.99559160224728
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xFE, 0xDF, 0x17, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage1_B2
+Parameter Address	= 328
+Parameter Value		= 0.987964320917715
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xFC, 0xEB, 0x3B, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage1_B1
+Parameter Address	= 329
+Parameter Value		= -1.99106931131121
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x02, 0x49, 0x48, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage1_B0
+Parameter Address	= 330
+Parameter Value		= 1.00337155477658
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0xDC, 0xF5, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage1_A2
+Parameter Address	= 331
+Parameter Value		= -0.991335875694291
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x02, 0x37, 0xD0, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage1_A1
+Parameter Address	= 332
+Parameter Value		= 1.99106931131121
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xFD, 0xB6, 0xB8, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage2_B2
+Parameter Address	= 333
+Parameter Value		= 0.976035651331839
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xF9, 0xDD, 0x79, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage2_B1
+Parameter Address	= 334
+Parameter Value		= -1.98168719578446
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x04, 0xB0, 0x26, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage2_B0
+Parameter Address	= 335
+Parameter Value		= 1.00671313298296
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x01, 0xB7, 0xF4, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage2_A2
+Parameter Address	= 336
+Parameter Value		= -0.982748784314803
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x04, 0x6A, 0x93, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage2_A1
+Parameter Address	= 337
+Parameter Value		= 1.98168719578446
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xFB, 0x4F, 0xDA, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage3_B2
+Parameter Address	= 338
+Parameter Value		= 0.952506188603139
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xF3, 0xD7, 0x72, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage3_B1
+Parameter Address	= 339
+Parameter Value		= -1.96160167851388
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x09, 0xD4, 0x79, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage3_B0
+Parameter Address	= 340
+Parameter Value		= 1.01330444136788
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x03, 0x67, 0xEB, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage3_A2
+Parameter Address	= 341
+Parameter Value		= -0.965810629971018
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x08, 0xC0, 0xA2, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage3_A1
+Parameter Address	= 342
+Parameter Value		= 1.96160167851388
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xF6, 0x2B, 0x87, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage4_B2
+Parameter Address	= 343
+Parameter Value		= 0.906802119138022
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xE8, 0x24, 0x2F, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage4_B1
+Parameter Address	= 344
+Parameter Value		= -1.9163733315325
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x15, 0x68, 0x8F, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage4_B0
+Parameter Address	= 345
+Parameter Value		= 1.02610752232912
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x06, 0xAE, 0xFC, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage4_A2
+Parameter Address	= 346
+Parameter Value		= -0.932909641467146
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x11, 0x2C, 0xD5, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage4_A1
+Parameter Address	= 347
+Parameter Value		= 1.9163733315325
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xEA, 0x97, 0x71, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage5_B2
+Parameter Address	= 348
+Parameter Value		= 0.821097511716278
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD2, 0x33, 0x72, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage5_B1
+Parameter Address	= 349
+Parameter Value		= -1.80745341300856
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x31, 0x4A, 0xBC, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage5_B0
+Parameter Address	= 350
+Parameter Value		= 1.05011595397239
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x0C, 0xD4, 0x66, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage5_A2
+Parameter Address	= 351
+Parameter Value		= -0.871213465688668
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x20, 0xF8, 0x28, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage5_A1
+Parameter Address	= 352
+Parameter Value		= 1.80745341300856
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xCE, 0xB5, 0x44, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage6_B2
+Parameter Address	= 353
+Parameter Value		= 0.673951465666999
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xAC, 0x88, 0x15, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage6_B1
+Parameter Address	= 354
+Parameter Value		= -1.528783769287
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x78, 0xA1, 0xA0, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage6_B0
+Parameter Address	= 355
+Parameter Value		= 1.09133597579417
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x17, 0x61, 0xCB, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage6_A2
+Parameter Address	= 356
+Parameter Value		= -0.765287441461164
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x3C, 0x16, 0x1F, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage6_A1
+Parameter Address	= 357
+Parameter Value		= 1.528783769287
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x87, 0x5E, 0x60, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage7_B2
+Parameter Address	= 358
+Parameter Value		= 0.479945637787307
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x7A, 0xDD, 0xB8, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage7_B1
+Parameter Address	= 359
+Parameter Value		= -0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x2F, 0xEB, 0x68, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage7_B0
+Parameter Address	= 360
+Parameter Value		= 1.14568282828162
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x25, 0x4B, 0x78, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage7_A2
+Parameter Address	= 361
+Parameter Value		= -0.625628466068928
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x5F, 0xD6, 0xD0, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage7_A1
+Parameter Address	= 362
+Parameter Value		= 0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD0, 0x14, 0x98, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage8_B2
+Parameter Address	= 363
+Parameter Value		= 0.479945637787307
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x7A, 0xDD, 0xB8, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage8_B1
+Parameter Address	= 364
+Parameter Value		= 0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD0, 0x14, 0x98, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage8_B0
+Parameter Address	= 365
+Parameter Value		= 1.14568282828162
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x25, 0x4B, 0x78, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage8_A2
+Parameter Address	= 366
+Parameter Value		= -0.625628466068928
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x5F, 0xD6, 0xD0, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage8_A1
+Parameter Address	= 367
+Parameter Value		= -0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x2F, 0xEB, 0x68, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage9_B2
+Parameter Address	= 368
+Parameter Value		= 0.479945637787307
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x7A, 0xDD, 0xB8, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage9_B1
+Parameter Address	= 369
+Parameter Value		= 0.812814233034463
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD0, 0x14, 0x98, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage9_B0
+Parameter Address	= 370
+Parameter Value		= 1.14568282828162
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x25, 0x4B, 0x78, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage9_A2
+Parameter Address	= 371
+Parameter Value		= -0.625628466068928
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x5F, 0xD6, 0xD0, 
+
+
+
+Module Name			= PeqBank2
+Parameter Name		= Stage9_A1
+Parameter Address	= 372
+Parameter Value		= -0.812814233034463
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x2F, 0xEB, 0x68, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage0_B2
+Parameter Address	= 383
+Parameter Value		= 0.993968895936977
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xFE, 0x74, 0xBF, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage0_B1
+Parameter Address	= 384
+Parameter Value		= -1.99559160224728
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x01, 0x20, 0xE9, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage0_B0
+Parameter Address	= 385
+Parameter Value		= 1.0016894931788
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x6E, 0xB9, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage0_A2
+Parameter Address	= 386
+Parameter Value		= -0.995658389115774
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x01, 0x1C, 0x88, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage0_A1
+Parameter Address	= 387
+Parameter Value		= 1.99559160224728
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xFE, 0xDF, 0x17, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage1_B2
+Parameter Address	= 388
+Parameter Value		= 0.987964320917715
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xFC, 0xEB, 0x3B, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage1_B1
+Parameter Address	= 389
+Parameter Value		= -1.99106931131121
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x02, 0x49, 0x48, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage1_B0
+Parameter Address	= 390
+Parameter Value		= 1.00337155477658
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0xDC, 0xF5, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage1_A2
+Parameter Address	= 391
+Parameter Value		= -0.991335875694291
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x02, 0x37, 0xD0, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage1_A1
+Parameter Address	= 392
+Parameter Value		= 1.99106931131121
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xFD, 0xB6, 0xB8, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage2_B2
+Parameter Address	= 393
+Parameter Value		= 0.976035651331839
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xF9, 0xDD, 0x79, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage2_B1
+Parameter Address	= 394
+Parameter Value		= -1.98168719578446
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x04, 0xB0, 0x26, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage2_B0
+Parameter Address	= 395
+Parameter Value		= 1.00671313298296
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x01, 0xB7, 0xF4, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage2_A2
+Parameter Address	= 396
+Parameter Value		= -0.982748784314803
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x04, 0x6A, 0x93, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage2_A1
+Parameter Address	= 397
+Parameter Value		= 1.98168719578446
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xFB, 0x4F, 0xDA, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage3_B2
+Parameter Address	= 398
+Parameter Value		= 0.952506188603139
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xF3, 0xD7, 0x72, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage3_B1
+Parameter Address	= 399
+Parameter Value		= -1.96160167851388
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x09, 0xD4, 0x79, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage3_B0
+Parameter Address	= 400
+Parameter Value		= 1.01330444136788
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x03, 0x67, 0xEB, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage3_A2
+Parameter Address	= 401
+Parameter Value		= -0.965810629971018
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x08, 0xC0, 0xA2, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage3_A1
+Parameter Address	= 402
+Parameter Value		= 1.96160167851388
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xF6, 0x2B, 0x87, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage4_B2
+Parameter Address	= 403
+Parameter Value		= 0.906802119138022
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xE8, 0x24, 0x2F, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage4_B1
+Parameter Address	= 404
+Parameter Value		= -1.9163733315325
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x15, 0x68, 0x8F, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage4_B0
+Parameter Address	= 405
+Parameter Value		= 1.02610752232912
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x06, 0xAE, 0xFC, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage4_A2
+Parameter Address	= 406
+Parameter Value		= -0.932909641467146
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x11, 0x2C, 0xD5, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage4_A1
+Parameter Address	= 407
+Parameter Value		= 1.9163733315325
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xEA, 0x97, 0x71, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage5_B2
+Parameter Address	= 408
+Parameter Value		= 0.821097511716278
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD2, 0x33, 0x72, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage5_B1
+Parameter Address	= 409
+Parameter Value		= -1.80745341300856
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x31, 0x4A, 0xBC, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage5_B0
+Parameter Address	= 410
+Parameter Value		= 1.05011595397239
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x0C, 0xD4, 0x66, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage5_A2
+Parameter Address	= 411
+Parameter Value		= -0.871213465688668
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x20, 0xF8, 0x28, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage5_A1
+Parameter Address	= 412
+Parameter Value		= 1.80745341300856
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xCE, 0xB5, 0x44, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage6_B2
+Parameter Address	= 413
+Parameter Value		= 0.673951465666999
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xAC, 0x88, 0x15, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage6_B1
+Parameter Address	= 414
+Parameter Value		= -1.528783769287
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x78, 0xA1, 0xA0, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage6_B0
+Parameter Address	= 415
+Parameter Value		= 1.09133597579417
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x17, 0x61, 0xCB, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage6_A2
+Parameter Address	= 416
+Parameter Value		= -0.765287441461164
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x3C, 0x16, 0x1F, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage6_A1
+Parameter Address	= 417
+Parameter Value		= 1.528783769287
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x87, 0x5E, 0x60, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage7_B2
+Parameter Address	= 418
+Parameter Value		= 0.479945637787307
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x7A, 0xDD, 0xB8, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage7_B1
+Parameter Address	= 419
+Parameter Value		= -0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x2F, 0xEB, 0x68, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage7_B0
+Parameter Address	= 420
+Parameter Value		= 1.14568282828162
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x25, 0x4B, 0x78, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage7_A2
+Parameter Address	= 421
+Parameter Value		= -0.625628466068928
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x5F, 0xD6, 0xD0, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage7_A1
+Parameter Address	= 422
+Parameter Value		= 0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD0, 0x14, 0x98, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage8_B2
+Parameter Address	= 423
+Parameter Value		= 0.479945637787307
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x7A, 0xDD, 0xB8, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage8_B1
+Parameter Address	= 424
+Parameter Value		= 0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD0, 0x14, 0x98, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage8_B0
+Parameter Address	= 425
+Parameter Value		= 1.14568282828162
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x25, 0x4B, 0x78, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage8_A2
+Parameter Address	= 426
+Parameter Value		= -0.625628466068928
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x5F, 0xD6, 0xD0, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage8_A1
+Parameter Address	= 427
+Parameter Value		= -0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x2F, 0xEB, 0x68, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage9_B2
+Parameter Address	= 428
+Parameter Value		= 0.479945637787307
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x7A, 0xDD, 0xB8, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage9_B1
+Parameter Address	= 429
+Parameter Value		= -0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x2F, 0xEB, 0x68, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage9_B0
+Parameter Address	= 430
+Parameter Value		= 1.14568282828162
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x25, 0x4B, 0x78, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage9_A2
+Parameter Address	= 431
+Parameter Value		= -0.625628466068928
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x5F, 0xD6, 0xD0, 
+
+
+
+Module Name			= PeqBank3
+Parameter Name		= Stage9_A1
+Parameter Address	= 432
+Parameter Value		= 0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD0, 0x14, 0x98, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage0_B2
+Parameter Address	= 574
+Parameter Value		= 0.993968895936977
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xFE, 0x74, 0xBF, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage0_B1
+Parameter Address	= 575
+Parameter Value		= -1.99559160224728
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x01, 0x20, 0xE9, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage0_B0
+Parameter Address	= 576
+Parameter Value		= 1.0016894931788
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x6E, 0xB9, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage0_A2
+Parameter Address	= 577
+Parameter Value		= -0.995658389115774
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x01, 0x1C, 0x88, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage0_A1
+Parameter Address	= 578
+Parameter Value		= 1.99559160224728
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xFE, 0xDF, 0x17, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage1_B2
+Parameter Address	= 579
+Parameter Value		= 0.987964320917715
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xFC, 0xEB, 0x3B, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage1_B1
+Parameter Address	= 580
+Parameter Value		= -1.99106931131121
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x02, 0x49, 0x48, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage1_B0
+Parameter Address	= 581
+Parameter Value		= 1.00337155477658
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0xDC, 0xF5, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage1_A2
+Parameter Address	= 582
+Parameter Value		= -0.991335875694291
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x02, 0x37, 0xD0, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage1_A1
+Parameter Address	= 583
+Parameter Value		= 1.99106931131121
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xFD, 0xB6, 0xB8, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage2_B2
+Parameter Address	= 584
+Parameter Value		= 0.976035651331839
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xF9, 0xDD, 0x79, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage2_B1
+Parameter Address	= 585
+Parameter Value		= -1.98168719578446
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x04, 0xB0, 0x26, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage2_B0
+Parameter Address	= 586
+Parameter Value		= 1.00671313298296
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x01, 0xB7, 0xF4, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage2_A2
+Parameter Address	= 587
+Parameter Value		= -0.982748784314803
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x04, 0x6A, 0x93, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage2_A1
+Parameter Address	= 588
+Parameter Value		= 1.98168719578446
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xFB, 0x4F, 0xDA, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage3_B2
+Parameter Address	= 589
+Parameter Value		= 0.952506188603139
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xF3, 0xD7, 0x72, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage3_B1
+Parameter Address	= 590
+Parameter Value		= -1.96160167851388
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x09, 0xD4, 0x79, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage3_B0
+Parameter Address	= 591
+Parameter Value		= 1.01330444136788
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x03, 0x67, 0xEB, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage3_A2
+Parameter Address	= 592
+Parameter Value		= -0.965810629971018
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x08, 0xC0, 0xA2, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage3_A1
+Parameter Address	= 593
+Parameter Value		= 1.96160167851388
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xF6, 0x2B, 0x87, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage4_B2
+Parameter Address	= 594
+Parameter Value		= 0.906802119138022
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xE8, 0x24, 0x2F, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage4_B1
+Parameter Address	= 595
+Parameter Value		= -1.9163733315325
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x15, 0x68, 0x8F, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage4_B0
+Parameter Address	= 596
+Parameter Value		= 1.02610752232912
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x06, 0xAE, 0xFC, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage4_A2
+Parameter Address	= 597
+Parameter Value		= -0.932909641467146
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x11, 0x2C, 0xD5, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage4_A1
+Parameter Address	= 598
+Parameter Value		= 1.9163733315325
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xEA, 0x97, 0x71, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage5_B2
+Parameter Address	= 599
+Parameter Value		= 0.821097511716278
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD2, 0x33, 0x72, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage5_B1
+Parameter Address	= 600
+Parameter Value		= -1.80745341300856
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x31, 0x4A, 0xBC, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage5_B0
+Parameter Address	= 601
+Parameter Value		= 1.05011595397239
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x0C, 0xD4, 0x66, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage5_A2
+Parameter Address	= 602
+Parameter Value		= -0.871213465688668
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x20, 0xF8, 0x28, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage5_A1
+Parameter Address	= 603
+Parameter Value		= 1.80745341300856
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xCE, 0xB5, 0x44, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage6_B2
+Parameter Address	= 604
+Parameter Value		= 0.673951465666999
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xAC, 0x88, 0x15, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage6_B1
+Parameter Address	= 605
+Parameter Value		= -1.528783769287
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x78, 0xA1, 0xA0, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage6_B0
+Parameter Address	= 606
+Parameter Value		= 1.09133597579417
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x17, 0x61, 0xCB, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage6_A2
+Parameter Address	= 607
+Parameter Value		= -0.765287441461164
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x3C, 0x16, 0x1F, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage6_A1
+Parameter Address	= 608
+Parameter Value		= 1.528783769287
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x87, 0x5E, 0x60, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage7_B2
+Parameter Address	= 609
+Parameter Value		= 0.479945637787307
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x7A, 0xDD, 0xB8, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage7_B1
+Parameter Address	= 610
+Parameter Value		= -0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x2F, 0xEB, 0x68, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage7_B0
+Parameter Address	= 611
+Parameter Value		= 1.14568282828162
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x25, 0x4B, 0x78, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage7_A2
+Parameter Address	= 612
+Parameter Value		= -0.625628466068928
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x5F, 0xD6, 0xD0, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage7_A1
+Parameter Address	= 613
+Parameter Value		= 0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD0, 0x14, 0x98, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage8_B2
+Parameter Address	= 614
+Parameter Value		= 0.479945637787307
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x7A, 0xDD, 0xB8, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage8_B1
+Parameter Address	= 615
+Parameter Value		= 0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD0, 0x14, 0x98, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage8_B0
+Parameter Address	= 616
+Parameter Value		= 1.14568282828162
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x25, 0x4B, 0x78, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage8_A2
+Parameter Address	= 617
+Parameter Value		= -0.625628466068928
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x5F, 0xD6, 0xD0, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage8_A1
+Parameter Address	= 618
+Parameter Value		= -0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x2F, 0xEB, 0x68, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage9_B2
+Parameter Address	= 619
+Parameter Value		= 0.479945637787307
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x7A, 0xDD, 0xB8, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage9_B1
+Parameter Address	= 620
+Parameter Value		= -0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x2F, 0xEB, 0x68, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage9_B0
+Parameter Address	= 621
+Parameter Value		= 1.14568282828162
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x25, 0x4B, 0x78, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage9_A2
+Parameter Address	= 622
+Parameter Value		= -0.625628466068928
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x5F, 0xD6, 0xD0, 
+
+
+
+Module Name			= PeqBank4
+Parameter Name		= Stage9_A1
+Parameter Address	= 623
+Parameter Value		= 0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD0, 0x14, 0x98, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage0_B2
+Parameter Address	= 685
+Parameter Value		= 0.993968895936977
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xFE, 0x74, 0xBF, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage0_B1
+Parameter Address	= 686
+Parameter Value		= -1.99559160224728
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x01, 0x20, 0xE9, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage0_B0
+Parameter Address	= 687
+Parameter Value		= 1.0016894931788
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x6E, 0xB9, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage0_A2
+Parameter Address	= 688
+Parameter Value		= -0.995658389115774
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x01, 0x1C, 0x88, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage0_A1
+Parameter Address	= 689
+Parameter Value		= 1.99559160224728
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xFE, 0xDF, 0x17, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage1_B2
+Parameter Address	= 690
+Parameter Value		= 0.987964320917715
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xFC, 0xEB, 0x3B, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage1_B1
+Parameter Address	= 691
+Parameter Value		= -1.99106931131121
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x02, 0x49, 0x48, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage1_B0
+Parameter Address	= 692
+Parameter Value		= 1.00337155477658
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0xDC, 0xF5, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage1_A2
+Parameter Address	= 693
+Parameter Value		= -0.991335875694291
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x02, 0x37, 0xD0, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage1_A1
+Parameter Address	= 694
+Parameter Value		= 1.99106931131121
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xFD, 0xB6, 0xB8, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage2_B2
+Parameter Address	= 695
+Parameter Value		= 0.976035651331839
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xF9, 0xDD, 0x79, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage2_B1
+Parameter Address	= 696
+Parameter Value		= -1.98168719578446
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x04, 0xB0, 0x26, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage2_B0
+Parameter Address	= 697
+Parameter Value		= 1.00671313298296
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x01, 0xB7, 0xF4, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage2_A2
+Parameter Address	= 698
+Parameter Value		= -0.982748784314803
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x04, 0x6A, 0x93, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage2_A1
+Parameter Address	= 699
+Parameter Value		= 1.98168719578446
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xFB, 0x4F, 0xDA, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage3_B2
+Parameter Address	= 700
+Parameter Value		= 0.952506188603139
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xF3, 0xD7, 0x72, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage3_B1
+Parameter Address	= 701
+Parameter Value		= -1.96160167851388
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x09, 0xD4, 0x79, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage3_B0
+Parameter Address	= 702
+Parameter Value		= 1.01330444136788
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x03, 0x67, 0xEB, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage3_A2
+Parameter Address	= 703
+Parameter Value		= -0.965810629971018
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x08, 0xC0, 0xA2, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage3_A1
+Parameter Address	= 704
+Parameter Value		= 1.96160167851388
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xF6, 0x2B, 0x87, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage4_B2
+Parameter Address	= 705
+Parameter Value		= 0.906802119138022
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xE8, 0x24, 0x2F, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage4_B1
+Parameter Address	= 706
+Parameter Value		= -1.9163733315325
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x15, 0x68, 0x8F, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage4_B0
+Parameter Address	= 707
+Parameter Value		= 1.02610752232912
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x06, 0xAE, 0xFC, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage4_A2
+Parameter Address	= 708
+Parameter Value		= -0.932909641467146
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x11, 0x2C, 0xD5, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage4_A1
+Parameter Address	= 709
+Parameter Value		= 1.9163733315325
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xEA, 0x97, 0x71, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage5_B2
+Parameter Address	= 710
+Parameter Value		= 0.821097511716278
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD2, 0x33, 0x72, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage5_B1
+Parameter Address	= 711
+Parameter Value		= -1.80745341300856
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x31, 0x4A, 0xBC, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage5_B0
+Parameter Address	= 712
+Parameter Value		= 1.05011595397239
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x0C, 0xD4, 0x66, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage5_A2
+Parameter Address	= 713
+Parameter Value		= -0.871213465688668
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x20, 0xF8, 0x28, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage5_A1
+Parameter Address	= 714
+Parameter Value		= 1.80745341300856
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xCE, 0xB5, 0x44, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage6_B2
+Parameter Address	= 715
+Parameter Value		= 0.673951465666999
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xAC, 0x88, 0x15, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage6_B1
+Parameter Address	= 716
+Parameter Value		= -1.528783769287
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x78, 0xA1, 0xA0, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage6_B0
+Parameter Address	= 717
+Parameter Value		= 1.09133597579417
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x17, 0x61, 0xCB, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage6_A2
+Parameter Address	= 718
+Parameter Value		= -0.765287441461164
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x3C, 0x16, 0x1F, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage6_A1
+Parameter Address	= 719
+Parameter Value		= 1.528783769287
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x87, 0x5E, 0x60, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage7_B2
+Parameter Address	= 720
+Parameter Value		= 0.479945637787307
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x7A, 0xDD, 0xB8, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage7_B1
+Parameter Address	= 721
+Parameter Value		= -0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x2F, 0xEB, 0x68, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage7_B0
+Parameter Address	= 722
+Parameter Value		= 1.14568282828162
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x25, 0x4B, 0x78, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage7_A2
+Parameter Address	= 723
+Parameter Value		= -0.625628466068928
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x5F, 0xD6, 0xD0, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage7_A1
+Parameter Address	= 724
+Parameter Value		= 0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD0, 0x14, 0x98, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage8_B2
+Parameter Address	= 725
+Parameter Value		= 0.479945637787307
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x7A, 0xDD, 0xB8, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage8_B1
+Parameter Address	= 726
+Parameter Value		= 0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD0, 0x14, 0x98, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage8_B0
+Parameter Address	= 727
+Parameter Value		= 1.14568282828162
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x25, 0x4B, 0x78, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage8_A2
+Parameter Address	= 728
+Parameter Value		= -0.625628466068928
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x5F, 0xD6, 0xD0, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage8_A1
+Parameter Address	= 729
+Parameter Value		= -0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x2F, 0xEB, 0x68, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage9_B2
+Parameter Address	= 730
+Parameter Value		= 0.479945637787307
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x7A, 0xDD, 0xB8, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage9_B1
+Parameter Address	= 731
+Parameter Value		= -0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x2F, 0xEB, 0x68, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage9_B0
+Parameter Address	= 732
+Parameter Value		= 1.14568282828162
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x25, 0x4B, 0x78, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage9_A2
+Parameter Address	= 733
+Parameter Value		= -0.625628466068928
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x5F, 0xD6, 0xD0, 
+
+
+
+Module Name			= PeqBank5
+Parameter Name		= Stage9_A1
+Parameter Address	= 734
+Parameter Value		= 0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD0, 0x14, 0x98, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage0_B2
+Parameter Address	= 796
+Parameter Value		= 0.993968895936977
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xFE, 0x74, 0xBF, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage0_B1
+Parameter Address	= 797
+Parameter Value		= -1.99559160224728
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x01, 0x20, 0xE9, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage0_B0
+Parameter Address	= 798
+Parameter Value		= 1.0016894931788
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0x6E, 0xB9, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage0_A2
+Parameter Address	= 799
+Parameter Value		= -0.995658389115774
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x01, 0x1C, 0x88, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage0_A1
+Parameter Address	= 800
+Parameter Value		= 1.99559160224728
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xFE, 0xDF, 0x17, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage1_B2
+Parameter Address	= 801
+Parameter Value		= 0.987964320917715
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xFC, 0xEB, 0x3B, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage1_B1
+Parameter Address	= 802
+Parameter Value		= -1.99106931131121
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x02, 0x49, 0x48, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage1_B0
+Parameter Address	= 803
+Parameter Value		= 1.00337155477658
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x00, 0xDC, 0xF5, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage1_A2
+Parameter Address	= 804
+Parameter Value		= -0.991335875694291
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x02, 0x37, 0xD0, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage1_A1
+Parameter Address	= 805
+Parameter Value		= 1.99106931131121
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xFD, 0xB6, 0xB8, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage2_B2
+Parameter Address	= 806
+Parameter Value		= 0.976035651331839
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xF9, 0xDD, 0x79, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage2_B1
+Parameter Address	= 807
+Parameter Value		= -1.98168719578446
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x04, 0xB0, 0x26, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage2_B0
+Parameter Address	= 808
+Parameter Value		= 1.00671313298296
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x01, 0xB7, 0xF4, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage2_A2
+Parameter Address	= 809
+Parameter Value		= -0.982748784314803
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x04, 0x6A, 0x93, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage2_A1
+Parameter Address	= 810
+Parameter Value		= 1.98168719578446
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xFB, 0x4F, 0xDA, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage3_B2
+Parameter Address	= 811
+Parameter Value		= 0.952506188603139
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xF3, 0xD7, 0x72, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage3_B1
+Parameter Address	= 812
+Parameter Value		= -1.96160167851388
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x09, 0xD4, 0x79, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage3_B0
+Parameter Address	= 813
+Parameter Value		= 1.01330444136788
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x03, 0x67, 0xEB, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage3_A2
+Parameter Address	= 814
+Parameter Value		= -0.965810629971018
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x08, 0xC0, 0xA2, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage3_A1
+Parameter Address	= 815
+Parameter Value		= 1.96160167851388
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xF6, 0x2B, 0x87, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage4_B2
+Parameter Address	= 816
+Parameter Value		= 0.906802119138022
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xE8, 0x24, 0x2F, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage4_B1
+Parameter Address	= 817
+Parameter Value		= -1.9163733315325
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x15, 0x68, 0x8F, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage4_B0
+Parameter Address	= 818
+Parameter Value		= 1.02610752232912
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x06, 0xAE, 0xFC, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage4_A2
+Parameter Address	= 819
+Parameter Value		= -0.932909641467146
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x11, 0x2C, 0xD5, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage4_A1
+Parameter Address	= 820
+Parameter Value		= 1.9163733315325
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xEA, 0x97, 0x71, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage5_B2
+Parameter Address	= 821
+Parameter Value		= 0.821097511716278
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD2, 0x33, 0x72, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage5_B1
+Parameter Address	= 822
+Parameter Value		= -1.80745341300856
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x31, 0x4A, 0xBC, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage5_B0
+Parameter Address	= 823
+Parameter Value		= 1.05011595397239
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x0C, 0xD4, 0x66, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage5_A2
+Parameter Address	= 824
+Parameter Value		= -0.871213465688668
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x20, 0xF8, 0x28, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage5_A1
+Parameter Address	= 825
+Parameter Value		= 1.80745341300856
+Data Memory			= DM0
+Parameter Data :
+0x01, 0xCE, 0xB5, 0x44, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage6_B2
+Parameter Address	= 826
+Parameter Value		= 0.673951465666999
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xAC, 0x88, 0x15, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage6_B1
+Parameter Address	= 827
+Parameter Value		= -1.528783769287
+Data Memory			= DM0
+Parameter Data :
+0xFE, 0x78, 0xA1, 0xA0, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage6_B0
+Parameter Address	= 828
+Parameter Value		= 1.09133597579417
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x17, 0x61, 0xCB, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage6_A2
+Parameter Address	= 829
+Parameter Value		= -0.765287441461164
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x3C, 0x16, 0x1F, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage6_A1
+Parameter Address	= 830
+Parameter Value		= 1.528783769287
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x87, 0x5E, 0x60, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage7_B2
+Parameter Address	= 831
+Parameter Value		= 0.479945637787307
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x7A, 0xDD, 0xB8, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage7_B1
+Parameter Address	= 832
+Parameter Value		= -0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x2F, 0xEB, 0x68, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage7_B0
+Parameter Address	= 833
+Parameter Value		= 1.14568282828162
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x25, 0x4B, 0x78, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage7_A2
+Parameter Address	= 834
+Parameter Value		= -0.625628466068928
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x5F, 0xD6, 0xD0, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage7_A1
+Parameter Address	= 835
+Parameter Value		= 0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD0, 0x14, 0x98, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage8_B2
+Parameter Address	= 836
+Parameter Value		= 0.479945637787307
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x7A, 0xDD, 0xB8, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage8_B1
+Parameter Address	= 837
+Parameter Value		= 0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD0, 0x14, 0x98, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage8_B0
+Parameter Address	= 838
+Parameter Value		= 1.14568282828162
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x25, 0x4B, 0x78, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage8_A2
+Parameter Address	= 839
+Parameter Value		= -0.625628466068928
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x5F, 0xD6, 0xD0, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage8_A1
+Parameter Address	= 840
+Parameter Value		= -0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x2F, 0xEB, 0x68, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage9_B2
+Parameter Address	= 841
+Parameter Value		= 0.479945637787307
+Data Memory			= DM0
+Parameter Data :
+0x00, 0x7A, 0xDD, 0xB8, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage9_B1
+Parameter Address	= 842
+Parameter Value		= -0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x2F, 0xEB, 0x68, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage9_B0
+Parameter Address	= 843
+Parameter Value		= 1.14568282828162
+Data Memory			= DM0
+Parameter Data :
+0x01, 0x25, 0x4B, 0x78, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage9_A2
+Parameter Address	= 844
+Parameter Value		= -0.625628466068928
+Data Memory			= DM0
+Parameter Data :
+0xFF, 0x5F, 0xD6, 0xD0, 
+
+
+
+Module Name			= PeqBank6
+Parameter Name		= Stage9_A1
+Parameter Address	= 845
+Parameter Value		= 0.812814233034464
+Data Memory			= DM0
+Parameter Data :
+0x00, 0xD0, 0x14, 0x98, 
+
+
+
 Module Name			= MasterVolume
 Parameter Name		= Gain
-Parameter Address	= 636
+Parameter Address	= 906
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -5919,7 +8619,7 @@ Parameter Data :
 
 Module Name			= MasterVolume
 Parameter Name		= slew_mode
-Parameter Address	= 637
+Parameter Address	= 907
 Parameter Value		= 8330
 Data Memory			= DM0
 Parameter Data :
@@ -5939,7 +8639,7 @@ Parameter Data :
 
 Module Name			= Shift1
 Parameter Name		= shift_bits
-Parameter Address	= 712
+Parameter Address	= 982
 Parameter Value		= 14
 Data Memory			= DM0
 Parameter Data :
@@ -5949,7 +8649,7 @@ Parameter Data :
 
 Module Name			= DC1
 Parameter Name		= DCValue
-Parameter Address	= 807
+Parameter Address	= 1077
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
@@ -5959,7 +8659,7 @@ Parameter Data :
 
 Module Name			= BypassVolPoti
 Parameter Name		= Index
-Parameter Address	= 2384
+Parameter Address	= 2654
 Parameter Value		= 1
 Data Memory			= DM0
 Parameter Data :
